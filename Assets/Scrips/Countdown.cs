@@ -13,6 +13,7 @@ public class Countdown : MonoBehaviour
     [SerializeField] TextMeshProUGUI countDownText;
     public GameObject Q1; 
     public GameObject victoryScreen;
+    
 
     // Start is called before the first frame update
     void Start()
@@ -29,7 +30,7 @@ public class Countdown : MonoBehaviour
         currentTime -= 1 * Time.deltaTime;
         countDownText.text = currentTime.ToString("0");
 
-        if (currentTime <= 1 && Q1 == isActiveAndEnabled)
+        if (currentTime <= 1 && Q1.activeInHierarchy == true)
         {
             currentTime = 1;
             victoryScreen.SetActive(true);
