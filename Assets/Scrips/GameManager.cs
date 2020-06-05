@@ -56,7 +56,7 @@ public class GameManager : MonoBehaviour
     public GameObject Q66;//Ending
     public GameObject Q67;//Ending
     public GameObject Q68;//Ending
-
+    // arrays - game objects (1) IDs (2)
 
  
     //Question 0

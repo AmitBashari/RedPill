@@ -6,9 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 0
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/Scenes/RedPill_Prototype_V1/SampleScene.unity
     guid: ec40dd081cbf7be49a6d8b1dc7f99bd4
   - enabled: 1
-    path: Assets/Scenes/WakeUp.unity
+    path: Assets/Scenes/RedPill_Prototype_V1/WakeUp.unity
     guid: c31e80e4d788e91439e593e25e31487a
   m_configObjects: {}
