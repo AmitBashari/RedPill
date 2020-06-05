@@ -9,17 +9,17 @@ using UnityEngine.SceneManagement;
 public class Countdown : MonoBehaviour
 {
     float currentTime = 0f;
-    public float startingTime = 10f;
+    float startingTime = 60f;
     [SerializeField] TextMeshProUGUI countDownText;
-    public GameObject Q1; //Choose Shirt
-    public GameObject victoryScreen;//Win
+    public GameObject Q1; 
+    public GameObject victoryScreen;
 
     // Start is called before the first frame update
     void Start()
     {
         currentTime = startingTime;
         //countDownText.fontSize = 18;
-        countDownText.GetComponent<TextMeshProUGUI>().fontSize = 35;
+        countDownText.GetComponent<TextMeshProUGUI>().fontSize = 50;
 
     }
 
@@ -41,8 +41,12 @@ public class Countdown : MonoBehaviour
         if (currentTime <= 0)
         {
             currentTime = 0;
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);         
         }
+
+        if (currentTime >= 10.0f) { countDownText.color = new Color32(255, 255, 255, 255); }
+        if (currentTime < 10.0f) { countDownText.color = new Color32(255, 0, 0, 255); }
+
     }
 
    
