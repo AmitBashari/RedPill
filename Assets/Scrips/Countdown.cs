@@ -10,14 +10,17 @@ public class Countdown : MonoBehaviour
 {
     float currentTime = 0f;
     float startingTime = 60f;
+    bool timerOn;
+    public GameObject choices = null;
     [SerializeField] TextMeshProUGUI countDownText;
-    public GameObject Q1; 
-    public GameObject victoryScreen;
-    
 
+
+   
+    
     // Start is called before the first frame update
     void Start()
     {
+        timerOn = false;
         currentTime = startingTime;
         //countDownText.fontSize = 18;
         countDownText.GetComponent<TextMeshProUGUI>().fontSize = 50;
@@ -27,28 +30,58 @@ public class Countdown : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        currentTime -= 1 * Time.deltaTime;
-        countDownText.text = currentTime.ToString("0");
-
-        if (currentTime <= 1 && Q1.activeInHierarchy == true)
+        if (GameObject.FindWithTag("Choices") != null)
         {
-            currentTime = 1;
-            victoryScreen.SetActive(true);
-            Q1.SetActive(false);
-            countDownText.fontSize = 0;
-            
+            choices = GameObject.FindWithTag("Choices");
+           
         }
+        else
+        {
+            choices = null;
+        }
+
+        if (choices != null)
+        {
+            timerOn = true;
+        }
+        else
+        {
+            timerOn = false;
+        }
+
+        /*choices = GameObject.FindGameObjectsWithTag("Choices");
+
+        if (choices == null)
+        {
+            timerOn = true;
+        }
+        else
+        {
+            timerOn = false;
+        }
+            
+    */
+        if (timerOn == true)
+        {
+            currentTime -= 1 * Time.deltaTime;
+        }
+    
+
+        //currentTime -= 1 * Time.deltaTime;
+
+
+        countDownText.text = currentTime.ToString("0");
 
         if (currentTime <= 0)
         {
             currentTime = 0;
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);         
+            //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);         
         }
 
-        if (currentTime >= 10.0f) { countDownText.color = new Color32(255, 255, 255, 255); }
-        if (currentTime < 10.0f) { countDownText.color = new Color32(255, 0, 0, 255); }
+        //if (currentTime >= 10.0f) { countDownText.color = new Color32(255, 255, 255, 255); }
+        //if (currentTime < 10.0f) { countDownText.color = new Color32(255, 0, 0, 255); }
 
     }
 
-   
+
 }

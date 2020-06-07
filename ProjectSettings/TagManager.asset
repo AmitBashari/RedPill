@@ -4,8 +4,7 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Q0
-  - Q1
+  - Choices
   layers:
   - Default
   - TransparentFX
