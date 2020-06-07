@@ -10,8 +10,11 @@ public class Countdown : MonoBehaviour
 {
     float currentTime = 0f;
     float startingTime = 60f;
-    bool timerOn;
+    public bool timerOn;
     public GameObject choices = null;
+    public Image redTimeBar;
+    public Animator animator;
+  
     [SerializeField] TextMeshProUGUI countDownText;
 
 
@@ -43,10 +46,12 @@ public class Countdown : MonoBehaviour
         if (choices != null)
         {
             timerOn = true;
+      
         }
         else
         {
             timerOn = false;
+            
         }
 
         /*choices = GameObject.FindGameObjectsWithTag("Choices");
@@ -64,6 +69,9 @@ public class Countdown : MonoBehaviour
         if (timerOn == true)
         {
             currentTime -= 1 * Time.deltaTime;
+            redTimeBar.fillAmount = currentTime / startingTime;
+            animator.SetBool("isTimerOn", true);
+
         }
     
 
