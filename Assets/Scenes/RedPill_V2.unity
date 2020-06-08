@@ -2794,6 +2794,7 @@ GameObject:
   - component: {fileID: 278346388}
   - component: {fileID: 278346387}
   - component: {fileID: 278346386}
+  - component: {fileID: 278346389}
   m_Layer: 5
   m_Name: Blue Shirt
   m_TagString: Untagged
@@ -2907,6 +2908,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 278346384}
   m_CullTransparentMesh: 0
+--- !u!114 &278346389
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 278346384}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd338dfbf6678b04d8404452540078df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &294626872
 GameObject:
   m_ObjectHideFlags: 0
@@ -3597,6 +3610,7 @@ GameObject:
   - component: {fileID: 364742472}
   - component: {fileID: 364742471}
   - component: {fileID: 364742470}
+  - component: {fileID: 364742474}
   m_Layer: 5
   m_Name: Red Shirt
   m_TagString: Untagged
@@ -3647,7 +3661,7 @@ MonoBehaviour:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 0}
     m_HighlightedColor: {r: 0.78431374, g: 0, b: 0, a: 0.78431374}
     m_PressedColor: {r: 0.8627451, g: 0, b: 0, a: 0.8627451}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -3710,6 +3724,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 364742468}
   m_CullTransparentMesh: 0
+--- !u!114 &364742474
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 364742468}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd338dfbf6678b04d8404452540078df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &372472912
 GameObject:
   m_ObjectHideFlags: 0
@@ -4661,6 +4687,7 @@ GameObject:
   - component: {fileID: 497840530}
   - component: {fileID: 497840532}
   - component: {fileID: 497840533}
+  - component: {fileID: 497840534}
   m_Layer: 5
   m_Name: Red
   m_TagString: Untagged
@@ -4730,9 +4757,9 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 497840528}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 282881d9c40ab9e4dab991c9780597fb, type: 2}
+  m_Controller: {fileID: 9100000, guid: 39e5b6c1621cfd245b4446a6cd67dd12, type: 2}
   m_CullingMode: 2
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -4748,14 +4775,26 @@ Animation:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 497840528}
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: f5699398d262151468fafc379aabbcbd, type: 2}
+  m_Animation: {fileID: 7400000, guid: c42a726a44e775b42bd5b3daf64e411e, type: 2}
   m_Animations: []
   m_WrapMode: 0
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!114 &497840534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 497840528}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67f350a6be45b9c4799d30de581c94d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &514802566
 GameObject:
   m_ObjectHideFlags: 0
@@ -15651,7 +15690,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1346594290
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15748,7 +15787,7 @@ MonoBehaviour:
   timerOn: 0
   choices: {fileID: 0}
   redTimeBar: {fileID: 497840530}
-  animator: {fileID: 497840532}
+  timeBarUI: {fileID: 1576523965}
   countDownText: {fileID: 1166223353}
 --- !u!1 &1354344369
 GameObject:
@@ -16110,7 +16149,7 @@ MonoBehaviour:
   m_textAlignment: 257
   m_characterSpacing: 0
   m_wordSpacing: 0
-  m_lineSpacing: 0
+  m_lineSpacing: 30
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
@@ -19645,7 +19684,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1636080009
 RectTransform:
   m_ObjectHideFlags: 0

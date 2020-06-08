@@ -13,7 +13,9 @@ public class Countdown : MonoBehaviour
     public bool timerOn;
     public GameObject choices = null;
     public Image redTimeBar;
-    public Animator animator;
+    public GameObject timeBarUI;
+    Animation anim; 
+
   
     [SerializeField] TextMeshProUGUI countDownText;
 
@@ -28,11 +30,18 @@ public class Countdown : MonoBehaviour
         //countDownText.fontSize = 18;
         countDownText.GetComponent<TextMeshProUGUI>().fontSize = 50;
 
+ 
+    
+   
+
     }
 
     // Update is called once per frame
     void Update()
     {
+        
+
+
         if (GameObject.FindWithTag("Choices") != null)
         {
             choices = GameObject.FindWithTag("Choices");
@@ -46,12 +55,13 @@ public class Countdown : MonoBehaviour
         if (choices != null)
         {
             timerOn = true;
-      
+            
         }
+
         else
         {
             timerOn = false;
-            
+
         }
 
         /*choices = GameObject.FindGameObjectsWithTag("Choices");
@@ -70,12 +80,30 @@ public class Countdown : MonoBehaviour
         {
             currentTime -= 1 * Time.deltaTime;
             redTimeBar.fillAmount = currentTime / startingTime;
-            animator.SetBool("isTimerOn", true);
+
+
+
+
+            /*
+            // Causes to bar to blink 
+            timeBarUI.SetActive(false);
+
+            StartCoroutine(Bink(0.1f));
+            IEnumerator Bink(float time)
+            {
+                yield return new WaitForSeconds(time);
+                timeBarUI.SetActive(true);
+               
+            }
+         */
 
         }
-    
+        else
+        {
+        }
 
-        //currentTime -= 1 * Time.deltaTime;
+        
+     
 
 
         countDownText.text = currentTime.ToString("0");
@@ -86,6 +114,7 @@ public class Countdown : MonoBehaviour
             //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);         
         }
 
+      
         //if (currentTime >= 10.0f) { countDownText.color = new Color32(255, 255, 255, 255); }
         //if (currentTime < 10.0f) { countDownText.color = new Color32(255, 0, 0, 255); }
 

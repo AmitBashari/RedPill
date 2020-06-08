@@ -28,15 +28,17 @@ public class ContinueButtonsStartScene : MonoBehaviour
     //All Continue Buttons
     public GameObject chooseShirtContinue;
     public GameObject chooseSocksContinue;
-    [Space(15)]
-    private GameObject[] turnPffChoices;
-   
+    //[Space(15)]
+    //private GameObject[] turnPffChoices;
+    //public bool doneTypingQuestion;
+
     //-----Start Scene-----
 
     public void Start_To_ChooseShirt()
     {
         startScene.SetActive(false);
         chooseShirtScene.SetActive(true);
+        
     }
 
     //-----Choose Shirt Scene-----
@@ -44,9 +46,9 @@ public class ContinueButtonsStartScene : MonoBehaviour
     {
         chooseShirtPlot.SetActive(false);
         chooseShirtContinue.SetActive(false);
-        
         chooseShirtChoice.SetActive(true);
-       
+        
+
     }
     //Chose Red Shirt
     public void ChooseRedShirt()
@@ -85,6 +87,11 @@ public class ContinueButtonsStartScene : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
+    }
+
+    IEnumerator DelayChoices()
+    {
+        yield return new WaitForSecondsRealtime(2f);
     }
 }

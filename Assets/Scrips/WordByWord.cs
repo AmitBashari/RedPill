@@ -11,7 +11,7 @@ public class WordByWord : MonoBehaviour
     public string contentText;
     public float letterPause = 2f;
     public AudioSource typingSound;
-    public bool doneTypingQuestion;
+   
     // Use this for initialization
     void Start()
     {
@@ -24,7 +24,7 @@ public class WordByWord : MonoBehaviour
     IEnumerator TypeSentence(string sentence)
     {
         typingSound.Play();
-        doneTypingQuestion = false;
+        
         string[] array = sentence.Split(' ');
         textMeshProText.text = array[0];
         for (int i = 1; i < array.Length; ++i)
@@ -33,7 +33,7 @@ public class WordByWord : MonoBehaviour
             textMeshProText.text += " " + array[i];
         }
         typingSound.Stop();
-        doneTypingQuestion = true;
+        
 
     }
     
