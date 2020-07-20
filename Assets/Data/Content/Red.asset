@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 68229e294abfcdc47b174c63c18b8dea, type: 3}
-  m_Name: Pick a shirt
+  m_Name: Red
   m_EditorClassIdentifier: 
-  Name: Pick a shirt
-  Question: Do you want red or blue?
-  Plot: ....
-  Art: {fileID: 21300000, guid: 8f20b8fc07302d246af01ad864dbfdd6, type: 3}
+  Name: Red
+  Question: Rick N morty or Real Madrid socks?
+  Plot: plot2
+  Art: {fileID: 21300000, guid: 492b9988436bd45049a9a6bc52ac8fb0, type: 3}

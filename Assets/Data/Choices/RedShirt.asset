@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 14b24f5426d9d07469b31497f7559b8b, type: 3}
-  m_Name: FirstChoice
+  m_Name: RedShirt
   m_EditorClassIdentifier: 
   IsEnding: 0
-  Content: {fileID: 0}
+  Content: {fileID: 11400000, guid: 02a8982377bbce545b20a513871a542d, type: 2}
   FirstChoice: {fileID: 0}
   SecondChoice: {fileID: 0}

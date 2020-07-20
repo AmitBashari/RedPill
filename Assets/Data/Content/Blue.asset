@@ -9,10 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 14b24f5426d9d07469b31497f7559b8b, type: 3}
-  m_Name: SecondChoice
+  m_Script: {fileID: 11500000, guid: 68229e294abfcdc47b174c63c18b8dea, type: 3}
+  m_Name: Blue
   m_EditorClassIdentifier: 
-  IsEnding: 0
-  Content: {fileID: 0}
-  FirstChoice: {fileID: 0}
-  SecondChoice: {fileID: 0}
+  Name: Blue
+  Question: Rick N morty or Real Madrid socks?
+  Plot: ploir555
+  Art: {fileID: 21300000, guid: 5f7fa9a7940a64e79b5a42d9f661d42c, type: 3}

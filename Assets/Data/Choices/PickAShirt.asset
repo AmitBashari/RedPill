@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 14b24f5426d9d07469b31497f7559b8b, type: 3}
-  m_Name: InitalChoice
+  m_Name: PickAShirt
   m_EditorClassIdentifier: 
   IsEnding: 0
   Content: {fileID: 11400000, guid: e37fded3f1de3de4b8bc1906b02571eb, type: 2}

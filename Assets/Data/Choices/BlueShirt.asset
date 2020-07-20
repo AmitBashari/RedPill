@@ -9,10 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 68229e294abfcdc47b174c63c18b8dea, type: 3}
-  m_Name: Pick a shirt
+  m_Script: {fileID: 11500000, guid: 14b24f5426d9d07469b31497f7559b8b, type: 3}
+  m_Name: BlueShirt
   m_EditorClassIdentifier: 
-  Name: Pick a shirt
-  Question: Do you want red or blue?
-  Plot: ....
-  Art: {fileID: 21300000, guid: 8f20b8fc07302d246af01ad864dbfdd6, type: 3}
+  IsEnding: 0
+  Content: {fileID: 11400000, guid: b316f5dfe365b9d46ba86c0ff5a516f3, type: 2}
+  FirstChoice: {fileID: 0}
+  SecondChoice: {fileID: 0}

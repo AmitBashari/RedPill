@@ -36,11 +36,17 @@ public class ChoiceScreen : MonoBehaviour
 
     public void FirstChoiceClicked()
     {
-        engine.LoadChoice(currentChoice.FirstChoice);
+        if (currentChoice.FirstChoice != null)
+        { 
+            engine.LoadChoice(currentChoice.FirstChoice);
+        }
     }
 
     public void SecondChoiceClicked()
     {
-        engine.LoadChoice(currentChoice.SecondChoice);
+        if (currentChoice.SecondChoice != null)
+        { 
+            engine.LoadChoice(currentChoice.SecondChoice);
+        }
     }
 }
