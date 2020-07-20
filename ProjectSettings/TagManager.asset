@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Choices
+  - Q0
+  - Q1
+  - Plot1
   layers:
   - Default
   - TransparentFX

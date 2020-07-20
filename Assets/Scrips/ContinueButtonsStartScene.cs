@@ -17,8 +17,18 @@ public class ContinueButtonsStartScene : MonoBehaviour
     public GameObject chooseShirtScene;
     public GameObject chooseSocksScene;
     [Space(15)]
-    //All Plots
-    public GameObject chooseShirtPlot;
+    //-----All Plots-----
+    //--StartScenePlots--
+    [Header("Enter Start Scene Plots")]
+    public GameObject startScenePlot1;
+    public GameObject startScenePlot2;
+    public GameObject startScenePlot3;
+    public GameObject startButton;
+    [Space(10)]
+
+    public GameObject chooseShirtPlot1;
+    public GameObject chooseShirtPlot2;
+    public GameObject chooseShirtPlot3;
     public GameObject chooseSocksPlot;
     [Space(15)]
     //All Choice Windows
@@ -34,22 +44,56 @@ public class ContinueButtonsStartScene : MonoBehaviour
 
     //-----Start Scene-----
 
-    public void Start_To_ChooseShirt()
+    public void Start_Show_Plot1()
+    {
+        startScenePlot1.SetActive(true);
+        startButton.SetActive(false);
+    }
+
+    public void Start_Plot1_To_Plot2()
+    {
+        startScenePlot1.SetActive(false);
+        startScenePlot2.SetActive(true);
+
+    }
+
+    public void Start_Plot2_To_Plot3()
+    {
+        startScenePlot2.SetActive(false);
+        startScenePlot3.SetActive(true);
+
+    }
+
+    public void Start_Plot3_To_ChooseShirt()
     {
         startScene.SetActive(false);
         chooseShirtScene.SetActive(true);
-        
+
     }
 
     //-----Choose Shirt Scene-----
-    public void ChooseShirt_Plot_To_Choices()
+    public void ChooseShirt_Plot1_To_Plot2()
     {
-        chooseShirtPlot.SetActive(false);
+        chooseShirtPlot1.SetActive(false);
         chooseShirtContinue.SetActive(false);
         chooseShirtChoice.SetActive(true);
-        
-
     }
+
+    public void ChooseShirt_Plot2_To_Plot3()
+    {
+        chooseShirtPlot1.SetActive(false);
+        chooseShirtContinue.SetActive(false);
+        chooseShirtChoice.SetActive(true);
+    }
+
+    public void ChooseShirt_Plot3_To_ShirtChoice()
+    {
+        chooseShirtPlot1.SetActive(false);
+        chooseShirtContinue.SetActive(false);
+        chooseShirtChoice.SetActive(true);
+    }
+
+
     //Chose Red Shirt
     public void ChooseRedShirt()
     {
