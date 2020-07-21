@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 14b24f5426d9d07469b31497f7559b8b, type: 3}
-  m_Name: Scoff_AtCharlotte
+  m_Name: E_Scoff_AtCharlotte
   m_EditorClassIdentifier: 
-  IsEnding: 0
+  IsEnding: 1
   Name: You scoff and asks her to describe what happens in the end of the episode
   Plot: "Charlotte is hurt you question her love for Rick and Morty, she places her
     fork on the table, folds the napkin neatly and walks towards the coffee shop

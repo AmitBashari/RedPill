@@ -18,23 +18,14 @@ public class ChoiceScreen : MonoBehaviour
 
     private Choice currentChoice;
     private float letterPause = 3f;
-
-    public void Start()
-    {
-        string writeThis = plot.text;
-        StartCoroutine(TypeSentenceEachLetter(writeThis));
-    }
-
-    private void Update()
-    {
-  
-    }
-
+    private Animation slideAnim;
 
     public void Setup(Choice choice)
     {
         currentChoice = choice;
-        plot.text = choice.Plot;
+      
+        StopAllCoroutines();
+        StartCoroutine(TypeSentenceEachLetter(choice.Plot));
         art.sprite = choice.Art;
         if (choice.IsEnding)
         {
@@ -42,17 +33,20 @@ public class ChoiceScreen : MonoBehaviour
             SecondChoiceButton.gameObject.SetActive(false);
             return;
         }
+        else
+        {
+            FirstChoiceText.text = choice.FirstChoice.Name;
+            SecondChoiceText.text = choice.SecondChoice.Name;
+        }
 
-        FirstChoiceText.text = choice.FirstChoice.Name;
-        //question.text = choice.Content.Question;
-        SecondChoiceText.text = choice.SecondChoice.Name;
+       
     }
 
 
     public void FirstChoiceClicked()
     {
         if (currentChoice.FirstChoice != null)
-        { 
+        {
             engine.LoadChoice(currentChoice.FirstChoice);
         }
     }
@@ -60,31 +54,30 @@ public class ChoiceScreen : MonoBehaviour
     public void SecondChoiceClicked()
     {
         if (currentChoice.SecondChoice != null)
-        { 
+        {
             engine.LoadChoice(currentChoice.SecondChoice);
         }
     }
 
 
-        IEnumerator TypeSentenceEachLetter(string sentence)
-           {     
-        
-               TypingSound.Play();
+    private IEnumerator TypeSentenceEachLetter(string sentence)
+    {
+        TypingSound.Play();
 
-               plot.text = "";
-               foreach (char letter in sentence.ToCharArray())
-               {
-                yield return new WaitForSeconds(letterPause * Time.deltaTime);
-                plot.text += letter;
-                   yield return null;
-               }
-
-               TypingSound.Stop();
-
-    }
+        plot.text = "";
+        foreach (char letter in sentence.ToCharArray())
+        {
+            yield return new WaitForSeconds(letterPause * Time.deltaTime);
+            plot.text += letter;
            
+        }
+
+        TypingSound.Stop();
 
     }
+
+
+}
 
 
 

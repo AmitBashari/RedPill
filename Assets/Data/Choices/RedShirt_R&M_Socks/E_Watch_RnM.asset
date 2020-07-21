@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 14b24f5426d9d07469b31497f7559b8b, type: 3}
-  m_Name: Watch_RnM
+  m_Name: E_Watch_RnM
   m_EditorClassIdentifier: 
-  IsEnding: 0
+  IsEnding: 1
   Name: Ask her if she wants to watch the latest episode together, it just came out
     and you didn't get a chance to watch it yet. You don't want to be one episode
     behind.

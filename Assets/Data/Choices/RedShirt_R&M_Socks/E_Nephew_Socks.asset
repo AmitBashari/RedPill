@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 14b24f5426d9d07469b31497f7559b8b, type: 3}
-  m_Name: Nephew_Socks
+  m_Name: E_Nephew_Socks
   m_EditorClassIdentifier: 
-  IsEnding: 0
+  IsEnding: 1
   Name: Tell her these are not really your socks. You borrowed your nephew's. He's
     13. And besides, you always thought Jerry seems like a pretty cool guy.
   Plot: "Charlotte looks at you with hurtful eyes. She yells at you to get out and

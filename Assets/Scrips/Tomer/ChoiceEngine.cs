@@ -8,6 +8,7 @@ public class ChoiceEngine : MonoBehaviour
     private void Start()
     {
         LoadChoice(InitalChoice);
+
     }
 
     public void LoadChoice(Choice choice)

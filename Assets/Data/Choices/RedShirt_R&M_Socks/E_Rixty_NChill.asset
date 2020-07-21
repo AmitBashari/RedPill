@@ -10,15 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 14b24f5426d9d07469b31497f7559b8b, type: 3}
-  m_Name: Lie_Nut
+  m_Name: E_Rixty_NChill
   m_EditorClassIdentifier: 
-  IsEnding: 0
-  Name: You give Charlotte the medication, and start as guilt takes over you tell
-    her you didn't know the pie has nuts in it.
-  Plot: Charlotte looks at you with a puzzled look on her face. She asks if you are
-    that stupid that you don't know that Cashews are nuts? You want to say that technically,
-    cashews aren't nuts, but you believe you should just stay silent and watch her
-    call for an ambulance.
+  IsEnding: 1
+  Name: Ask about Rixty Minutes and Chill?
+  Plot: Charlotte agrees and says she's been waiting for so long to watch this episode
+    again with someone special she takes your hand and you walk together into the
+    sunset. Well, her house, but a sunset is happening at the moment and it just
+    sounds more poetic.
   Art: {fileID: 0}
   FirstChoice: {fileID: 0}
   SecondChoice: {fileID: 0}
