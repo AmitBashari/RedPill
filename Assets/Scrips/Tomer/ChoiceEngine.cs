@@ -41,4 +41,9 @@ public class ChoiceEngine : MonoBehaviour
         //currentIndex = Mathf.Min(currentIndex + 1, Hints.Length - 1);
         screen.SetupHint(Hints[currentIndex], InitalChoice);
     }
+
+    public void OnTimerFinished()
+    {
+        // End game logic: 
+    }
 }

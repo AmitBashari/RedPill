@@ -9,7 +9,7 @@ using UnityEngine.SceneManagement;
 public class Countdown : MonoBehaviour
 {
     float currentTime = 0f;
-    float startingTime = 60f;
+    float startingTime = 30f;
     public bool timerOn;
     public GameObject choices = null;
     public Image redTimeBar;
@@ -19,8 +19,6 @@ public class Countdown : MonoBehaviour
   
     [SerializeField] TextMeshProUGUI countDownText;
 
-
-   
     
     // Start is called before the first frame update
     void Start()
@@ -30,18 +28,12 @@ public class Countdown : MonoBehaviour
         //countDownText.fontSize = 18;
         countDownText.GetComponent<TextMeshProUGUI>().fontSize = 50;
 
- 
-    
-   
-
     }
 
     // Update is called once per frame
     void Update()
     {
         
-
-
         if (GameObject.FindWithTag("Choices") != null)
         {
             choices = GameObject.FindWithTag("Choices");
