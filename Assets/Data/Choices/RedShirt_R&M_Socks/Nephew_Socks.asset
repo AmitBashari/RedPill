@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14b24f5426d9d07469b31497f7559b8b, type: 3}
+  m_Name: Nephew_Socks
+  m_EditorClassIdentifier: 
+  IsEnding: 0
+  Name: Tell her these are not really your socks. You borrowed your nephew's. He's
+    13. And besides, you always thought Jerry seems like a pretty cool guy.
+  Plot: "Charlotte looks at you with hurtful eyes. She yells at you to get out and
+    starts throwing shoes at you as you try to gather your clothes from the floor.
+    You dash to the front door trying to evade the flying high heels. You only managed
+    to evade one.\r\n\r"
+  Art: {fileID: 0}
+  FirstChoice: {fileID: 0}
+  SecondChoice: {fileID: 0}

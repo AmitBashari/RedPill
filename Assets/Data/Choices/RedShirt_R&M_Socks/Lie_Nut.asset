@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14b24f5426d9d07469b31497f7559b8b, type: 3}
+  m_Name: Lie_Nut
+  m_EditorClassIdentifier: 
+  IsEnding: 0
+  Name: You give Charlotte the medication, and start as guilt takes over you tell
+    her you didn't know the pie has nuts in it.
+  Plot: Charlotte looks at you with a puzzled look on her face. She asks if you are
+    that stupid that you don't know that Cashews are nuts? You want to say that technically,
+    cashews aren't nuts, but you believe you should just stay silent and watch her
+    call for an ambulance.
+  Art: {fileID: 0}
+  FirstChoice: {fileID: 0}
+  SecondChoice: {fileID: 0}
