@@ -1,17 +1,20 @@
 ﻿using UnityEngine;
+using UnityEngine.Events;
 
 public class ChoiceEngine : MonoBehaviour
 {
     public ChoiceScreen screen;
     public Choice InitalChoice;
     public string[] Hints;
-    private int currentIndex = -1;
+    public UnityEvent OnTimeRestart;
 
+    private int currentIndex = -1;
     private void Start()
     {
         LoadChoice(InitalChoice);
-
+           
     }
+
 
     public void LoadChoice(Choice choice)
     {
@@ -42,8 +45,25 @@ public class ChoiceEngine : MonoBehaviour
         screen.SetupHint(Hints[currentIndex], InitalChoice);
     }
 
-    public void OnTimerFinished()
+    public void TimerFinished()
     {
         // End game logic: 
+    
+        if (screen.CurrentChoice.IsFirstChoice == false)
+        {
+            LoadChoice(InitalChoice);
+            OnTimeRestart?.Invoke();
+
+
+            Debug.Log("Time Up");
+            
+        }
+        else
+        {
+            Debug.Log("YOU WIN");
+        }
+   
     }
+
+   
 }

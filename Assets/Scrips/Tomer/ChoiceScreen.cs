@@ -2,6 +2,7 @@
 using System.Collections;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.Events;
 
 public class ChoiceScreen : MonoBehaviour
 {
@@ -16,33 +17,44 @@ public class ChoiceScreen : MonoBehaviour
     public Text SecondChoiceText;
     public AudioSource TypingSound;
     public Button NextButton;
+    public Choice CurrentChoice;
+    public UnityEvent OnTimePause;
+    public UnityEvent OnTimeContinue;
+    public UnityEvent OnTimeRestart;
 
-    private Choice currentChoice;
+
+
+
     private float letterPause = 3f;
     private Animation slideAnim;
     private Choice _nextChoice;
+    private bool _isEnd = false;
 
     public void Setup(Choice choice)
     {
-        currentChoice = choice;
+        CurrentChoice = choice;
       
         StopAllCoroutines();
         StartCoroutine(TypeSentenceEachLetter(choice.Plot));
+
         art.sprite = choice.Art;
+
         if (choice.IsEnding)
         {
             FirstChoiceButton.gameObject.SetActive(false);
             SecondChoiceButton.gameObject.SetActive(false);
             NextButton.gameObject.SetActive(true);
+            _isEnd = true;
             
         }
         else
         {
             FirstChoiceText.text = choice.FirstChoice.Name;
             SecondChoiceText.text = choice.SecondChoice.Name;
-            FirstChoiceButton.gameObject.SetActive(true);
-            SecondChoiceButton.gameObject.SetActive(true);
+            //FirstChoiceButton.gameObject.SetActive(true);
+            //SecondChoiceButton.gameObject.SetActive(true);
             NextButton.gameObject.SetActive(false);
+            _isEnd = false;
 
         }
 
@@ -52,17 +64,17 @@ public class ChoiceScreen : MonoBehaviour
 
     public void FirstChoiceClicked()
     {
-        if (currentChoice.FirstChoice != null)
+        if (CurrentChoice.FirstChoice != null)
         {
-            engine.LoadChoice(currentChoice.FirstChoice);
+            engine.LoadChoice(CurrentChoice.FirstChoice);
         }
     }
 
     public void SecondChoiceClicked()
     {
-        if (currentChoice.SecondChoice != null)
+        if (CurrentChoice.SecondChoice != null)
         {
-            engine.LoadChoice(currentChoice.SecondChoice);
+            engine.LoadChoice(CurrentChoice.SecondChoice);
         }
     }
 
@@ -75,7 +87,7 @@ public class ChoiceScreen : MonoBehaviour
         }
         else
         {
-            engine.LoadEnd(currentChoice);
+            engine.LoadEnd(CurrentChoice);
         }
        
     }
@@ -84,15 +96,26 @@ public class ChoiceScreen : MonoBehaviour
     {
         TypingSound.Play();
 
+        OnTimePause?.Invoke();
+        FirstChoiceButton.gameObject.SetActive(false);
+        SecondChoiceButton.gameObject.SetActive(false);
+
         plot.text = "";
         foreach (char letter in sentence.ToCharArray())
         {
             yield return new WaitForSeconds(letterPause * Time.deltaTime);
-            plot.text += letter;
-           
+            plot.text += letter;    
+        }
+        TypingSound.Stop();
+
+        if (_isEnd == false)
+        { 
+        FirstChoiceButton.gameObject.SetActive(true);
+        SecondChoiceButton.gameObject.SetActive(true);
+        OnTimeContinue?.Invoke();
         }
 
-        TypingSound.Stop();
+        
 
     }
 

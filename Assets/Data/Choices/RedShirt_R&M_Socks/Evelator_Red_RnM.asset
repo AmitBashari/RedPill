@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Evelator_Red_RnM
   m_EditorClassIdentifier: 
   IsEnding: 0
+  IsFirstChoice: 1
   Name: 
   Plot: "There is a beautiful woman in the elevator as you walk in. \nShe notices
     you and lowers her phone. \nShe compliments your shirt. Your face turn that same
