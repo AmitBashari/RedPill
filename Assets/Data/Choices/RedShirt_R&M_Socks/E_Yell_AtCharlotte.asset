@@ -13,10 +13,11 @@ MonoBehaviour:
   m_Name: E_Yell_AtCharlotte
   m_EditorClassIdentifier: 
   IsEnding: 1
+  IsFirstChoice: 0
   Name: Yell at her that who cares?! Your socks are fucking wet now!
   Plot: Charlotte gives you a disappointed look. She tells you that you are most
     welcome to go home and dry your socks, as she pulls her leopard-skin cellphone
     out of her bag and calls herself a cab. She doesn't want to share one.
-  Art: {fileID: 0}
+  Art: {fileID: 21300000, guid: 000eb8ffa26125145bbdcecfe09c56a1, type: 3}
   FirstChoice: {fileID: 0}
   SecondChoice: {fileID: 0}

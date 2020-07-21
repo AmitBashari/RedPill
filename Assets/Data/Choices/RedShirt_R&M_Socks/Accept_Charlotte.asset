@@ -13,11 +13,12 @@ MonoBehaviour:
   m_Name: Accept_Charlotte
   m_EditorClassIdentifier: 
   IsEnding: 0
+  IsFirstChoice: 0
   Name: You say yes. Obviously. You love food.
   Plot: "Charlotte leads the way to the restaurant. It's a Japanese-Greek fusion
     themed restaurant with a giant neon sign on the side of the building that reads
     \"FOOD\".\r\n\rYou try to not judge books by their cover.\r\n\rAfter finishing
     the surprisingly edible meal you ponder on plans for dessert."
-  Art: {fileID: 21300000, guid: 0d19f70920b51664ea4ea86117eef6a2, type: 3}
+  Art: {fileID: 21300000, guid: 8c33f781cc42f5742ba922d6e2b42457, type: 3}
   FirstChoice: {fileID: 11400000, guid: 3ab59ce971f345348b14ffb1e7efad35, type: 2}
   SecondChoice: {fileID: 11400000, guid: 06789f3223c019d49bd15f2563326313, type: 2}

@@ -13,12 +13,13 @@ MonoBehaviour:
   m_Name: E_Lie_Nut
   m_EditorClassIdentifier: 
   IsEnding: 1
+  IsFirstChoice: 0
   Name: You give Charlotte the medication, and start as guilt takes over you tell
     her you didn't know the pie has nuts in it.
   Plot: Charlotte looks at you with a puzzled look on her face. She asks if you are
     that stupid that you don't know that Cashews are nuts? You want to say that technically,
     cashews aren't nuts, but you believe you should just stay silent and watch her
     call for an ambulance.
-  Art: {fileID: 0}
+  Art: {fileID: 21300000, guid: b6350310657942646b42b58ff24390d9, type: 3}
   FirstChoice: {fileID: 0}
   SecondChoice: {fileID: 0}

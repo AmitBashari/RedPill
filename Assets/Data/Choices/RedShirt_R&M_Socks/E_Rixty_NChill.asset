@@ -13,11 +13,12 @@ MonoBehaviour:
   m_Name: E_Rixty_NChill
   m_EditorClassIdentifier: 
   IsEnding: 1
+  IsFirstChoice: 0
   Name: Ask about Rixty Minutes and Chill?
   Plot: Charlotte agrees and says she's been waiting for so long to watch this episode
     again with someone special she takes your hand and you walk together into the
     sunset. Well, her house, but a sunset is happening at the moment and it just
     sounds more poetic.
-  Art: {fileID: 0}
+  Art: {fileID: 21300000, guid: 50280c7881e0c6240811e7b83c18cd76, type: 3}
   FirstChoice: {fileID: 0}
   SecondChoice: {fileID: 0}

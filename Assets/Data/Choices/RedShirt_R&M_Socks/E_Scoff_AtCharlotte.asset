@@ -13,12 +13,13 @@ MonoBehaviour:
   m_Name: E_Scoff_AtCharlotte
   m_EditorClassIdentifier: 
   IsEnding: 1
+  IsFirstChoice: 0
   Name: You scoff and asks her to describe what happens in the end of the episode
   Plot: "Charlotte is hurt you question her love for Rick and Morty, she places her
     fork on the table, folds the napkin neatly and walks towards the coffee shop
     exit. You watch her stop at the door, she turns around and says \"So I guess
     you believe that what people call \"love\" is just a chemical reaction that compels
     animals to breed\".\r\r\nYou may have made a mistake."
-  Art: {fileID: 0}
+  Art: {fileID: 21300000, guid: 75fd1e696b9dac54faaadd8a817546b3, type: 3}
   FirstChoice: {fileID: 0}
   SecondChoice: {fileID: 0}

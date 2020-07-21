@@ -18,25 +18,25 @@ MonoBehaviour:
   Plot: 'Choosing Red Pill has consequences.
 
 
-    When you keep making choices
-    that seem predetermined, You cannot stop thinking about what could have happened.
+    When you keep making choices that
+    seem predetermined, You cannot stop thinking about what could have happened.
 
 
     Once
     you choose to observe reality, you cannot unsee it.
 
-    
 
-    Just like now,
-    by not making a choice - the road less traveled by appeared before you.
+
+    Just like now, by
+    not making a choice - the road less traveled by appeared before you.
 
 
     Remember,
 
-    
+
 
     The
     choice to observe is always up to you.'
-  Art: {fileID: 0}
+  Art: {fileID: 21300000, guid: a133ac08e379c3e43a678cae8d8ee9bd, type: 3}
   FirstChoice: {fileID: 0}
   SecondChoice: {fileID: 0}

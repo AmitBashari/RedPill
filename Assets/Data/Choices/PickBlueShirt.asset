@@ -16,6 +16,6 @@ MonoBehaviour:
   IsFirstChoice: 0
   Name: 
   Plot: 
-  Art: {fileID: 0}
+  Art: {fileID: 21300000, guid: f61ba06fe0f2c5d42a8c72caeb20caac, type: 3}
   FirstChoice: {fileID: 0}
   SecondChoice: {fileID: 0}

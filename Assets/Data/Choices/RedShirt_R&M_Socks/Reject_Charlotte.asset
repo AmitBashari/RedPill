@@ -13,8 +13,9 @@ MonoBehaviour:
   m_Name: Reject_Charlotte
   m_EditorClassIdentifier: 
   IsEnding: 0
+  IsFirstChoice: 0
   Name: You avert your eyes and mumble 'No thank you' under your breath
   Plot: Not Yet Implemented
-  Art: {fileID: 21300000, guid: 0d19f70920b51664ea4ea86117eef6a2, type: 3}
+  Art: {fileID: 21300000, guid: 8c33f781cc42f5742ba922d6e2b42457, type: 3}
   FirstChoice: {fileID: 0}
   SecondChoice: {fileID: 0}

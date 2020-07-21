@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: E_Favorite_Socks
   m_EditorClassIdentifier: 
   IsEnding: 1
+  IsFirstChoice: 0
   Name: These are your favorite socks! You just hope they're not ruined
   Plot: 'Charlotte points to a near by Laundromat. You take your filthy socks and
     put them in the washer. It''s best to wash them quick, before the mud dries out.
@@ -22,6 +23,6 @@ MonoBehaviour:
 
     Ricksy Business debate as your
     socks twirl around in the soapy water.'
-  Art: {fileID: 0}
+  Art: {fileID: 21300000, guid: 4f51123d59d592b439bc898839584478, type: 3}
   FirstChoice: {fileID: 0}
   SecondChoice: {fileID: 0}

@@ -13,12 +13,13 @@ MonoBehaviour:
   m_Name: E_TellTruth_Nut
   m_EditorClassIdentifier: 
   IsEnding: 1
+  IsFirstChoice: 0
   Name: You give Charlotte the medication, and start as guilt takes over you tell
     her you knew the pie has nuts in it.
   Plot: Charlotte's face turns red with anger. You apologize over and over and a
     single tear rolls down your cheek. Very Johnny Depp of you, Sexy. She tells you
     to get the hell out of her face and starts dialing a number on her phone, you
     hope its not the police. Run Johnny, Run.
-  Art: {fileID: 0}
+  Art: {fileID: 21300000, guid: d51d225b620901749875f27f6db55b0f, type: 3}
   FirstChoice: {fileID: 0}
   SecondChoice: {fileID: 0}
