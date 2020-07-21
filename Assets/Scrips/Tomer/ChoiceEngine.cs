@@ -1,10 +1,12 @@
 ﻿using UnityEngine;
 using UnityEngine.Events;
+using TMPro;
 
 public class ChoiceEngine : MonoBehaviour
 {
     public ChoiceScreen screen;
     public Choice InitalChoice;
+    public Choice Victory;
     public string[] Hints;
     public UnityEvent OnTimeRestart;
 
@@ -61,6 +63,7 @@ public class ChoiceEngine : MonoBehaviour
         else
         {
             Debug.Log("YOU WIN");
+            LoadChoice(Victory);
         }
    
     }

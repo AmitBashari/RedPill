@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: RedShirt
   m_EditorClassIdentifier: 
   IsEnding: 0
+  IsFirstChoice: 0
   Name: You give Charlotte the medication and curiousness takes over your better
     judgement. While she regains he strength you tell her you didn't know the pie
     has nuts in it, but also about the torn up photo.... You lie that you ask to

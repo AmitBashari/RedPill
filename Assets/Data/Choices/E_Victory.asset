@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14b24f5426d9d07469b31497f7559b8b, type: 3}
+  m_Name: E_Victory
+  m_EditorClassIdentifier: 
+  IsEnding: 1
+  IsFirstChoice: 0
+  Name: 
+  Plot: 'Choosing Red Pill has consequences.
+
+
+    When you keep making choices
+    that seem predetermined, You cannot stop thinking about what could have happened.
+
+
+    Once
+    you choose to observe reality, you cannot unsee it.
+
+    
+
+    Just like now,
+    by not making a choice - the road less traveled by appeared before you.
+
+
+    Remember,
+
+    
+
+    The
+    choice to observe is always up to you.'
+  Art: {fileID: 0}
+  FirstChoice: {fileID: 0}
+  SecondChoice: {fileID: 0}

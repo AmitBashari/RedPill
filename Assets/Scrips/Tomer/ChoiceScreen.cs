@@ -20,7 +20,7 @@ public class ChoiceScreen : MonoBehaviour
     public Choice CurrentChoice;
     public UnityEvent OnTimePause;
     public UnityEvent OnTimeContinue;
-    public UnityEvent OnTimeRestart;
+
 
 
 

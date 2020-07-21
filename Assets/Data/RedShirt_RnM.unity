@@ -152,10 +152,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   screen: {fileID: 1602075015}
   InitalChoice: {fileID: 11400000, guid: ade526640256ef247bbe9a85622e4d05, type: 2}
+  Victory: {fileID: 11400000, guid: 6eb8f49fb2efa37478dee6bb17abeae1, type: 2}
   Hints:
-  - First
-  - Second
-  - Third
+  - Same old choices, different day.
+  - One day, Two day, Red shirt, Blue shirt.
+  - Down the Rabbit-Hole we go
+  - Take the road less traveled by
+  - So tired of choosing... Sometimes you just need to stay in your Pajamas.
   OnTimeRestart:
     m_PersistentCalls:
       m_Calls:

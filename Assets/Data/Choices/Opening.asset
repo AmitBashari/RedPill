@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14b24f5426d9d07469b31497f7559b8b, type: 3}
+  m_Name: Opening
+  m_EditorClassIdentifier: 
+  IsEnding: 0
+  IsFirstChoice: 1
+  Name: 
+  Plot: "You wake up to the raspy voice of Chad Kroeger singing something about a
+    photograph. You turn off the alarm, and an eerie feeling of D\xE9j\xE0 Vu takes
+    over your entire body, you shudder, but it may just be Nickleback, they sure
+    do send you back. You finally muster the strength to get out of bed.\r\n\r\r\nIt's
+    time to start your 'beloved' morning routine, would it be Tea or coffee this
+    time? Turn on Netflix or Spotify?\r\n\r\nAnd the cherry on top of yet another
+    meaningless decision - what should you wear?"
+  Art: {fileID: 0}
+  FirstChoice: {fileID: 0}
+  SecondChoice: {fileID: 0}

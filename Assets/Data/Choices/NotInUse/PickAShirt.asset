@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: PickAShirt
   m_EditorClassIdentifier: 
   IsEnding: 0
+  IsFirstChoice: 0
   Name: Enter
   Plot: "You wake up to the raspy voice of Chad Kroeger singing something about a
     photograph. \nYou turn off the alarm, and an eerie feeling of D\xE9j\xE0 Vu takes
