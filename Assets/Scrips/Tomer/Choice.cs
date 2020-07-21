@@ -5,7 +5,10 @@ using UnityEngine;
 public class Choice : ScriptableObject
 {
     public bool IsEnding;
-    public ChoiceContent Content;
+    public string Name;
+    [TextArea (5,15)]
+    public string Plot;
+    public Sprite Art;
     public Choice FirstChoice;
     public Choice SecondChoice;
 }

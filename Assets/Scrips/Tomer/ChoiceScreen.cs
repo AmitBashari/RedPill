@@ -19,8 +19,8 @@ public class ChoiceScreen : MonoBehaviour
     public void Setup(Choice choice)
     {
         currentChoice = choice;
-        plot.text = choice.Content.Plot;
-        art.sprite = choice.Content.Art;
+        plot.text = choice.Plot;
+        art.sprite = choice.Art;
         if (choice.IsEnding)
         {
             FirstChoiceButton.gameObject.SetActive(false);
@@ -28,9 +28,9 @@ public class ChoiceScreen : MonoBehaviour
             return;
         }
 
-        FirstChoiceText.text = choice.FirstChoice.Content.Name;
-        question.text = choice.Content.Question;
-        SecondChoiceText.text = choice.SecondChoice.Content.Name;
+        FirstChoiceText.text = choice.FirstChoice.Name;
+        //question.text = choice.Content.Question;
+        SecondChoiceText.text = choice.SecondChoice.Name;
     }
 
 

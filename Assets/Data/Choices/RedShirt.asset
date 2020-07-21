@@ -13,6 +13,12 @@ MonoBehaviour:
   m_Name: RedShirt
   m_EditorClassIdentifier: 
   IsEnding: 0
-  Content: {fileID: 11400000, guid: 02a8982377bbce545b20a513871a542d, type: 2}
+  Name: You give Charlotte the medication and curiousness takes over your better
+    judgement. While she regains he strength you tell her you didn't know the pie
+    has nuts in it, but also about the torn up photo.... You lie that you ask to
+    occupy her mind elsewhere, but it's just because you really want to know.
+  Plot: "Also socks. \nMom always says socks and underwear must be changed every
+    day - that's why you got two pairs of each."
+  Art: {fileID: 21300000, guid: 5f7fa9a7940a64e79b5a42d9f661d42c, type: 3}
   FirstChoice: {fileID: 0}
   SecondChoice: {fileID: 0}
