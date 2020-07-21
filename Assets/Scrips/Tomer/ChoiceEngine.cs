@@ -4,6 +4,8 @@ public class ChoiceEngine : MonoBehaviour
 {
     public ChoiceScreen screen;
     public Choice InitalChoice;
+    public string[] Hints;
+    private int currentIndex = -1;
 
     private void Start()
     {
@@ -15,7 +17,8 @@ public class ChoiceEngine : MonoBehaviour
     {
         if (choice.IsEnding)
         {
-            // Do something else
+            screen.Setup(choice);
+         
         }
         else
         {
@@ -27,5 +30,15 @@ public class ChoiceEngine : MonoBehaviour
     public void Test()
     {
         LoadChoice(InitalChoice);
+    }
+
+    public void LoadEnd (Choice choice)
+    {
+        if (currentIndex < Hints.Length-1)
+        { 
+            currentIndex++;
+        }
+        //currentIndex = Mathf.Min(currentIndex + 1, Hints.Length - 1);
+        screen.SetupHint(Hints[currentIndex], InitalChoice);
     }
 }
