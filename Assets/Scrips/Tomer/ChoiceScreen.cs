@@ -104,7 +104,6 @@ public class ChoiceScreen : MonoBehaviour
     {
 
         VoiceSound.Play();
-        TypingSound.Play();
 
         PreviousArt.sprite = art.sprite;
         SlideAnimator.SetBool("IsActive", true);
@@ -121,6 +120,8 @@ public class ChoiceScreen : MonoBehaviour
         plot.text = "";
 
         yield return new WaitForSeconds(1.5f);
+
+        TypingSound.Play();
 
         foreach (char letter in sentence.ToCharArray())
         {
@@ -175,6 +176,7 @@ public class ChoiceScreen : MonoBehaviour
         NextButton.gameObject.SetActive(true);
         _nextChoice = nextChoice;
         StopAllCoroutines();
+        VoiceSound.clip = null;
         StartCoroutine(TypeSentenceEachLetter(hint));
     }
 
