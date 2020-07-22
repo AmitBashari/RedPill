@@ -48,7 +48,7 @@ public class ChoiceScreen : MonoBehaviour
         {
             FirstChoiceButton.gameObject.SetActive(false);
             SecondChoiceButton.gameObject.SetActive(false);
-            NextButton.gameObject.SetActive(true);
+            //NextButton.gameObject.SetActive(true);
             _isEnd = true;
 
         }
@@ -113,6 +113,8 @@ public class ChoiceScreen : MonoBehaviour
         FirstChoiceButton.gameObject.SetActive(false);
         SecondChoiceButton.gameObject.SetActive(false);
 
+
+
         plot.text = "";
         foreach (char letter in sentence.ToCharArray())
         {
@@ -139,6 +141,11 @@ public class ChoiceScreen : MonoBehaviour
             FirstChoiceButton.gameObject.SetActive(true);
             SecondChoiceButton.gameObject.SetActive(true);
             OnTimeContinue?.Invoke();
+        }
+
+        if (_isEnd == true)
+        {
+            NextButton.gameObject.SetActive(true);
         }
 
 
