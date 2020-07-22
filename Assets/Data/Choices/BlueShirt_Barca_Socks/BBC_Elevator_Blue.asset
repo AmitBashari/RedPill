@@ -23,5 +23,5 @@ MonoBehaviour:
     It''s leopard-skinned, you think she might be too wild for you. You stand there
     in silence until you reach the lobby floor.'
   Art: {fileID: 21300000, guid: da04523dd5d86c24d9398eb49c7e743c, type: 3}
-  FirstChoice: {fileID: 11400000, guid: 061cb16349658a34b8ff63ce386b4d1f, type: 2}
+  FirstChoice: {fileID: 11400000, guid: c3d182915310fad42a69f8eca84623aa, type: 2}
   SecondChoice: {fileID: 11400000, guid: 42a87655a0bcb7d4cb9e2746987d2d53, type: 2}

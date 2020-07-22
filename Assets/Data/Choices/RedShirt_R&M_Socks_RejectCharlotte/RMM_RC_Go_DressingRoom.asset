@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14b24f5426d9d07469b31497f7559b8b, type: 3}
+  m_Name: RMM_RC_Go_DressingRoom
+  m_EditorClassIdentifier: 
+  IsEnding: 0
+  Name: Go straight to the dressing room to get changed
+  Plot: 'You take off your clothes and fold them neatly on the chair next to you.
+    You wonder if you have time to catch a quick shower before the show. Suddenly,
+    the stage manager knocks on the door. You open it timidly, trying to hide yourself
+    behind a bath towel. A gust of wind tries to undress you but ends up just blowing
+    one of your socks to the floor.
+
+
+    The stage manager looks at the fallen sock.
+    He says cartoons are for children your socks are infantile. If you''d grow up
+    already and stop messing around, you could become better at you work, and then
+    maybe, just maybe, beautiful women elevators would give you the time of day.'
+  Art: {fileID: 21300000, guid: 8c33f781cc42f5742ba922d6e2b42457, type: 3}
+  FirstChoice: {fileID: 11400000, guid: 075dd64230b28134094299dc19c5a9d0, type: 2}
+  SecondChoice: {fileID: 11400000, guid: 82e5430210aefcf4fb656115c846ef3a, type: 2}

@@ -10,16 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 14b24f5426d9d07469b31497f7559b8b, type: 3}
-  m_Name: RRM_Go_Park
+  m_Name: BBC_HD_Go_Park
   m_EditorClassIdentifier: 
   IsEnding: 0
   Name: Offer Charlotte to take a post-meal stroll in the park
   Plot: 'You step in a muddy disgusting puddle and wobble to the nearest bench to
     take off your shoes. Charlotte follows, barely managing to hide a smile.
 
-    Charlotte''s
-    stifled laugh turns into amazement as she points at your socks. She says it''s
-    her favorite TV show.'
-  Art: {fileID: 21300000, guid: 8c33f781cc42f5742ba922d6e2b42457, type: 3}
-  FirstChoice: {fileID: 11400000, guid: ef776b88c28adea4a86b5ca55fee3fac, type: 2}
-  SecondChoice: {fileID: 11400000, guid: b5749fdb121027b4383e82b3efb189e0, type: 2}
+
+    Charlotte
+    looks at your socks sternly. You question her odd reaction to your feet covers.
+    She confesses her cheating ex husband was a Barcelona fan and every time she
+    sees their logo, her heart fills with rage'
+  Art: {fileID: 21300000, guid: da04523dd5d86c24d9398eb49c7e743c, type: 3}
+  FirstChoice: {fileID: 11400000, guid: 2792aa7384ac4274f85518bcfd92e69b, type: 2}
+  SecondChoice: {fileID: 11400000, guid: da544c192adf068458eef07746532052, type: 2}
