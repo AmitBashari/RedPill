@@ -11,4 +11,5 @@ public class Choice : ScriptableObject
     public Sprite Art;
     public Choice FirstChoice;
     public Choice SecondChoice;
+    public AudioClip VoiceActing;
 }
