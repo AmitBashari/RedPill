@@ -13,12 +13,16 @@ MonoBehaviour:
   m_Name: RRM_Evelator_Red
   m_EditorClassIdentifier: 
   IsEnding: 0
+  Name: Rick and Morty Socks
+  Plot: 'There is a beautiful woman in the elevator as you walk in. She notices you
+    and lowers her phone. She compliments your shirt. Your face turn that same shade
+    of red. She stifles a chuckle and introduces herself as Charlotte.
 
-  Plot: "There is a beautiful woman in the elevator as you walk in. \nShe notices
-    you and lowers her phone. \nShe compliments your shirt. Your face turn that same
-    shade of red. \nShe stifles a chuckle and introduces herself as Charlotte.\r\n\rShe
+    
+
+    She
     asks you if you would like to join her for breakfast at the new restaurant in
-    town."
+    town.'
   Art: {fileID: 21300000, guid: 8c33f781cc42f5742ba922d6e2b42457, type: 3}
-  FirstChoice: {fileID: 11400000, guid: 77150734913f63d468b4b42c2c32d1ca, type: 2}
-  SecondChoice: {fileID: 11400000, guid: c592d562f3d15cc4b8dfe0b8e060a21a, type: 2}
+  FirstChoice: {fileID: 11400000, guid: c592d562f3d15cc4b8dfe0b8e060a21a, type: 2}
+  SecondChoice: {fileID: 11400000, guid: 77150734913f63d468b4b42c2c32d1ca, type: 2}

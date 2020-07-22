@@ -23,4 +23,4 @@ MonoBehaviour:
     meaningless decision - what should you wear?"
   Art: {fileID: 21300000, guid: 65dfea7b3f0201644b0c1d538993ea68, type: 3}
   FirstChoice: {fileID: 11400000, guid: b7e1bac6fd449614b91baed47b1ff66e, type: 2}
-  SecondChoice: {fileID: 0}
+  SecondChoice: {fileID: 11400000, guid: 1d2b20a71ec8fa94d9768d7b233a3a9a, type: 2}
