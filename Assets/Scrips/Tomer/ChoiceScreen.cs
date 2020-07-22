@@ -11,6 +11,7 @@ public class ChoiceScreen : MonoBehaviour
     public TextMeshProUGUI plot;
     //public TextMeshProUGUI question;
     public Image art;
+    public Image PreviousArt;
     public Button FirstChoiceButton;
     public Text FirstChoiceText;
     public Button SecondChoiceButton;
@@ -25,7 +26,7 @@ public class ChoiceScreen : MonoBehaviour
     public UnityEvent OnTimeContinue;
   
     
-    private float letterPause = 3f;
+    private float letterPause = 6f;
     private Animation slideAnim;
     private Choice _nextChoice;
     private bool _isEnd = false;
@@ -105,18 +106,22 @@ public class ChoiceScreen : MonoBehaviour
         VoiceSound.Play();
         TypingSound.Play();
 
-
+        PreviousArt.sprite = art.sprite;
         SlideAnimator.SetBool("IsActive", true);
         PlotAnimator.SetBool("IsActive", true);
 
-
         OnTimePause?.Invoke();
+
         FirstChoiceButton.gameObject.SetActive(false);
         SecondChoiceButton.gameObject.SetActive(false);
+
 
         bool shouldSkip = false;
 
         plot.text = "";
+
+        yield return new WaitForSeconds(1.5f);
+
         foreach (char letter in sentence.ToCharArray())
         {
             yield return new WaitForSeconds(letterPause * Time.deltaTime);

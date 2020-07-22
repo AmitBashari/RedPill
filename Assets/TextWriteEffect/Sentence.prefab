@@ -133,3 +133,6 @@ MonoBehaviour:
   FadeOutDistance: 40
   FadeOutDuration: 0.5
   WriteInDuration: 1
+  OnWriteInFinished:
+    m_PersistentCalls:
+      m_Calls: []
