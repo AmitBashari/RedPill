@@ -14,12 +14,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsEnding: 0
   Name: Hold the lobby door for the beautiful woman.
-  Plot: "The woman says chivalry is not to be ignored and wants you join her for
-    lunch. She introduces herself as Charlotte and then proceeds\r to leads the way
-    to the restaurant. It's a Japanese-Greek fusion themed restaurant with a giant
-    neon sign on the side of the building that reads \"FOOD\".\r\n\r\nYou try to
-    not judge books by their cover.\r\n\r\n\nAfter finishing the surprisingly edible
-    meal you ponder on plans for dessert."
+  Plot: 'The woman says chivalry is not to be ignored and invites you to join her
+    for lunch.
+
+    She introduces herself as Charlotte and then proceeds to lead
+    the way to the restaurant.
+
+    It''s a Japanese-Greek fusion themed restaurant
+    with a giant neon sign on the side that reads "FOOD".
+
+    You try to not judge
+    books by their cover.
+
+
+    After finishing the surprisingly edible meal you
+    ponder on plans for dessert.'
   Art: {fileID: 21300000, guid: da04523dd5d86c24d9398eb49c7e743c, type: 3}
   FirstChoice: {fileID: 11400000, guid: 008dfd33f628ea6428138d5e2ad1f37a, type: 2}
   SecondChoice: {fileID: 11400000, guid: 51c6c012a454675428b8d8cfb5f32350, type: 2}
+  VoiceActing: {fileID: 0}
