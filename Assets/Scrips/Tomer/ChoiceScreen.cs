@@ -48,10 +48,10 @@ public class ChoiceScreen : MonoBehaviour
     public void Setup(Choice choice)
     {
         CurrentChoice = choice;
-      
+
         StopAllCoroutines();
         StartCoroutine(TypeSentenceEachLetter(choice.Plot));
-         
+
 
         art.sprite = choice.Art;
 
@@ -61,7 +61,7 @@ public class ChoiceScreen : MonoBehaviour
             SecondChoiceButton.gameObject.SetActive(false);
             NextButton.gameObject.SetActive(true);
             _isEnd = true;
-            
+
         }
         else
         {
@@ -74,7 +74,7 @@ public class ChoiceScreen : MonoBehaviour
 
         }
 
-       
+
     }
 
 
@@ -106,12 +106,12 @@ public class ChoiceScreen : MonoBehaviour
         {
             engine.LoadEnd(CurrentChoice);
         }
-       
+
     }
 
     private IEnumerator TypeSentenceEachLetter(string sentence)
     {
-  
+
 
         TypingSound.Play();
         SlideAnimator.SetBool("IsActive", true);
@@ -143,10 +143,10 @@ public class ChoiceScreen : MonoBehaviour
 
 
         if (_isEnd == false)
-        { 
-        FirstChoiceButton.gameObject.SetActive(true);
-        SecondChoiceButton.gameObject.SetActive(true);
-        OnTimeContinue?.Invoke();
+        {
+            FirstChoiceButton.gameObject.SetActive(true);
+            SecondChoiceButton.gameObject.SetActive(true);
+            OnTimeContinue?.Invoke();
         }
 
 
