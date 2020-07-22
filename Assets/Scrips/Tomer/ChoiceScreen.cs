@@ -22,6 +22,7 @@ public class ChoiceScreen : MonoBehaviour
     public Choice CurrentChoice;
     public Animator SlideAnimator;
     public Animator PlotAnimator;
+    public Animator BehindTextAnimator;
     public UnityEvent OnTimePause;
     public UnityEvent OnTimeContinue;
   
@@ -108,6 +109,7 @@ public class ChoiceScreen : MonoBehaviour
         PreviousArt.sprite = art.sprite;
         SlideAnimator.SetBool("IsActive", true);
         PlotAnimator.SetBool("IsActive", true);
+        BehindTextAnimator.SetBool("IsActive", true);
 
         OnTimePause?.Invoke();
 
@@ -119,7 +121,7 @@ public class ChoiceScreen : MonoBehaviour
 
         plot.text = "";
 
-        yield return new WaitForSeconds(1.5f);
+        yield return new WaitForSeconds(2f);
 
         TypingSound.Play();
 
@@ -144,6 +146,7 @@ public class ChoiceScreen : MonoBehaviour
         TypingSound.Stop();
         SlideAnimator.SetBool("IsActive", false);
         PlotAnimator.SetBool("IsActive", false);
+        BehindTextAnimator.SetBool("IsActive", false);
 
         while (VoiceSound.isPlaying && !shouldSkip)
         {
