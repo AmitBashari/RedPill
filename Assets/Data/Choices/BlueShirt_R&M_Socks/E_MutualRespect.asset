@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14b24f5426d9d07469b31497f7559b8b, type: 3}
+  m_Name: E_MutualRespect
+  m_EditorClassIdentifier: 
+  IsEnding: 1
+  IsFirstChoice: 0
+  Name: Confident in your level of fitness, you challenge him to a push-up contest.
+  Plot: The manager accepts your challenge and drops to 32 push-ups. He gets up,
+    his face is red and his grin is braggy. You smile and take a deep breath, elegantly
+    performing 10 single handed push-ups. On each hand, of course. The stage manager
+    acknowledges that magic shows are not the only thing you're good at. You smile
+    condescendingly and shake his hand, goosebumps cover your body. You feel his
+    respect towards you gets deeper and you share the same feeling as well.
+  Art: {fileID: 21300000, guid: e86b5fba190877040965c086d6f4dbc5, type: 3}
+  FirstChoice: {fileID: 0}
+  SecondChoice: {fileID: 0}

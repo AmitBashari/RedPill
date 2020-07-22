@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14b24f5426d9d07469b31497f7559b8b, type: 3}
+  m_Name: BRM_Grab_Glass_Of_Water
+  m_EditorClassIdentifier: 
+  IsEnding: 0
+  IsFirstChoice: 0
+  Name: Grab a glass of cold water to cool yourself down
+  Plot: 'You walk to the water cooler, thanking every being out there that the chatty
+    contortionist isn''t there. Time for the long awaited plastic cup of cool water.
+    The stage manager walks by and notes that your shoe is untied. You thank him
+    and crouch down to tie it. He keeps standing there, looking at you tie your shoes.
+    What a strange guy.
+
+
+    The stage manager notices your socks. He says that
+    if you were to hit the gym in stead of potatoing on the couch watching childish
+    TV shows, you wouldn''t have been so sweaty from such a short walk from the bus
+    stop.'
+  Art: {fileID: 21300000, guid: da04523dd5d86c24d9398eb49c7e743c, type: 3}
+  FirstChoice: {fileID: 11400000, guid: af5e406570d328948a02e6118be930b0, type: 2}
+  SecondChoice: {fileID: 11400000, guid: c02dc9a9bfa398f43a4ece7ef39758ca, type: 2}

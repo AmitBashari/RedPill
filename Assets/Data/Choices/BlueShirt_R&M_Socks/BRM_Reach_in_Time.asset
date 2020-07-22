@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14b24f5426d9d07469b31497f7559b8b, type: 3}
+  m_Name: BRM_Reach_in_Time
+  m_EditorClassIdentifier: 
+  IsEnding: 0
+  IsFirstChoice: 0
+  Name: Run and reach just in time to get on the bus
+  Plot: 'You get to work hot and sweaty. Drops of sweat roll down your back, sticking
+    your t-shirt to your bare back.
+
+    
+
+    You walk by the stage manager, pulling
+    on your shirt to detach it from your wet body. He gives you a weird look. What''s
+    his deal?'
+  Art: {fileID: 21300000, guid: da04523dd5d86c24d9398eb49c7e743c, type: 3}
+  FirstChoice: {fileID: 11400000, guid: 0ba20021cb3d0a14394bc6bb05a89bde, type: 2}
+  SecondChoice: {fileID: 11400000, guid: f6afd1f38a61e2247bbae2c8ca822b39, type: 2}

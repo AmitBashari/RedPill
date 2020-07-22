@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14b24f5426d9d07469b31497f7559b8b, type: 3}
+  m_Name: E_ShowerSexiness
+  m_EditorClassIdentifier: 
+  IsEnding: 1
+  IsFirstChoice: 0
+  Name: You blush and say that players are only as good as their coach
+  Plot: The stage manager wipes a drop of sweat from your forehead. Chills run down
+    your spine. You say that it was hot outside, you should probably take a shower
+    before the show. He turns around and starts walking away. You say that the dressing
+    room is nothing like an official locker room, but players usually get massaged
+    before their game, don't they? The stage manager smiles and takes your hand.
+    He starts guiding you towards the back room. You pause, you don't even know his
+    name. No need for names, they only get in the way. You follow him blindly and
+    close the door behind the two of you.
+  Art: {fileID: 21300000, guid: 501ecb9f4aafb9047b66a57c06b981bb, type: 3}
+  FirstChoice: {fileID: 0}
+  SecondChoice: {fileID: 0}
