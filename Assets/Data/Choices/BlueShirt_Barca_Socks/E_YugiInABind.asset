@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14b24f5426d9d07469b31497f7559b8b, type: 3}
+  m_Name: E_YugiInABind
+  m_EditorClassIdentifier: 
+  IsEnding: 1
+  IsFirstChoice: 0
+  Name: You apologize time and time again, telling the stage manager you never meant
+    to put him in a bind.
+  Plot: The stage manager is stifling a shy smile. He mumbles that this is not the
+    bind he'd rather you put him in. You laugh. You never realized he thought of
+    you this way. You look him deep in the eyes and ask him if he wants to grab a
+    pizza with you after the show. He agrees and asks you to call him Yugi. You nod
+    at him, and with a giant grin on your face you go on stage, delighted with a
+    stomach full of butterflies.
+  Art: {fileID: 21300000, guid: fde8dc1098412e94586b1a957cf58892, type: 3}
+  FirstChoice: {fileID: 0}
+  SecondChoice: {fileID: 0}

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14b24f5426d9d07469b31497f7559b8b, type: 3}
+  m_Name: E_ForkInForehead
+  m_EditorClassIdentifier: 
+  IsEnding: 1
+  IsFirstChoice: 0
+  Name: Sounds like the guy knew what he was talking about. You never met a Barcelona
+    fan you didn't like.
+  Plot: Charlotte pounds on the table with her fist, grunting in frustration. She
+    throws the Nut-Free chocolate mousse in your face. Then proceeds to throw utensils
+    at you. The fork that used to be on the table is now lodged in your forehead,
+    warm gooey substance dripping down your cheeks. You manage to see her grin maliciously
+    before your eyes glaze over, and your head falls to the table.
+  Art: {fileID: 21300000, guid: e986054d9431a1349810a84343be33b3, type: 3}
+  FirstChoice: {fileID: 0}
+  SecondChoice: {fileID: 0}

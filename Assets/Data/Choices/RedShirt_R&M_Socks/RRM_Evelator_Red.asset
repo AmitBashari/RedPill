@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14b24f5426d9d07469b31497f7559b8b, type: 3}
+  m_Name: RRM_Evelator_Red
+  m_EditorClassIdentifier: 
+  IsEnding: 0
+
+  Plot: "There is a beautiful woman in the elevator as you walk in. \nShe notices
+    you and lowers her phone. \nShe compliments your shirt. Your face turn that same
+    shade of red. \nShe stifles a chuckle and introduces herself as Charlotte.\r\n\rShe
+    asks you if you would like to join her for breakfast at the new restaurant in
+    town."
+  Art: {fileID: 21300000, guid: 8c33f781cc42f5742ba922d6e2b42457, type: 3}
+  FirstChoice: {fileID: 11400000, guid: 77150734913f63d468b4b42c2c32d1ca, type: 2}
+  SecondChoice: {fileID: 11400000, guid: c592d562f3d15cc4b8dfe0b8e060a21a, type: 2}

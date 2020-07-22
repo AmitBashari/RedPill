@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14b24f5426d9d07469b31497f7559b8b, type: 3}
+  m_Name: E_Noses_Almost_Touch
+  m_EditorClassIdentifier: 
+  IsEnding: 1
+  IsFirstChoice: 0
+  Name: A YELLOW CARD?! Who does he think he is. His piercing blue eyes don't intimidate
+    you now!
+  Plot: The stage manager starts yelling at you, his eyes get smoldering in a mere
+    second. He pulls out all stops. You don't hold back either. You grow closer to
+    each other as your argument heats up until your noses almost touch. You can feel
+    his breath on your face. At once, you both stop yelling, and just stand there,
+    looking into each other's eyes. After what seems like forever, he pulls away
+    and gestures you to the stage. You're flustered, but the show must go on.
+  Art: {fileID: 21300000, guid: bb0af3ccf293bda47a8c87ab04bd1ed9, type: 3}
+  FirstChoice: {fileID: 0}
+  SecondChoice: {fileID: 0}

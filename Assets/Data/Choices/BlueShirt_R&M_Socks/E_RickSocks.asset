@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14b24f5426d9d07469b31497f7559b8b, type: 3}
+  m_Name: E_RickSocks
+  m_EditorClassIdentifier: 
+  IsEnding: 1
+  IsFirstChoice: 0
+  Name: You do take it seriously, magic and entertainment are very important to you.
+  Plot: The stage manager points at your feet and says that whoever wears such childish
+    socks, can't possible take things seriously. You can't believe he just said that
+    about your favorite show. YOU CAN'T EVEN. You shove the stage manager and yell
+    that maybe, he's just too dumb to understand it. Nice comeback, you can't work
+    for this imbecile anymore. You leave, but not before you turn around and give
+    him one last degrading look.
+  Art: {fileID: 21300000, guid: ee1d9799bebb45b46b54a932150e1013, type: 3}
+  FirstChoice: {fileID: 0}
+  SecondChoice: {fileID: 0}
