@@ -23,13 +23,25 @@ public class ChoiceScreen : MonoBehaviour
     public UnityEvent OnTimeContinue;
 
 
-
-
-
     private float letterPause = 3f;
     private Animation slideAnim;
     private Choice _nextChoice;
     private bool _isEnd = false;
+
+    /*private void Update()
+    {
+        if (Input.GetMouseButton(0))
+        {
+            letterPause = -5000f;
+        }
+        else
+
+        {
+
+            letterPause = 3f;
+        }
+    }
+    */
 
     public void Setup(Choice choice)
     {
@@ -37,9 +49,7 @@ public class ChoiceScreen : MonoBehaviour
       
         StopAllCoroutines();
         StartCoroutine(TypeSentenceEachLetter(choice.Plot));
-        
-      
-       
+         
 
         art.sprite = choice.Art;
 
@@ -98,6 +108,7 @@ public class ChoiceScreen : MonoBehaviour
 
     private IEnumerator TypeSentenceEachLetter(string sentence)
     {
+
         TypingSound.Play();
         SlideAnimator.SetBool("IsActive", true);
 
