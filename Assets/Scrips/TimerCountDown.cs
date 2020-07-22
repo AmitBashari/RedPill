@@ -3,12 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.Events;
+using UnityEngine.UI;
 
 public class TimerCountDown : MonoBehaviour
 {
     public TextMeshProUGUI Text;
     public float Duration = 30;
     public UnityEvent OnTimerFinished;
+    public Image SecondsImage;
 
 
 
@@ -19,6 +21,14 @@ public class TimerCountDown : MonoBehaviour
         _elapsedTime += Time.deltaTime;
 
         Text.SetText((Duration - _elapsedTime).ToString());
+
+        SecondsImage.fillAmount -= 1f * Time.deltaTime;
+
+        if (SecondsImage.fillAmount == 0f && _elapsedTime <=30)
+        {
+            SecondsImage.fillAmount = 1f;
+        }
+
 
         if (_elapsedTime >= Duration)
         {
