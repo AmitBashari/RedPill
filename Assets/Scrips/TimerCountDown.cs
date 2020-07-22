@@ -54,7 +54,8 @@ public class TimerCountDown : MonoBehaviour
     public void Restart()
     {
         _elapsedTime = 0;
-        enabled = true;
+        enabled = false;
+        Text.SetText("30");
 
     }
 
