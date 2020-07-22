@@ -26,7 +26,7 @@ public class ChoiceScreen : MonoBehaviour
     public UnityEvent OnTimeContinue;
   
     
-    private float letterPause = 6f;
+    private float letterPause = 10f;
     private Animation slideAnim;
     private Choice _nextChoice;
     private bool _isEnd = false;
