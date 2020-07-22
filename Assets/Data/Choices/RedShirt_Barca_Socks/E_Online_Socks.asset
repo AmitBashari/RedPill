@@ -13,7 +13,6 @@ MonoBehaviour:
   m_Name: E_Online_Socks
   m_EditorClassIdentifier: 
   IsEnding: 1
-  IsFirstChoice: 0
   Name: You only wear these socks so you can crush their dignity beneath your feet
   Plot: Charlotte is amused by the notion of stomping on her ex's beating heart.
     She asks you to stick around and help her pick out sports socks online, then
@@ -21,3 +20,4 @@ MonoBehaviour:
   Art: {fileID: 21300000, guid: 9405531f43aed4f4e9063a7f88c7f4fa, type: 3}
   FirstChoice: {fileID: 0}
   SecondChoice: {fileID: 0}
+  VoiceActing: {fileID: 8300000, guid: b60ee24c613be934586159773f236023, type: 3}

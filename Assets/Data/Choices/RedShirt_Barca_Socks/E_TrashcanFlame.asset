@@ -13,7 +13,6 @@ MonoBehaviour:
   m_Name: E_TrashcanFlame
   m_EditorClassIdentifier: 
   IsEnding: 1
-  IsFirstChoice: 0
   Name: It's a good thing these socks are ruined! This just adds another level of
     disrespect to that team.
   Plot: With a flamboyant gesture you throw the socks in the nearest bin. Charlotte
@@ -23,3 +22,4 @@ MonoBehaviour:
   Art: {fileID: 21300000, guid: 104ebfbf215aff64aac356f1bfe47e51, type: 3}
   FirstChoice: {fileID: 0}
   SecondChoice: {fileID: 0}
+  VoiceActing: {fileID: 8300000, guid: d41d297c7d7fb164e9b19a5a8eb4aa1a, type: 3}

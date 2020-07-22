@@ -18,11 +18,12 @@ MonoBehaviour:
     and lowers her phone. She compliments your shirt. Your face turn that same shade
     of red. She stifles a chuckle and introduces herself as Charlotte.
 
-    
+
 
     She
     asks you if you would like to join her for breakfast at the new restaurant in
     town.'
   Art: {fileID: 21300000, guid: 8c33f781cc42f5742ba922d6e2b42457, type: 3}
   FirstChoice: {fileID: 11400000, guid: c592d562f3d15cc4b8dfe0b8e060a21a, type: 2}
-  SecondChoice: {fileID: 11400000, guid: 77150734913f63d468b4b42c2c32d1ca, type: 2}
+  SecondChoice: {fileID: 11400000, guid: b900b77b6b5800e45bb44ce9245cadd9, type: 2}
+  VoiceActing: {fileID: 8300000, guid: 5ceee0b079f7d8f48b654b8f484d1093, type: 3}

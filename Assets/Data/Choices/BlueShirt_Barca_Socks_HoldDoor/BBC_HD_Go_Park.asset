@@ -25,3 +25,4 @@ MonoBehaviour:
   Art: {fileID: 21300000, guid: da04523dd5d86c24d9398eb49c7e743c, type: 3}
   FirstChoice: {fileID: 11400000, guid: 2792aa7384ac4274f85518bcfd92e69b, type: 2}
   SecondChoice: {fileID: 11400000, guid: da544c192adf068458eef07746532052, type: 2}
+  VoiceActing: {fileID: 8300000, guid: f31b31c34b566f447b690706180dd777, type: 3}

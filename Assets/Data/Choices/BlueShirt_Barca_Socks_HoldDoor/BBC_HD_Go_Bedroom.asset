@@ -19,12 +19,13 @@ MonoBehaviour:
     everyday. Horrified by the thought of your mom at a moment like this, you watch
     Charlotte''s back as she takes off her dress.
 
-    
 
-    Charlotte is looking
-    at your socks with raging eyes, she confesses that her ex husband was a Barcelona
+
+    Charlotte is looking at
+    your socks with raging eyes, she confesses that her ex husband was a Barcelona
     fan. He cheated on her with his much younger, not much hotter secretary. What
     a cliche.'
   Art: {fileID: 21300000, guid: da04523dd5d86c24d9398eb49c7e743c, type: 3}
   FirstChoice: {fileID: 11400000, guid: 14b1b41eed3a4794fa0e870dd130ec84, type: 2}
   SecondChoice: {fileID: 11400000, guid: a4e7b021a1558a04386e180125541709, type: 2}
+  VoiceActing: {fileID: 8300000, guid: 58c473a10e8177b4e906a8607dccad1b, type: 3}

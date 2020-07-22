@@ -13,7 +13,6 @@ MonoBehaviour:
   m_Name: E_Watch_RnM
   m_EditorClassIdentifier: 
   IsEnding: 1
-  IsFirstChoice: 0
   Name: Ask her if she wants to watch the latest episode together, it just came out
     and you didn't get a chance to watch it yet. You don't want to be one episode
     behind.
@@ -23,3 +22,4 @@ MonoBehaviour:
   Art: {fileID: 21300000, guid: f17c4b542585a3f4aa4f46f9a566b425, type: 3}
   FirstChoice: {fileID: 0}
   SecondChoice: {fileID: 0}
+  VoiceActing: {fileID: 8300000, guid: e2a1a79eb181e3e4f829e159fdfb4905, type: 3}

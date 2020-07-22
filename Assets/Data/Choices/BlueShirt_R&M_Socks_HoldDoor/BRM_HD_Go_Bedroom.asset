@@ -19,11 +19,12 @@ MonoBehaviour:
     everyday. Horrified by the thought of your mom at a moment like this, you watch
     Charlotte''s back as she takes off her dress.
 
-    
 
-    She finally turns
-    around and notices your socks. A huge grin starts forming on her face. She confesses
+
+    She finally turns around
+    and notices your socks. A huge grin starts forming on her face. She confesses
     to be a Jerry-Hater herself.'
   Art: {fileID: 21300000, guid: da04523dd5d86c24d9398eb49c7e743c, type: 3}
   FirstChoice: {fileID: 11400000, guid: bbd5e4f995142784cab38082f15c4fe5, type: 2}
   SecondChoice: {fileID: 11400000, guid: 85f463aaf4f4b184da6cceb7712cb09e, type: 2}
+  VoiceActing: {fileID: 8300000, guid: d755c51e418d0ee4587d67a74e5f8e2e, type: 3}

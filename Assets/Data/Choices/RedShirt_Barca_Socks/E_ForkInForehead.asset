@@ -13,7 +13,6 @@ MonoBehaviour:
   m_Name: E_ForkInForehead
   m_EditorClassIdentifier: 
   IsEnding: 1
-  IsFirstChoice: 0
   Name: Sounds like the guy knew what he was talking about. You never met a Barcelona
     fan you didn't like.
   Plot: Charlotte pounds on the table with her fist, grunting in frustration. She
@@ -24,3 +23,4 @@ MonoBehaviour:
   Art: {fileID: 21300000, guid: e986054d9431a1349810a84343be33b3, type: 3}
   FirstChoice: {fileID: 0}
   SecondChoice: {fileID: 0}
+  VoiceActing: {fileID: 8300000, guid: df4ab8cd58a6fb84eae2109df7aac567, type: 3}

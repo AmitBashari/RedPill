@@ -19,16 +19,17 @@ MonoBehaviour:
   Plot: 'Charlotte comes back and looks at the dessert, she licks her lips and asks
     flirtatiously "is there anything sweeter than chocolate?".
 
-    
 
-    You say
-    that last night''s Barcelona''s victory was pretty sweet.
 
-    
+    You say that
+    last night''s Barcelona''s victory was pretty sweet.
 
-    Charlotte
-    tells you her cheating ex-husband was a Barcelona fan. He also used to say their
-    victories were sweet.'
+
+
+    Charlotte tells you
+    her cheating ex-husband was a Barcelona fan. He also used to say their victories
+    were sweet.'
   Art: {fileID: 21300000, guid: da04523dd5d86c24d9398eb49c7e743c, type: 3}
   FirstChoice: {fileID: 11400000, guid: b1c22e022948bd04a98e262932c5852f, type: 2}
   SecondChoice: {fileID: 11400000, guid: 26ba8a072492f8c449ae10de612e02fa, type: 2}
+  VoiceActing: {fileID: 8300000, guid: f61e2057baf159346a0959661c3c7046, type: 3}
