@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14b24f5426d9d07469b31497f7559b8b, type: 3}
+  m_Name: BRM_HD_Go_Bedroom
+  m_EditorClassIdentifier: 
+  IsEnding: 0
+  Name: Offer Charlotte to move to her bedroom
+  Plot: 'Charlotte starts taking off your clothes piece by piece leaving you in your
+    socks and underwear. You thank mom for always reminding you to wear clean ones
+    everyday. Horrified by the thought of your mom at a moment like this, you watch
+    Charlotte''s back as she takes off her dress.
+
+    
+
+    She finally turns
+    around and notices your socks. A huge grin starts forming on her face. She confesses
+    to be a Jerry-Hater herself.'
+  Art: {fileID: 21300000, guid: da04523dd5d86c24d9398eb49c7e743c, type: 3}
+  FirstChoice: {fileID: 11400000, guid: bbd5e4f995142784cab38082f15c4fe5, type: 2}
+  SecondChoice: {fileID: 11400000, guid: 85f463aaf4f4b184da6cceb7712cb09e, type: 2}

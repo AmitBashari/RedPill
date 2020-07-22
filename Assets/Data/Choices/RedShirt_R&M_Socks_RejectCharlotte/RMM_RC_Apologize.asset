@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14b24f5426d9d07469b31497f7559b8b, type: 3}
+  m_Name: RMM_RC_Apologize
+  m_EditorClassIdentifier: 
+  IsEnding: 0
+  Name: apologize to the stage manager profusely for your tardiness. You promise
+    to make it up to him.
+  Plot: 'In your dressing room, you begin the routine of putting your "Game Face"
+    on. Soft music plays in the background and a small window nearby is letting a
+    cool breeze in. Suddenly the door opens and the stage manager stands in the doorway.
+    You are startled. He looks you up and down, lingering on your socks before apologizing
+    for intruding.
+
+
+    The stage manager says that you have to take this job seriously
+    if you want to keep having it. After the major fiasco of last month, he won''t
+    be taking any more of you shit.'
+  Art: {fileID: 21300000, guid: 8c33f781cc42f5742ba922d6e2b42457, type: 3}
+  FirstChoice: {fileID: 11400000, guid: ffeb678f3453cae41b0c1548d8179a4c, type: 2}
+  SecondChoice: {fileID: 11400000, guid: e4f2e9aeffa9c1a4e87db6c672634a34, type: 2}
