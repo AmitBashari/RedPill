@@ -13,7 +13,6 @@ MonoBehaviour:
   m_Name: E_WalkInTheirFootsteps
   m_EditorClassIdentifier: 
   IsEnding: 1
-  IsFirstChoice: 0
   Name: You call him an imbecile for calling Rick and Morty a childish show. This
     show is definitely not for children. But he shouldn't watch it anyway, he wouldn't
     get the jokes.
@@ -22,6 +21,6 @@ MonoBehaviour:
     it made more sense. He pauses, then shouts loudly to everyone present that there's
     a watch-over party at his place tonight, it's definitely the time he followed
     Rick and Morty's footsteps. Little does he know....
-  Art: {fileID: 0}
+  Art: {fileID: 21300000, guid: 5972be7d6ee180e49b6726300195faa8, type: 3}
   FirstChoice: {fileID: 0}
   SecondChoice: {fileID: 0}

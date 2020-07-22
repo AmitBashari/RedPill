@@ -13,22 +13,20 @@ MonoBehaviour:
   m_Name: E_ConfidenceBeating
   m_EditorClassIdentifier: 
   IsEnding: 1
-  IsFirstChoice: 0
   Name: You compare yourself to the Messi of the magic world. The only thing challenges
     your skills is your good-looks. You wink.
   Plot: 'The stage manager scoffs at you.
 
-    
 
-    He says you think you''re
-    all that, but you won''t be modeling for Calvin Klein anytime soon.
 
-    
+    He says you think you''re all that,
+    but you won''t be modeling for Calvin Klein anytime soon.
 
-    And
-    you might be skillful but probably not where it actually counts, he winks back
-    maliciously. Your''e free to go on stage, but your confidence definitely took
-    a beating.'
-  Art: {fileID: 0}
+
+
+    And you might
+    be skillful but probably not where it actually counts, he winks back maliciously.
+    Your''e free to go on stage, but your confidence definitely took a beating.'
+  Art: {fileID: 21300000, guid: cf76481450f3b624888a793aa58f45b5, type: 3}
   FirstChoice: {fileID: 0}
   SecondChoice: {fileID: 0}
