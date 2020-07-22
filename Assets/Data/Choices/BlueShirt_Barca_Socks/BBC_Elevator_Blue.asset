@@ -17,7 +17,6 @@ MonoBehaviour:
   Plot: 'You head out.
 
 
-
     There is a beautiful woman in the elevator as you walk
     in. She doesn''t even notice you, her eyes glued to the screen of her phone.
     It''s leopard-skinned, you think she might be too wild for you. You stand there
@@ -25,3 +24,4 @@ MonoBehaviour:
   Art: {fileID: 21300000, guid: da04523dd5d86c24d9398eb49c7e743c, type: 3}
   FirstChoice: {fileID: 11400000, guid: c3d182915310fad42a69f8eca84623aa, type: 2}
   SecondChoice: {fileID: 11400000, guid: 42a87655a0bcb7d4cb9e2746987d2d53, type: 2}
+  VoiceActing: {fileID: 0}

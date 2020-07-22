@@ -15,8 +15,8 @@ MonoBehaviour:
   IsEnding: 0
   Name: Barcelona Socks
   Plot: "There is a beautiful woman in the elevator as you walk in. \nShe notices
-    you and lowers her phone. \nShe compliments your shirt. Your face turn that same
-    shade of red. \nShe stifles a chuckle and introduces herself as Charlotte.\r\n\rShe
+    you and lowers her phone. \nShe compliments your shirt. Your face becomes that
+    same shade of red. \nShe stifles a chuckle and introduces herself as Charlotte.\r\n\rShe
     asks you if you would like to join her for breakfast at the new restaurant in
     town."
   Art: {fileID: 21300000, guid: 8c33f781cc42f5742ba922d6e2b42457, type: 3}
