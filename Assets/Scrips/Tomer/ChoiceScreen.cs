@@ -16,27 +16,28 @@ public class ChoiceScreen : MonoBehaviour
     public Button SecondChoiceButton;
     public Text SecondChoiceText;
     public AudioSource TypingSound;
+    public AudioSource VoiceSound;
     public Button NextButton;
     public Choice CurrentChoice;
     public Animator SlideAnimator;
     public Animator PlotAnimator;
     public UnityEvent OnTimePause;
     public UnityEvent OnTimeContinue;
+  
     
     private float letterPause = 3f;
     private Animation slideAnim;
     private Choice _nextChoice;
     private bool _isEnd = false;
-    //private AudioClip _voice;
-    //private AudioSource _sourceVoice;
+
+    
 
 
 
     public void Setup(Choice choice)
     {
         CurrentChoice = choice;
-
-        //_sourceVoice.clip = choice.VoiceActing;
+        VoiceSound.clip = choice.VoiceActing;
 
         StopAllCoroutines();
         StartCoroutine(TypeSentenceEachLetter(choice.Plot));
@@ -101,7 +102,7 @@ public class ChoiceScreen : MonoBehaviour
     private IEnumerator TypeSentenceEachLetter(string sentence)
     {
 
-        //_sourceVoice.Play();
+        VoiceSound.Play();
         TypingSound.Play();
 
 
@@ -113,7 +114,7 @@ public class ChoiceScreen : MonoBehaviour
         FirstChoiceButton.gameObject.SetActive(false);
         SecondChoiceButton.gameObject.SetActive(false);
 
-
+        bool shouldSkip = false;
 
         plot.text = "";
         foreach (char letter in sentence.ToCharArray())
@@ -125,16 +126,27 @@ public class ChoiceScreen : MonoBehaviour
             {
                 // fill the plot element with all the text
                 plot.text = sentence;
+
+                shouldSkip = true;
+
                 // break out of typing loop (hence no more waiting)
                 break;
             }
 
         }
-        //_sourceVoice.Stop();
+        //VoiceSound.Stop();
         TypingSound.Stop();
         SlideAnimator.SetBool("IsActive", false);
         PlotAnimator.SetBool("IsActive", false);
 
+        while (VoiceSound.isPlaying && !shouldSkip)
+        {
+            shouldSkip = Input.GetMouseButtonDown(0);
+
+            yield return null;
+        }
+
+        VoiceSound.Stop();
 
         if (_isEnd == false)
         {
