@@ -10,10 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 14b24f5426d9d07469b31497f7559b8b, type: 3}
-  m_Name: Opening
+  m_Name: F_PickShirt
   m_EditorClassIdentifier: 
   IsEnding: 0
-  IsFirstChoice: 1
   Name: 
   Plot: "You wake up to the raspy voice of Chad Kroeger singing something about a
     photograph. You turn off the alarm, and an eerie feeling of D\xE9j\xE0 Vu takes
@@ -23,5 +22,5 @@ MonoBehaviour:
     time? Turn on Netflix or Spotify?\r\n\r\nAnd the cherry on top of yet another
     meaningless decision - what should you wear?"
   Art: {fileID: 21300000, guid: 65dfea7b3f0201644b0c1d538993ea68, type: 3}
-  FirstChoice: {fileID: 0}
+  FirstChoice: {fileID: 11400000, guid: b7e1bac6fd449614b91baed47b1ff66e, type: 2}
   SecondChoice: {fileID: 0}

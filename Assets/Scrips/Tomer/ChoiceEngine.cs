@@ -11,6 +11,8 @@ public class ChoiceEngine : MonoBehaviour
     public UnityEvent OnTimeRestart;
 
     private int currentIndex = -1;
+
+
     private void Start()
     {
         LoadChoice(InitalChoice);
@@ -20,10 +22,11 @@ public class ChoiceEngine : MonoBehaviour
 
     public void LoadChoice(Choice choice)
     {
+
         if (choice.IsEnding)
         {
             screen.Setup(choice);
-         
+
         }
         else
         {
@@ -50,8 +53,8 @@ public class ChoiceEngine : MonoBehaviour
     public void TimerFinished()
     {
         // End game logic: 
-    
-        if (screen.CurrentChoice.IsFirstChoice == false)
+
+        if (screen.CurrentChoice != InitalChoice)
         {
             LoadChoice(InitalChoice);
             OnTimeRestart?.Invoke();

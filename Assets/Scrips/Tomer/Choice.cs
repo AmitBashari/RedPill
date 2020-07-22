@@ -5,7 +5,6 @@ using UnityEngine;
 public class Choice : ScriptableObject
 {
     public bool IsEnding;
-    public bool IsFirstChoice;
     public string Name;
     [TextArea (5,15)]
     public string Plot;
