@@ -48,4 +48,11 @@ public class TimerCountDown : MonoBehaviour
 
     }
 
+    public void ElapsedTimeZero()
+    {
+
+        _elapsedTime = 0;
+        Text.SetText("30");
+    }
+
 }

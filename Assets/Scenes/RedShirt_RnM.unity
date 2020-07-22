@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -415,6 +415,17 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1602075015}
         m_MethodName: NextClicked
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 893654720}
+        m_MethodName: ElapsedTimeZero
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -887,7 +898,6 @@ GameObject:
   - component: {fileID: 1016145937}
   - component: {fileID: 1016145938}
   - component: {fileID: 1016145939}
-  - component: {fileID: 1016145940}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -970,21 +980,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!111 &1016145940
-Animation:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1016145935}
-  m_Enabled: 0
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 74ddc3c79bf455242ab268add640284f, type: 2}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 0
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!1 &1128154005
 GameObject:
   m_ObjectHideFlags: 0
@@ -1283,6 +1278,7 @@ GameObject:
   - component: {fileID: 1569030592}
   - component: {fileID: 1569030593}
   - component: {fileID: 1569030594}
+  - component: {fileID: 1569030595}
   m_Layer: 5
   m_Name: Plot
   m_TagString: Untagged
@@ -1437,6 +1433,25 @@ MonoBehaviour:
   - {fileID: 0}
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!95 &1569030595
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569030591}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c694eeee9d68e8d4bad94de355c67f97, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1602075014
 GameObject:
   m_ObjectHideFlags: 0
@@ -1478,6 +1493,7 @@ MonoBehaviour:
   NextButton: {fileID: 481297343}
   CurrentChoice: {fileID: 0}
   SlideAnimator: {fileID: 1016145939}
+  PlotAnimator: {fileID: 1569030595}
   OnTimePause:
     m_PersistentCalls:
       m_Calls:

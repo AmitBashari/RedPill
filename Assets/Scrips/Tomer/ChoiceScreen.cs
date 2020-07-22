@@ -19,6 +19,7 @@ public class ChoiceScreen : MonoBehaviour
     public Button NextButton;
     public Choice CurrentChoice;
     public Animator SlideAnimator;
+    public Animator PlotAnimator;
     public UnityEvent OnTimePause;
     public UnityEvent OnTimeContinue;
 
@@ -27,6 +28,7 @@ public class ChoiceScreen : MonoBehaviour
     private Animation slideAnim;
     private Choice _nextChoice;
     private bool _isEnd = false;
+
 
     /*private void Update()
     {
@@ -98,6 +100,7 @@ public class ChoiceScreen : MonoBehaviour
         {
             engine.LoadChoice(_nextChoice);
             _nextChoice = null;
+
         }
         else
         {
@@ -108,9 +111,12 @@ public class ChoiceScreen : MonoBehaviour
 
     private IEnumerator TypeSentenceEachLetter(string sentence)
     {
+  
 
         TypingSound.Play();
         SlideAnimator.SetBool("IsActive", true);
+        PlotAnimator.SetBool("IsActive", true);
+
 
         OnTimePause?.Invoke();
         FirstChoiceButton.gameObject.SetActive(false);
@@ -120,10 +126,21 @@ public class ChoiceScreen : MonoBehaviour
         foreach (char letter in sentence.ToCharArray())
         {
             yield return new WaitForSeconds(letterPause * Time.deltaTime);
-            plot.text += letter;    
+            plot.text += letter;
+
+            if (Input.GetMouseButtonDown(0))
+            {
+                // fill the plot element with all the text
+                plot.text = sentence;
+                // break out of typing loop (hence no more waiting)
+                break;
+            }
+
         }
         TypingSound.Stop();
         SlideAnimator.SetBool("IsActive", false);
+        PlotAnimator.SetBool("IsActive", false);
+
 
         if (_isEnd == false)
         { 
@@ -132,7 +149,6 @@ public class ChoiceScreen : MonoBehaviour
         OnTimeContinue?.Invoke();
         }
 
-        
 
     }
 

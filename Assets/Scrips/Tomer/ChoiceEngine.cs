@@ -16,17 +16,17 @@ public class ChoiceEngine : MonoBehaviour
     private void Start()
     {
         LoadChoice(InitalChoice);
-           
+
     }
 
 
     public void LoadChoice(Choice choice)
     {
 
+
         if (choice.IsEnding)
         {
             screen.Setup(choice);
-
         }
         else
         {
@@ -61,7 +61,6 @@ public class ChoiceEngine : MonoBehaviour
 
 
             Debug.Log("Time Up");
-            
         }
         else
         {
