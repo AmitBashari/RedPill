@@ -16,17 +16,17 @@ public class TimerCountDown : MonoBehaviour
 
 
     private float _elapsedTime = 0;
-    private void Update()
+    private void FixedUpdate()
     {
         _elapsedTime += Time.deltaTime;
 
         Text.SetText((Duration - _elapsedTime).ToString("F0"));
 
-        SecondsImage.fillAmount -= 1f * Time.deltaTime;
+        SecondsImage.fillAmount += 1 * Time.deltaTime;
 
-        if (SecondsImage.fillAmount == 0f && _elapsedTime <=30)
+        if (SecondsImage.fillAmount == 1f && _elapsedTime <=30)
         {
-            SecondsImage.fillAmount = 1f;
+            SecondsImage.fillAmount = 0f;
         }
 
 
