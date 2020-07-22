@@ -20,7 +20,7 @@ public class TimerCountDown : MonoBehaviour
     {
         _elapsedTime += Time.deltaTime;
 
-        Text.SetText((Duration - _elapsedTime).ToString());
+        Text.SetText((Duration - _elapsedTime).ToString("F0"));
 
         SecondsImage.fillAmount -= 1f * Time.deltaTime;
 
