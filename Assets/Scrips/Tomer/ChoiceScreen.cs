@@ -18,6 +18,7 @@ public class ChoiceScreen : MonoBehaviour
     public AudioSource TypingSound;
     public Button NextButton;
     public Choice CurrentChoice;
+    public Animator SlideAnimator;
     public UnityEvent OnTimePause;
     public UnityEvent OnTimeContinue;
 
@@ -36,6 +37,9 @@ public class ChoiceScreen : MonoBehaviour
       
         StopAllCoroutines();
         StartCoroutine(TypeSentenceEachLetter(choice.Plot));
+        
+      
+       
 
         art.sprite = choice.Art;
 
@@ -95,6 +99,7 @@ public class ChoiceScreen : MonoBehaviour
     private IEnumerator TypeSentenceEachLetter(string sentence)
     {
         TypingSound.Play();
+        SlideAnimator.SetBool("IsActive", true);
 
         OnTimePause?.Invoke();
         FirstChoiceButton.gameObject.SetActive(false);
@@ -107,6 +112,7 @@ public class ChoiceScreen : MonoBehaviour
             plot.text += letter;    
         }
         TypingSound.Stop();
+        SlideAnimator.SetBool("IsActive", false);
 
         if (_isEnd == false)
         { 
