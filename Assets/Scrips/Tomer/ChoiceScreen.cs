@@ -25,9 +25,10 @@ public class ChoiceScreen : MonoBehaviour
     public Animator BehindTextAnimator;
     public UnityEvent OnTimePause;
     public UnityEvent OnTimeContinue;
+    
   
     
-    private float letterPause = 2f;
+    private float letterPause = 0.05f;
     private Animation slideAnim;
     private Choice _nextChoice;
     private bool _isEnd = false;
@@ -104,7 +105,6 @@ public class ChoiceScreen : MonoBehaviour
     private IEnumerator TypeSentenceEachLetter(string sentence)
     {
 
-        VoiceSound.Play();
 
         PreviousArt.sprite = art.sprite;
         SlideAnimator.SetBool("IsActive", true);
@@ -116,33 +116,46 @@ public class ChoiceScreen : MonoBehaviour
         FirstChoiceButton.gameObject.SetActive(false);
         SecondChoiceButton.gameObject.SetActive(false);
 
-
-        bool shouldSkip = false;
-
         plot.text = "";
 
         yield return new WaitForSeconds(2f);
 
+        VoiceSound.Play();
+
+        float startTime = Time.time;
+        float factor = 0;
+        float voiceToTypingRatio = 0.85f;
+        bool shouldSkip = false;
+        float duration = sentence.Length * letterPause;
+        if (VoiceSound.clip != null)
+        {
+            duration = VoiceSound.clip.length * voiceToTypingRatio;
+        }
+        
+
         TypingSound.Play();
 
-        foreach (char letter in sentence.ToCharArray())
+        while (factor < 1) //(char letter in sentence.ToCharArray())
         {
-            yield return new WaitForSeconds(letterPause * Time.deltaTime);
-            plot.text += letter;
+            //yield return new WaitForSeconds(letterPause * Time.deltaTime); //check if time.deltaTime is needed
 
-            if (Input.GetMouseButtonDown(0))
+            plot.text = sentence.Substring(0, (int)(sentence.Length * factor));
+            yield return null;
+            factor = (Time.time - startTime) / duration;
+
+            if (Input.GetMouseButtonDown(0)) //Ask*
             {
                 // fill the plot element with all the text
-                plot.text = sentence;
+                //plot.text = sentence;
 
                 shouldSkip = true;
 
                 // break out of typing loop (hence no more waiting)
                 break;
             }
-
         }
         //VoiceSound.Stop();
+        plot.text = sentence;
         TypingSound.Stop();
         SlideAnimator.SetBool("IsActive", false);
         PlotAnimator.SetBool("IsActive", false);
@@ -172,7 +185,7 @@ public class ChoiceScreen : MonoBehaviour
 
     }
 
-    public void SetupHint(string hint, Choice nextChoice)
+    public void SetupHint(string hint, Choice nextChoice, Sprite hintBackground)
     {
         FirstChoiceButton.gameObject.SetActive(false);
         SecondChoiceButton.gameObject.SetActive(false);
@@ -181,6 +194,7 @@ public class ChoiceScreen : MonoBehaviour
         StopAllCoroutines();
         VoiceSound.clip = null;
         StartCoroutine(TypeSentenceEachLetter(hint));
+        art.sprite = hintBackground;
     }
 
 

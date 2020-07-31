@@ -159,6 +159,11 @@ MonoBehaviour:
   - Down the Rabbit-Hole we go
   - Take the road less traveled by
   - So tired of choosing... Sometimes you just need to stay in your Pajamas.
+  SmartHints:
+  - Text: 
+    Image: {fileID: 0}
+  - Text: 
+    Image: {fileID: 0}
   OnTimeRestart:
     m_PersistentCalls:
       m_Calls:
@@ -173,6 +178,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  DefualtHintImage: {fileID: 21300000, guid: 0d19f70920b51664ea4ea86117eef6a2, type: 3}
 --- !u!4 &14641958
 Transform:
   m_ObjectHideFlags: 0
@@ -764,7 +770,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -25.595001, y: -28.856995}
+  m_AnchoredPosition: {x: -25.595032, y: -28.856995}
   m_SizeDelta: {x: 56.463043, y: 48.98915}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &893654718

@@ -17,7 +17,7 @@ public class Sentence : MonoBehaviour
     public bool IsWriting { get; private set; } = false;
 
     private Text _textUI;
-    private string _originalText;
+    public string OriginalText;
 
     private void Awake()
     {
@@ -48,7 +48,7 @@ public class Sentence : MonoBehaviour
         IsWriting = true;
         while (factor < 1)
         {
-            var text = _originalText.Substring(0, (int)(_originalText.Length * factor));
+            var text = OriginalText.Substring(0, (int)(OriginalText.Length * factor));
             _textUI.text = text;
             yield return null;
             factor = (Time.time - startTime) / WriteInDuration;
@@ -70,7 +70,7 @@ public class Sentence : MonoBehaviour
     [ContextMenu("Start Write In")]
     public void StartWriteIn()
     {
-        _originalText = _textUI.text;
+        OriginalText = _textUI.text;
         _textUI.enabled = true;
         _textUI.color = Color.white;
         StartCoroutine(WriteIn());
@@ -80,7 +80,7 @@ public class Sentence : MonoBehaviour
     public void StopWriteIn()
     {
         StopAllCoroutines();
-        _textUI.text = _originalText;
+        _textUI.text = OriginalText;
         IsWriting = false;
         OnWriteInFinished?.Invoke();
     }

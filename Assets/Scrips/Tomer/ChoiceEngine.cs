@@ -8,10 +8,18 @@ public class ChoiceEngine : MonoBehaviour
     public Choice InitalChoice;
     public Choice Victory;
     public string[] Hints;
+    public Hint[] SmartHints;
     public UnityEvent OnTimeRestart;
+    public Sprite DefualtHintImage;
 
     private int currentIndex = -1;
 
+    [System.Serializable]
+    public class Hint
+    {
+        public string Text;
+        public Sprite Image;
+    }
 
     private void Start()
     {
@@ -47,7 +55,7 @@ public class ChoiceEngine : MonoBehaviour
             currentIndex++;
         }
         //currentIndex = Mathf.Min(currentIndex + 1, Hints.Length - 1);
-        screen.SetupHint(Hints[currentIndex], InitalChoice);
+        screen.SetupHint(Hints[currentIndex], InitalChoice, DefualtHintImage); // Replace "Hints[currentIndex], InitalChoice, DefualtHintImage" with SmartHint.text and SmartHints.Image
     }
 
     public void TimerFinished()
