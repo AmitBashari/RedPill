@@ -17,14 +17,16 @@ MonoBehaviour:
     to make it up to him.
   Plot: 'In your dressing room, you begin the routine of putting your "Game Face"
     on. Soft music plays in the background and a small window nearby is letting a
-    cool breeze in. Suddenly the door opens and the stage manager stands in the doorway.
-    You are startled. He looks you up and down, lingering on your socks before apologizing
-    for intruding.
+    cool breeze in.
+
+    Suddenly the door opens and the stage manager stands in
+    the doorway. You are startled. He looks you up and down, lingering on your socks
+    before apologizing for intruding.
 
 
-    The stage manager says that you have to take this job seriously
-    if you want to keep having it. After the major fiasco of last month, he won''t
-    be taking any more of you shit.'
+    The stage manager says that you have
+    to take this job seriously if you want to keep having it. After the major fiasco
+    of last month, he won''t be taking any more of you shit.'
   Art: {fileID: 21300000, guid: da04523dd5d86c24d9398eb49c7e743c, type: 3}
   FirstChoice: {fileID: 11400000, guid: ffeb678f3453cae41b0c1548d8179a4c, type: 2}
   SecondChoice: {fileID: 11400000, guid: e4f2e9aeffa9c1a4e87db6c672634a34, type: 2}

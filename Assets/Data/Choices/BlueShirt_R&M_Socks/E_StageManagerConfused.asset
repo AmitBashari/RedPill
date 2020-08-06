@@ -14,10 +14,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsEnding: 1
   Name: Tell him it does help you with men though
-  Plot: The stage manager looks puzzled. He is not sure what you meant by that. You
-    try to dig yourself out of that hole but there's no use. He gives you a confused
-    look and backs away slowly. You out-awkwarded him, good job. You go back to getting
-    ready for stage, hoping things will go much smoothly from here on out.
+  Plot: 'The stage manager looks puzzled.
+
+    He is not sure what you meant by that.
+    You try to dig yourself out of that hole but there''s no use.
+
+    He gives you
+    a confused look and backs away slowly. You out-awkwarded him, good job.
+
+    You
+    go back to getting ready for stage, hoping things will go much smoothly from
+    here on out.'
   Art: {fileID: 21300000, guid: 82d80f0e99d8c5e47a290ea68035b85c, type: 3}
   FirstChoice: {fileID: 0}
   SecondChoice: {fileID: 0}

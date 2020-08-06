@@ -14,11 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsEnding: 1
   Name: But magic is your life! and no one, not even him can stop you!
-  Plot: You feel betrayed and cannot believe you are treated this way. You always
-    give the crowd your heart and soul. Fuming yet focused, you burst to the stage
-    during the previous performance. The stage manager tries to stop you but you
-    are already too far gone. The crowd is shocked. you clear your throat and give
-    them something no eye has ever witnessed before, a show no one can ever forget.
+  Plot: 'You feel betrayed and cannot believe you are treated this way. You always
+    give the crowd your heart and soul.
+
+    Fuming yet focused, you burst to the
+    stage during the previous performance. The stage manager tries to stop you but
+    you are already too far gone.
+
+    The crowd is shocked. you clear your throat
+    and give them something no eye has ever witnessed before, a show no one can forget.'
   Art: {fileID: 21300000, guid: e4c69ded6c494304297ad1a85d49368a, type: 3}
   FirstChoice: {fileID: 0}
   SecondChoice: {fileID: 0}

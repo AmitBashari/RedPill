@@ -16,11 +16,13 @@ MonoBehaviour:
   Name: You call him an imbecile for calling Rick and Morty a childish show. This
     show is definitely not for children. But he shouldn't watch it anyway, he wouldn't
     get the jokes.
-  Plot: The manager apologizes, confessing he wanted to watch Rick and Morty for
+  Plot: 'The manager apologizes, confessing he wanted to watch Rick and Morty for
     a long time, but none of his friends likes the genre, so he figured that hating
-    it made more sense. He pauses, then shouts loudly to everyone present that there's
-    a watch-over party at his place tonight, it's definitely the time he followed
-    Rick and Morty's footsteps. Little does he know....
+    it made more sense.
+
+    He pauses, then shouts loudly to everyone present that
+    there''s a watch-over party at his place tonight, it''s definitely the time he
+    followed Rick and Morty''s footsteps. Little does he know....'
   Art: {fileID: 21300000, guid: 5972be7d6ee180e49b6726300195faa8, type: 3}
   FirstChoice: {fileID: 0}
   SecondChoice: {fileID: 0}

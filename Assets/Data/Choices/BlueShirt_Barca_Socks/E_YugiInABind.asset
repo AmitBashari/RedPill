@@ -15,12 +15,16 @@ MonoBehaviour:
   IsEnding: 1
   Name: You apologize time and time again, telling the stage manager you never meant
     to put him in a bind.
-  Plot: The stage manager is stifling a shy smile. He mumbles that this is not the
-    bind he'd rather you put him in. You laugh. You never realized he thought of
-    you this way. You look him deep in the eyes and ask him if he wants to grab a
-    pizza with you after the show. He agrees and asks you to call him Yugi. You nod
-    at him, and with a giant grin on your face you go on stage, delighted with a
-    stomach full of butterflies.
+  Plot: 'The stage manager is stifling a shy smile.
+
+    He mumbles that this is
+    not the bind he''d rather you put him in. You laugh. You never realized he thought
+    of you this way. You look him deep in the eyes and ask him if he wants to grab
+    a pizza with you after the show. He agrees and asks you to call him Yugi.
+
+    You
+    nod at him, and with a giant grin on your face you go on stage, delighted with
+    a stomach full of butterflies.'
   Art: {fileID: 21300000, guid: fde8dc1098412e94586b1a957cf58892, type: 3}
   FirstChoice: {fileID: 0}
   SecondChoice: {fileID: 0}

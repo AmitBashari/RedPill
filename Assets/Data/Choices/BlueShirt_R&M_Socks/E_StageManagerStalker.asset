@@ -14,15 +14,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsEnding: 1
   Name: How does he know about the girl in the elevator? That creep.
-  Plot: The stage manager stutters. He tries to mumble something and then stops and
-    looks at you with shameful eyes. Has he been following you? You blame him for
-    stalking you and yell loudly enough for people around to hear. He tries to shush
-    you, but you flail your hands around, shouting, "Stalker! Stalker!". People begin
-    to take interest, the stage manager jumps around you and puts his hand on your
-    mouth to keep you quiet, asking you quietly to stop shouting. You try to let
-    him know that you can't breath, but it's too late. Your brain fuzzes up, and
-    you slip slowly into darkness, the last thing you hear is the stage manager whispering
-    in your ear.
+  Plot: 'The stage manager stutters. He tries to mumble something and then stops
+    and looks at you with shameful eyes.
+
+    Has he been following you? You blame
+    him for stalking you and yell loudly enough for people around to hear.
+
+    He
+    tries to shush you, but you flail your hands around, shouting, "Stalker! Stalker!".
+    People begin to take interest, the stage manager jumps around you and puts his
+    hand on your mouth to keep you quiet, asking you quietly to stop shouting.
+
+    You
+    try to let him know that you can''t breath, but it''s too late. Your brain fuzzes
+    up, and you slip slowly into darkness, the last thing you hear is the stage manager
+    whispering in your ear.'
   Art: {fileID: 21300000, guid: 64a37fc2be6ec234f97001690d160359, type: 3}
   FirstChoice: {fileID: 0}
   SecondChoice: {fileID: 0}

@@ -20,9 +20,8 @@ MonoBehaviour:
     palm of your hand.
 
 
-
-    The buzzer rings in your room and it''s time to go
-    on stage, you look at yourself one last time in the mirror and secure that pestering
+    The buzzer rings in your room and it''s time to go on
+    stage, you look at yourself one last time in the mirror and secure that pestering
     fly-away hair to the side of you head. Go get them tiger.'
   Art: {fileID: 21300000, guid: f14befc24335d594b85978a475a315fe, type: 3}
   FirstChoice: {fileID: 0}

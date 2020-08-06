@@ -14,14 +14,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsEnding: 1
   Name: You blush and say that players are only as good as their coach
-  Plot: The stage manager wipes a drop of sweat from your forehead. Chills run down
+  Plot: 'The stage manager wipes a drop of sweat from your forehead. Chills run down
     your spine. You say that it was hot outside, you should probably take a shower
-    before the show. He turns around and starts walking away. You say that the dressing
-    room is nothing like an official locker room, but players usually get massaged
-    before their game, don't they? The stage manager smiles and takes your hand.
-    He starts guiding you towards the back room. You pause, you don't even know his
-    name. No need for names, they only get in the way. You follow him blindly and
-    close the door behind the two of you.
+    before the show. He turns around and starts walking away.
+
+    You say that the
+    dressing room is nothing like an official locker room, but players usually get
+    massaged before their game, don''t they?
+
+    The stage manager smiles and takes
+    your hand. He starts guiding you towards the back room.
+
+    You pause, you don''t
+    even know his name. No need for names, they only get in the way. You follow him
+    blindly and close the door behind the two of you.'
   Art: {fileID: 21300000, guid: 501ecb9f4aafb9047b66a57c06b981bb, type: 3}
   FirstChoice: {fileID: 0}
   SecondChoice: {fileID: 0}
