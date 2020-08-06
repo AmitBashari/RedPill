@@ -13,7 +13,6 @@ MonoBehaviour:
   m_Name: BBC_Go_DressingRoom
   m_EditorClassIdentifier: 
   IsEnding: 0
-  IsFirstChoice: 0
   Name: Go straight to the dressing room to get changed
   Plot: 'You take off your clothes and fold them neatly on the chair next to you.
     You wonder if you have time to catch a quick shower before the show. Suddenly,
@@ -29,3 +28,4 @@ MonoBehaviour:
   Art: {fileID: 21300000, guid: da04523dd5d86c24d9398eb49c7e743c, type: 3}
   FirstChoice: {fileID: 11400000, guid: 5be1380c2eff5c7449488abef68791c5, type: 2}
   SecondChoice: {fileID: 11400000, guid: 60e9064d69332494cb092e8dd5410e07, type: 2}
+  VoiceActing: {fileID: 8300000, guid: 6aabbe17774ad4410a0e8c0a36161c5b, type: 3}

@@ -13,7 +13,6 @@ MonoBehaviour:
   m_Name: E_Noses_Almost_Touch
   m_EditorClassIdentifier: 
   IsEnding: 1
-  IsFirstChoice: 0
   Name: A YELLOW CARD?! Who does he think he is. His piercing blue eyes don't intimidate
     you now!
   Plot: The stage manager starts yelling at you, his eyes get smoldering in a mere
@@ -25,3 +24,4 @@ MonoBehaviour:
   Art: {fileID: 21300000, guid: bb0af3ccf293bda47a8c87ab04bd1ed9, type: 3}
   FirstChoice: {fileID: 0}
   SecondChoice: {fileID: 0}
+  VoiceActing: {fileID: 8300000, guid: 92ffb9dc79e994c25b7eddf1ce04b56c, type: 3}

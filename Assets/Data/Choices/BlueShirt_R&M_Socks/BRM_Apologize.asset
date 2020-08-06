@@ -13,7 +13,6 @@ MonoBehaviour:
   m_Name: BRM_Apologize
   m_EditorClassIdentifier: 
   IsEnding: 0
-  IsFirstChoice: 0
   Name: apologize to the stage manager profusely for your tardiness. You promise
     to make it up to him.
   Plot: 'In your dressing room, you begin the routine of putting your "Game Face"
@@ -29,3 +28,4 @@ MonoBehaviour:
   Art: {fileID: 21300000, guid: da04523dd5d86c24d9398eb49c7e743c, type: 3}
   FirstChoice: {fileID: 11400000, guid: ffeb678f3453cae41b0c1548d8179a4c, type: 2}
   SecondChoice: {fileID: 11400000, guid: e4f2e9aeffa9c1a4e87db6c672634a34, type: 2}
+  VoiceActing: {fileID: 8300000, guid: fe6568b8da0dc48b38281545cd6f2f16, type: 3}

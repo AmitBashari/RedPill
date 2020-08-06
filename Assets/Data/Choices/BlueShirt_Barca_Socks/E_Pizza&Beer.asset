@@ -13,7 +13,6 @@ MonoBehaviour:
   m_Name: E_Pizza&Beer
   m_EditorClassIdentifier: 
   IsEnding: 1
-  IsFirstChoice: 0
   Name: Pizza and beer? You are definitely in!
   Plot: The stage manager asks you to call him Yugi and gives you a pat on the back.
     You are happy that you are finally acknowledged by him, and also that you don't
@@ -21,3 +20,4 @@ MonoBehaviour:
   Art: {fileID: 21300000, guid: f6bdd2ac26c09ab42b5d082d97460b61, type: 3}
   FirstChoice: {fileID: 0}
   SecondChoice: {fileID: 0}
+  VoiceActing: {fileID: 8300000, guid: 5378325d8cb7a4259b31f20999616dbe, type: 3}

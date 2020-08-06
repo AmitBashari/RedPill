@@ -13,7 +13,6 @@ MonoBehaviour:
   m_Name: BRM_Grab_Glass_Of_Water
   m_EditorClassIdentifier: 
   IsEnding: 0
-  IsFirstChoice: 0
   Name: Grab a glass of cold water to cool yourself down
   Plot: 'You walk to the water cooler, thanking every being out there that the chatty
     contortionist isn''t there. Time for the long awaited plastic cup of cool water.
@@ -29,3 +28,4 @@ MonoBehaviour:
   Art: {fileID: 21300000, guid: da04523dd5d86c24d9398eb49c7e743c, type: 3}
   FirstChoice: {fileID: 11400000, guid: af5e406570d328948a02e6118be930b0, type: 2}
   SecondChoice: {fileID: 11400000, guid: c02dc9a9bfa398f43a4ece7ef39758ca, type: 2}
+  VoiceActing: {fileID: 8300000, guid: 6d2c28953aaab4064b163e3ad9477555, type: 3}

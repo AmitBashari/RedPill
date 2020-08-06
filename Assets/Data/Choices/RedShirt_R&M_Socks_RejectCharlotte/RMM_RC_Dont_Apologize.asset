@@ -20,11 +20,12 @@ MonoBehaviour:
     to touch your feet, or The Downward Facing Dog. The stage manager walks by and
     notices your socks
 
-    
 
-    The stage manager taps you on the shoulder and
-    says you can quit stretching, you are not going on stage anyway. This was the
-    last straw, he can''t deal with your stuff anymore. He wants you gone. Today.'
+
+    The stage manager taps you on the shoulder and says
+    you can quit stretching, you are not going on stage anyway. This was the last
+    straw, he can''t deal with your stuff anymore. He wants you gone. Today.'
   Art: {fileID: 21300000, guid: 8c33f781cc42f5742ba922d6e2b42457, type: 3}
   FirstChoice: {fileID: 11400000, guid: 6a1e53678fe7f4443bdbea04d545dec6, type: 2}
   SecondChoice: {fileID: 11400000, guid: 77cca5a30457e7f4697fe69b3483c492, type: 2}
+  VoiceActing: {fileID: 8300000, guid: 7081a964c509e45d7b6981f3d42bd3a0, type: 3}

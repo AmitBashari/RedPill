@@ -13,7 +13,6 @@ MonoBehaviour:
   m_Name: E_YugiInABind
   m_EditorClassIdentifier: 
   IsEnding: 1
-  IsFirstChoice: 0
   Name: You apologize time and time again, telling the stage manager you never meant
     to put him in a bind.
   Plot: The stage manager is stifling a shy smile. He mumbles that this is not the
@@ -25,3 +24,4 @@ MonoBehaviour:
   Art: {fileID: 21300000, guid: fde8dc1098412e94586b1a957cf58892, type: 3}
   FirstChoice: {fileID: 0}
   SecondChoice: {fileID: 0}
+  VoiceActing: {fileID: 8300000, guid: 036b036322ea544e19e0baaca245f986, type: 3}

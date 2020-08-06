@@ -13,7 +13,6 @@ MonoBehaviour:
   m_Name: E_Stagelight_Death
   m_EditorClassIdentifier: 
   IsEnding: 1
-  IsFirstChoice: 0
   Name: No one can fire you! Especially not him! You are the greatest!
   Plot: Your argument heat up, crew everywhere is watching and taking sides. You
     think you see a couple of bills changing hands, are they betting against you?
@@ -24,3 +23,4 @@ MonoBehaviour:
   Art: {fileID: 21300000, guid: 458ce5a1933a0f54a95ec66cee7666c7, type: 3}
   FirstChoice: {fileID: 0}
   SecondChoice: {fileID: 0}
+  VoiceActing: {fileID: 8300000, guid: 398a5e20d55f14c80beb567960f4ce4f, type: 3}

@@ -13,7 +13,6 @@ MonoBehaviour:
   m_Name: BBC_Dont_Apologize
   m_EditorClassIdentifier: 
   IsEnding: 0
-  IsFirstChoice: 0
   Name: You shouldn't apologize for anything. The crowd is there to see you, so they
     can wait if necessary.
   Plot: 'You do your famous stretching routine. It''s a mix between Hatha Yoga and
@@ -21,11 +20,12 @@ MonoBehaviour:
     to touch your feet, or The Downward Facing Dog. The stage manager walks by and
     notices your socks
 
-    
 
-    The stage manager walks over to you. You can
-    see his eyes darting back and forth from your feet to your face. He looks conflicted.
+
+    The stage manager walks over to you. You can see his
+    eyes darting back and forth from your feet to your face. He looks conflicted.
     He tells you that you should consider this offense as a yellow card.'
   Art: {fileID: 21300000, guid: da04523dd5d86c24d9398eb49c7e743c, type: 3}
   FirstChoice: {fileID: 11400000, guid: 910bdf927cebbcb46bd6db5ce22d10ec, type: 2}
   SecondChoice: {fileID: 11400000, guid: e7773b5e93aba2a41953e00a6f30559e, type: 2}
+  VoiceActing: {fileID: 8300000, guid: e12e698edbf464e28b0e206606568375, type: 3}

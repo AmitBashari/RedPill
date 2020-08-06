@@ -13,7 +13,6 @@ MonoBehaviour:
   m_Name: E_PackYourBag
   m_EditorClassIdentifier: 
   IsEnding: 1
-  IsFirstChoice: 0
   Name: You already apologized, and third strike is Baseball. Not Soccer.
   Plot: The stage manager's is somehow getting more irritated. He yells at you that
     you are not the hot shot you think you are, and he can replace you at any time.
@@ -23,3 +22,4 @@ MonoBehaviour:
   Art: {fileID: 21300000, guid: 21ece4e8cfc2ce64bb828c4c8b603b23, type: 3}
   FirstChoice: {fileID: 0}
   SecondChoice: {fileID: 0}
+  VoiceActing: {fileID: 8300000, guid: 6f96377a71142401d854be2acec26f25, type: 3}

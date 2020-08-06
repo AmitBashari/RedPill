@@ -13,7 +13,6 @@ MonoBehaviour:
   m_Name: E_Greatest_Show
   m_EditorClassIdentifier: 
   IsEnding: 1
-  IsFirstChoice: 0
   Name: But magic is your life! and no one, not even him can stop you!
   Plot: You feel betrayed and cannot believe you are treated this way. You always
     give the crowd your heart and soul. Fuming yet focused, you burst to the stage
@@ -23,3 +22,4 @@ MonoBehaviour:
   Art: {fileID: 21300000, guid: e4c69ded6c494304297ad1a85d49368a, type: 3}
   FirstChoice: {fileID: 0}
   SecondChoice: {fileID: 0}
+  VoiceActing: {fileID: 8300000, guid: 7670cb781ca7b4c06b984a6e6334cd10, type: 3}

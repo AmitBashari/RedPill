@@ -13,7 +13,6 @@ MonoBehaviour:
   m_Name: E_Crack_Head_on_Table
   m_EditorClassIdentifier: 
   IsEnding: 1
-  IsFirstChoice: 0
   Name: Taking any more of YOUR shit?! what about his shitty attitude?
   Plot: The stage manager is fuming, he is trying to hold himself back. You start
     talking and he shushed you, putting his finger to your mouth as he keeps talking
@@ -26,3 +25,4 @@ MonoBehaviour:
   Art: {fileID: 21300000, guid: c58bbd9f75c3dd544b70770112b84ee2, type: 3}
   FirstChoice: {fileID: 0}
   SecondChoice: {fileID: 0}
+  VoiceActing: {fileID: 8300000, guid: 7f62773a62b1c4aaca356a0209fa80e6, type: 3}

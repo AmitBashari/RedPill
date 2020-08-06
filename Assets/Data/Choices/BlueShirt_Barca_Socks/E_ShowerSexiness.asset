@@ -13,7 +13,6 @@ MonoBehaviour:
   m_Name: E_ShowerSexiness
   m_EditorClassIdentifier: 
   IsEnding: 1
-  IsFirstChoice: 0
   Name: You blush and say that players are only as good as their coach
   Plot: The stage manager wipes a drop of sweat from your forehead. Chills run down
     your spine. You say that it was hot outside, you should probably take a shower
@@ -26,3 +25,4 @@ MonoBehaviour:
   Art: {fileID: 21300000, guid: 501ecb9f4aafb9047b66a57c06b981bb, type: 3}
   FirstChoice: {fileID: 0}
   SecondChoice: {fileID: 0}
+  VoiceActing: {fileID: 8300000, guid: 39d6e2ee45b074fd7b274622c70b6992, type: 3}

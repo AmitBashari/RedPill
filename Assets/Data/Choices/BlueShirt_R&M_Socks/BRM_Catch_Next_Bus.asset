@@ -13,7 +13,6 @@ MonoBehaviour:
   m_Name: BRM_Catch_Next_Bus
   m_EditorClassIdentifier: 
   IsEnding: 0
-  IsFirstChoice: 0
   Name: Don't run and catch the next one
   Plot: You arrive at work 30 minutes late. The stage manager is pacing back and
     forth backstage, mumbling to himself about incompetence and work ethics. He's
@@ -21,3 +20,4 @@ MonoBehaviour:
   Art: {fileID: 21300000, guid: da04523dd5d86c24d9398eb49c7e743c, type: 3}
   FirstChoice: {fileID: 11400000, guid: 91bd0d7b872cf8e4b9b840dd776c93c6, type: 2}
   SecondChoice: {fileID: 11400000, guid: 362e796440b062449ac65322a57c1a3e, type: 2}
+  VoiceActing: {fileID: 8300000, guid: d31b6b97ed66a451b81969cd7ed9c6d5, type: 3}

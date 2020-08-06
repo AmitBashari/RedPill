@@ -13,12 +13,11 @@ MonoBehaviour:
   m_Name: BRM_Reach_in_Time
   m_EditorClassIdentifier: 
   IsEnding: 0
-  IsFirstChoice: 0
   Name: Run and reach just in time to get on the bus
   Plot: 'You get to work hot and sweaty. Drops of sweat roll down your back, sticking
     your t-shirt to your bare back.
 
-    
+
 
     You walk by the stage manager, pulling
     on your shirt to detach it from your wet body. He gives you a weird look. What''s
@@ -26,3 +25,4 @@ MonoBehaviour:
   Art: {fileID: 21300000, guid: da04523dd5d86c24d9398eb49c7e743c, type: 3}
   FirstChoice: {fileID: 11400000, guid: 0ba20021cb3d0a14394bc6bb05a89bde, type: 2}
   SecondChoice: {fileID: 11400000, guid: f6afd1f38a61e2247bbae2c8ca822b39, type: 2}
+  VoiceActing: {fileID: 8300000, guid: d7fee510330da4a9d9e2c3954f02c64e, type: 3}
