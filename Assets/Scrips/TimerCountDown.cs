@@ -11,6 +11,7 @@ public class TimerCountDown : MonoBehaviour
     public float Duration = 30;
     public UnityEvent OnTimerFinished;
     public Image SecondsImage;
+    public AudioSource TimerSound;
 
 
 
