@@ -15,16 +15,24 @@ MonoBehaviour:
   IsEnding: 0
   Name: Grab a glass of cold water to cool yourself down
   Plot: 'You walk to the water cooler, thanking every being out there that the chatty
-    contortionist isn''t there. Time for the long awaited plastic cup of cool water.
-    The stage manager walks by and notes that your shoe is untied. You thank him
-    and crouch down to tie it. He keeps standing there, looking at you tie your shoes.
-    What a strange guy.
+    contortionist isn''t there.
+
+    Time for the long awaited plastic cup of cool
+    water.
+
+    The stage manager walks by and notes that your shoe is untied.
+
+    You
+    thank him and crouch down to tie it. He keeps standing there, looking at you
+    tie your shoes. What a strange guy.
 
 
-    The stage manager notices your socks. He says that
-    if you were to hit the gym instead of potatoing on the couch watching childish
-    TV shows, you wouldn''t have been so sweaty from such a short walk from the bus
-    stop.'
+    The stage manager notices your socks.
+
+    He
+    says that if you were to hit the gym instead of potatoing on the couch watching
+    childish TV shows, you wouldn''t have been so sweaty from such a short walk from
+    the bus stop.'
   Art: {fileID: 21300000, guid: da04523dd5d86c24d9398eb49c7e743c, type: 3}
   FirstChoice: {fileID: 11400000, guid: af5e406570d328948a02e6118be930b0, type: 2}
   SecondChoice: {fileID: 11400000, guid: c02dc9a9bfa398f43a4ece7ef39758ca, type: 2}

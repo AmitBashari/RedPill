@@ -14,9 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsEnding: 0
   Name: Don't run and catch the next one
-  Plot: You arrive at work 30 minutes late. The stage manager is pacing back and
-    forth backstage, mumbling to himself about incompetence and work ethics. He's
-    probably talking about you.
+  Plot: 'You arrive at work 30 minutes late.
+
+    The stage manager is pacing back
+    and forth backstage, mumbling to himself about incompetence and work ethics.
+
+    He''s
+    probably talking about you.'
   Art: {fileID: 21300000, guid: 8c33f781cc42f5742ba922d6e2b42457, type: 3}
   FirstChoice: {fileID: 11400000, guid: b26eda560b87ed94aa110f9947554075, type: 2}
   SecondChoice: {fileID: 11400000, guid: 6c184d00b868ac241a45c7a4d1ac4a80, type: 2}

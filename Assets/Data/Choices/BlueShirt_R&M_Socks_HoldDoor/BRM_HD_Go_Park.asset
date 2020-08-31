@@ -15,12 +15,16 @@ MonoBehaviour:
   IsEnding: 0
   Name: Offer Charlotte to take a post-meal stroll in the park
   Plot: 'You step in a muddy disgusting puddle and wobble to the nearest bench to
-    take off your shoes. Charlotte follows, barely managing to hide a smile.
+    take off your shoes.
+
+    Charlotte follows, barely managing to hide a smile.
 
 
     Charlotte''s
-    stifled laugh turns into amazement as she points at your socks. She says it''s
-    her favorite TV show.'
+    stifled laugh turns into amazement as she points at your socks.
+
+    She says
+    it''s her favorite TV show.'
   Art: {fileID: 21300000, guid: da04523dd5d86c24d9398eb49c7e743c, type: 3}
   FirstChoice: {fileID: 11400000, guid: ef776b88c28adea4a86b5ca55fee3fac, type: 2}
   SecondChoice: {fileID: 11400000, guid: b5749fdb121027b4383e82b3efb189e0, type: 2}

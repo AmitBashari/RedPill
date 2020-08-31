@@ -16,10 +16,14 @@ MonoBehaviour:
   Name: You give Charlotte the medication and your face starts heating up with rage.
     While she regains her strength you say that you knew the dessert has nuts in
     it, and call her a Barcelona hater.
-  Plot: Charlotte is looking furious. She grabs a pencil from the waiter trying to
-    help her up, and stabs you in the stomach with it. You fall to the ground and
-    fumble to take the pencil out of your flesh as you watch Charlotte being escorted
-    to the ambulance by the hunky waiter, his hands propping her lower back.
+  Plot: 'Charlotte is looking furious.
+
+    She grabs a pencil from the waiter trying
+    to help her up, and stabs you in the stomach with it.
+
+    You fall to the ground
+    and fumble to take the pencil out of your flesh as you watch Charlotte being
+    escorted to the ambulance by the hunky waiter, his hands propping her lower back.'
   Art: {fileID: 21300000, guid: e27deff239db6844a8166b63df949d65, type: 3}
   FirstChoice: {fileID: 0}
   SecondChoice: {fileID: 0}

@@ -15,10 +15,14 @@ MonoBehaviour:
   IsEnding: 1
   Name: It's a good thing these socks are ruined! This just adds another level of
     disrespect to that team.
-  Plot: With a flamboyant gesture you throw the socks in the nearest bin. Charlotte
+  Plot: 'With a flamboyant gesture you throw the socks in the nearest bin. Charlotte
     looks at you shockingly, her mouth curves into a slight smile. You pull out a
-    neon-green lighter and light one of the socks. A flame begins to take form. Charlotte
-    moves closer and puts your arm around her, as you bask in the warm light.
+    neon-green lighter and light one of the socks.
+
+    A flame begins to take form.
+
+    Charlotte
+    moves closer and puts your arm around her, as you bask in the warm light.'
   Art: {fileID: 21300000, guid: 104ebfbf215aff64aac356f1bfe47e51, type: 3}
   FirstChoice: {fileID: 0}
   SecondChoice: {fileID: 0}

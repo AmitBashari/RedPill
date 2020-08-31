@@ -16,11 +16,11 @@ MonoBehaviour:
   Name: A YELLOW CARD?! Who does he think he is. His piercing blue eyes don't intimidate
     you now!
   Plot: "The stage manager starts yelling at you, his eyes get smoldering in a mere
-    second. He pulls out all stops. You don't hold back either. You grow closer to
-    each other as your argument heats up until your noses almost touch. You can feel
-    his breath on your face. \nAt once, you both stop yelling, and just stand there,
-    looking into each other's eyes. After what seems like forever, he pulls away
-    and gestures you to the stage.\nYou're flustered, but the show must go on."
+    second.\nHe pulls out all stops. You don't hold back either. You grow closer
+    to each other as your argument heats up until your noses almost touch. You can
+    feel his breath on your face. \nAt once, you both stop yelling, and just stand
+    there, looking into each other's eyes.\nAfter what seems like forever, he pulls
+    away and gestures you to the stage.\nYou're flustered, but the show must go on."
   Art: {fileID: 21300000, guid: bb0af3ccf293bda47a8c87ab04bd1ed9, type: 3}
   FirstChoice: {fileID: 0}
   SecondChoice: {fileID: 0}

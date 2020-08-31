@@ -14,11 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsEnding: 0
   Name: Take a To-Go bag to Charlotte's apartment
-  Plot: You arrive at Charlotte's place and start taking the dessert out of the bag
-    when the smooth sensual voice of Marvin Gaye starts playing in the apartment.
-    Charlotte walks slowly towards you, her body swaying to Sexual Healing, her eyes
-    focused on you. Your face turn that same shade of red again, and things start
-    to heat up as Charlotte feeds you pieces of cake.
+  Plot: 'You arrive at Charlotte''s place and start taking the dessert out of the
+    bag when the smooth sensual voice of Marvin Gaye starts playing in the apartment.
+
+    Charlotte
+    walks slowly towards you, her body swaying to "Sexual Healing", her eyes focused
+    on you.
+
+    Your face turn that same shade of red again, and things start to
+    heat up as Charlotte feeds you pieces of cake.'
   Art: {fileID: 21300000, guid: da04523dd5d86c24d9398eb49c7e743c, type: 3}
   FirstChoice: {fileID: 11400000, guid: 01ea3171dbf67ae41a853b0988a82133, type: 2}
   SecondChoice: {fileID: 11400000, guid: a693ed959b97a18429b20105c3466f55, type: 2}

@@ -16,13 +16,25 @@ MonoBehaviour:
   Name: You give Charlotte the medication and curiousness takes over your better
     judgement. While she regains her strength you ask about the torn up photo.  You
     just really want to know.
-  Plot: Charlotte stares at you blankly. You ask her again about the photo, she might
-    have not heard you the first time. She swallows her saliva slowly while lifting
-    her eyes from the ground to pierce yours. Her breath slowed down, hair is messy
-    and her face is still a light shade of red. She looked menacing. Are you kind
-    of digging it? She says it belonged to her cheating ex-husband, and you are an
-    inconsiderate jerk for ever bringing it up. You back away slowly, trying to fade
-    into the shadows. Guess curiosity did kill the cat.
+  Plot: 'Charlotte stares at you blankly.
+
+    You ask her again about the photo,
+    she might have not heard you the first time. She swallows her saliva slowly while
+    lifting her eyes from the ground to pierce yours.
+
+    Her breath slowed down,
+    hair is messy and her face is still a light shade of red. She looked menacing.
+
+    Are
+    you kind of digging it?
+
+    She says it belonged to her cheating ex-husband,
+    and you are an inconsiderate jerk for ever bringing it up.
+
+    You back away
+    slowly, trying to fade into the shadows.
+
+    Guess curiosity did kill the cat.'
   Art: {fileID: 21300000, guid: 02aedc9ca358c5444bd17755f854f746, type: 3}
   FirstChoice: {fileID: 0}
   SecondChoice: {fileID: 0}

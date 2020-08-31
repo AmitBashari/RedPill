@@ -26,8 +26,10 @@ MonoBehaviour:
     stage manager and yell that maybe, he''s just too dumb to understand it.
 
     Nice
-    comeback, you can''t work for this imbecile anymore. You leave, but not before
-    you turn around and give him one last degrading look.'
+    comeback, you can''t work for this imbecile anymore.
+
+    You leave, but not
+    before you turn around and give him one last degrading look.'
   Art: {fileID: 21300000, guid: ee1d9799bebb45b46b54a932150e1013, type: 3}
   FirstChoice: {fileID: 0}
   SecondChoice: {fileID: 0}

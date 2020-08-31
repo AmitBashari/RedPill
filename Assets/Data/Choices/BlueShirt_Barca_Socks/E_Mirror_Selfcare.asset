@@ -16,13 +16,17 @@ MonoBehaviour:
   Name: You accept the compliments, you know you are good.
   Plot: 'The stage manager walks out and leaves you for your prepping routine. You
     put some stage makeup on and start your breathing exercises in front of the mirror.
-    You are a good magician. People love you. You can make the crowd eat from the
-    palm of your hand.
+
+    You
+    are a good magician. People love you. You can make the crowd eat from the palm
+    of your hand.
 
 
-    The buzzer rings in your room and it''s time to go on
-    stage, you look at yourself one last time in the mirror and secure that pestering
-    fly-away hair to the side of you head. Go get them tiger.'
+    The buzzer rings in your room and it''s time to go on stage,
+    you look at yourself one last time in the mirror and secure that pestering fly-away
+    hair to the side of you head.
+
+    Go get them tiger.'
   Art: {fileID: 21300000, guid: f14befc24335d594b85978a475a315fe, type: 3}
   FirstChoice: {fileID: 0}
   SecondChoice: {fileID: 0}

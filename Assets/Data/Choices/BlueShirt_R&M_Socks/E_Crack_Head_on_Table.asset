@@ -14,18 +14,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsEnding: 1
   Name: Taking any more of YOUR shit?! what about his shitty attitude?
-  Plot: 'The stage manager is fuming, he is trying to hold himself back. You start
-    talking and he shushed you, putting his finger to your mouth as he keeps talking
-    shit about you.
+  Plot: 'The stage manager is fuming, he is trying to hold himself back.
 
-    You are getting very aggravated. You bite his finger. He
-    lets out a cry of pain and punches you in the nose. Your''e bleeding and your
-    vision is blurred as you stumble around trying to find your way back to the dressing
-    room.
+    You
+    start talking and he shushed you, putting his finger to your mouth as he keeps
+    talking shit about you.
 
-    Suddenly, your foot gets caught in a stray cable on the floor, you
-    fall and split your head open on a nearby table. You don''t remember it being
-    there.
+    You are getting very aggravated. You bite his finger.
+
+    He
+    lets out a cry of pain and punches you in the nose.
+
+    Your''e bleeding and
+    your vision is blurred as you stumble around trying to find your way back to
+    the dressing room.
+
+    Suddenly, your foot gets caught in a stray cable on the
+    floor, you fall and split your head open on a nearby table.
+
+    You don''t remember
+    it being there.
 
     The last thing you see is the stage manager''s ominous smile.'
   Art: {fileID: 21300000, guid: c58bbd9f75c3dd544b70770112b84ee2, type: 3}

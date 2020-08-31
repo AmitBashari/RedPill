@@ -15,15 +15,23 @@ MonoBehaviour:
   IsEnding: 0
   Name: Order Cashew Butter Pie, it just looked so good in the display.
   Plot: 'Charlotte doesn''t notice the cake has nuts in it and takes a bite before
-    you can stop her. She begins to choke as her throat closes up, her face blows
-    up to double its size. Charlotte notes towards her purse, you figure she''s got
-    her medication inside.
+    you can stop her.
+
+    She begins to choke as her throat closes up, her face
+    blows up to double its size.
+
+    Charlotte notes towards her purse, you figure
+    she''s got her medication inside.
 
 
-    You search Charlotte''s purse and inside you find
-    the medication. You pretend to still keep looking and search the purse for a
-    bit. Maybe something inside will clue you on what kind of woman she is. You find
-    she has a Pickle Rick keychain!'
+    You search Charlotte''s purse and inside
+    you find the medication.
+
+    You pretend to still keep looking and search the
+    purse for a bit. Maybe something inside will clue you on what kind of woman she
+    is.
+
+    You find she has a Pickle Rick keychain!'
   Art: {fileID: 21300000, guid: da04523dd5d86c24d9398eb49c7e743c, type: 3}
   FirstChoice: {fileID: 11400000, guid: 1a7554ffdc8a21a4da759cc2758d6ff5, type: 2}
   SecondChoice: {fileID: 11400000, guid: 6984b38011bbfc74bbb94d6b8d721c56, type: 2}

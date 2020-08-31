@@ -15,14 +15,20 @@ MonoBehaviour:
   IsEnding: 0
   Name: Order Cashew Butter Pie, it just looked so good in the display.
   Plot: 'Charlotte doesn''t notice the cake has nuts in it and takes a bite before
-    you can stop her. She begins to choke as her throat closes up, her face blows
-    up to double its size. Charlotte notes towards her purse, you figure she''s got
-    her medication inside.
+    you can stop her.
+
+    She begins to choke as her throat closes up, her face
+    blows up to double its size.
+
+    Charlotte notes towards her purse, you figure
+    she''s got her medication inside.
 
 
-    You search Charlotte''s purse and inside you find
-    the medication, and a torn up photo of the Barcelona team. Signed by all the
-    players. How could she do this?'
+    You search Charlotte''s purse and inside
+    you find the medication, and a torn up photo of the Barcelona team. Signed by
+    all the players.
+
+    How could she do this?'
   Art: {fileID: 21300000, guid: da04523dd5d86c24d9398eb49c7e743c, type: 3}
   FirstChoice: {fileID: 11400000, guid: 1e24084d45b74cd4eaedfb348b5127cf, type: 2}
   SecondChoice: {fileID: 11400000, guid: 5d4fb98fdcc86874da7cfe8535a1ab48, type: 2}

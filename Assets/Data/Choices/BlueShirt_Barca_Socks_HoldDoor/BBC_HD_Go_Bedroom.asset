@@ -14,17 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsEnding: 0
   Name: Offer Charlotte to move to her bedroom
-  Plot: 'Charlotte starts taking off your clothes piece by piece leaving you in your
-    socks and underwear. You thank mom for always reminding you to wear clean ones
+  Plot: "Charlotte starts taking off your clothes piece by piece leaving you in your
+    socks and underwear.\nYou thank mom for always reminding you to wear clean ones
     everyday. Horrified by the thought of your mom at a moment like this, you watch
-    Charlotte''s back as she takes off her dress.
-
-
-
-    Charlotte is looking at
-    your socks with raging eyes, she confesses that her ex husband was a Barcelona
-    fan. He cheated on her with his much younger, not much hotter secretary. What
-    a cliche.'
+    Charlotte's back as she takes off her dress.\n\nCharlotte is looking at your
+    socks with raging eyes, she confesses that her ex husband was a Barcelona fan.\nHe
+    cheated on her with his much younger, not much hotter secretary. What a clich\xE9."
   Art: {fileID: 21300000, guid: da04523dd5d86c24d9398eb49c7e743c, type: 3}
   FirstChoice: {fileID: 11400000, guid: 14b1b41eed3a4794fa0e870dd130ec84, type: 2}
   SecondChoice: {fileID: 11400000, guid: a4e7b021a1558a04386e180125541709, type: 2}

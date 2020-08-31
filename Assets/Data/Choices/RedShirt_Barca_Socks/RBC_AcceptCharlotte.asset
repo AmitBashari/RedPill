@@ -14,10 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsEnding: 0
   Name: You say yes. Obviously. You love food.
-  Plot: 'Charlotte leads the way to the restaurant. It''s a Japanese-Greek fusion
+  Plot: 'Charlotte leads the way to the restaurant.
+
+    It''s a Japanese-Greek fusion
     themed restaurant with a giant neon sign on the side of the building that reads
     "FOOD".
-
 
     You try to not judge books by their cover.
 

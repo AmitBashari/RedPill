@@ -14,10 +14,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsEnding: 1
   Name: Well, everyone may accidentally Puddle Dips now and then
-  Plot: Charlotte starts yelling profanities about you and members of your family.
-    She pushes you hard away from her and you walk backwards, stumbling over the
-    curb and into the street. Your body lays flat on the asphalt, you turn your head
-    to see a semi-truck racing towards you.
+  Plot: 'Charlotte starts yelling profanities about you and members of your family.
+
+    She
+    pushes you hard away from her and you walk backwards, stumbling over the curb
+    and into the street.
+
+    Your body lays flat on the asphalt, you turn your head
+    to see a semi-truck racing towards you.'
   Art: {fileID: 21300000, guid: 808895ebb4f591f46b7034b90e9109cf, type: 3}
   FirstChoice: {fileID: 0}
   SecondChoice: {fileID: 0}

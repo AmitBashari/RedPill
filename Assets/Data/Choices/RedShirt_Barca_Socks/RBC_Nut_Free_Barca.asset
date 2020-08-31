@@ -15,9 +15,9 @@ MonoBehaviour:
   IsEnding: 0
   Name: Order a Nut-Free Chocolate mousse, you heard chocolate is an aphrodisiac.
   Plot: "Charlotte comes back and looks at the dessert, she licks her lips and asks
-    flirtatiously \"is there anything sweeter than chocolate?\".\r\n\n\rYou say that
+    flirtatiously \"is there anything sweeter than chocolate?\".\r\n\rYou say that
     last night's Barcelona's victory was pretty sweet.\r\n\r\nCharlotte tells you
-    her cheating ex-husband was a Barcelona fan. He also used to say their victories
+    her cheating ex-husband was a Barcelona fan.\nHe also used to say their victories
     were sweet.\n"
   Art: {fileID: 21300000, guid: 8c33f781cc42f5742ba922d6e2b42457, type: 3}
   FirstChoice: {fileID: 11400000, guid: b1c22e022948bd04a98e262932c5852f, type: 2}

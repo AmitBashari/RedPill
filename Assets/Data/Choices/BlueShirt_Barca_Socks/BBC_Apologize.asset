@@ -16,16 +16,22 @@ MonoBehaviour:
   Name: apologize to the stage manager profusely for your tardiness. You promise
     to make it up to him.
   Plot: 'In your dressing room, you begin the routine of putting your "Game Face"
-    on. Soft music plays in the background and a small window nearby is letting a
-    cool breeze in. Suddenly the door opens and the stage manager stands in the doorway.
-    You are startled. He looks you up and down, lingering on your socks before apologizing
-    for intruding.
+    on.
+
+    Soft music plays in the background and a small window nearby is letting
+    a cool breeze in. Suddenly the door opens and the stage manager stands in the
+    doorway. You are startled.
+
+    He looks you up and down, lingering on your socks
+    before apologizing for intruding.
 
 
-    The stage manager apologizes again. He says he only came
-    to tell you that this is the second time your''e late, third strike and you''re
-    out. You can feel his disappointment. It feels like Suarez free-kicked a ball
-    right into your chest.'
+    The stage manager apologizes again.
+
+    He
+    says he only came to tell you that this is the second time your''e late, third
+    strike and you''re out. You can feel his disappointment. It feels like Suarez
+    free-kicked a ball right into your chest.'
   Art: {fileID: 21300000, guid: da04523dd5d86c24d9398eb49c7e743c, type: 3}
   FirstChoice: {fileID: 11400000, guid: a22b0b0861d643c498158780fd92955c, type: 2}
   SecondChoice: {fileID: 11400000, guid: ea7695074069c3048a3e1cdd532a0ffb, type: 2}

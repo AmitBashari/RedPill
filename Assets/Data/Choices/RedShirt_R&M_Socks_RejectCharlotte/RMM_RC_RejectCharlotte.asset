@@ -14,11 +14,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsEnding: 0
   Name: You avert your eyes and mumble 'No thank you' under your breath
-  Plot: You go out to the street and start walking toward the bus station. You reflect
-    on the woman in the elevator. Wonder what kind of person she is. Is she really
-    wild? Or sweet? She does have a crazy spark in her eyes. Though, you never really
-    saw her eyes. You are still rooted in thoughts as you almost reach the station
-    and notice that your bus is pulling away.
+  Plot: 'You go out to the street and start walking toward the bus station.
+
+    You
+    reflect on the woman in the elevator. Wonder what kind of person she is. Is she
+    really wild? Or sweet? She does have a crazy spark in her eyes.
+
+    Though,
+    you never really saw her eyes.
+
+    You are still rooted in thoughts as you almost
+    reach the station and notice that your bus is pulling away.'
   Art: {fileID: 21300000, guid: 8c33f781cc42f5742ba922d6e2b42457, type: 3}
   FirstChoice: {fileID: 11400000, guid: a83abee5b4e097b41b760aab371d10ce, type: 2}
   SecondChoice: {fileID: 11400000, guid: 1677f665b8ba6d1468804a8a155f72bc, type: 2}

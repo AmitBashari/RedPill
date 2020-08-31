@@ -29,9 +29,11 @@ MonoBehaviour:
     at the fallen sock.
 
     He says cartoons are for children your socks are infantile.
-    If you''d grow up already and stop messing around, you could become better at
-    you work, and then maybe, just maybe, beautiful women elevators would give you
-    the time of day.'
+
+    If
+    you''d grow up already and stop messing around, you could become better at you
+    work, and then maybe, just maybe, beautiful women elevators would give you the
+    time of day.'
   Art: {fileID: 21300000, guid: da04523dd5d86c24d9398eb49c7e743c, type: 3}
   FirstChoice: {fileID: 11400000, guid: 075dd64230b28134094299dc19c5a9d0, type: 2}
   SecondChoice: {fileID: 11400000, guid: 82e5430210aefcf4fb656115c846ef3a, type: 2}

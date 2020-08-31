@@ -14,9 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsEnding: 0
   Name: Go to the local coffee shop
-  Plot: Charlotte asks you to order dessert while she goes to freshen up, she doesn't
-    really care which one, but she is allergic to nuts. You look at the overwhelmingly
-    long dessert menu, two items catch your eye.
+  Plot: 'Charlotte asks you to order dessert while she goes to freshen up, she doesn''t
+    really care which one, but she is allergic to nuts.
+
+    You look at the overwhelmingly
+    long dessert menu, two items catch your eye.'
   Art: {fileID: 21300000, guid: 8c33f781cc42f5742ba922d6e2b42457, type: 3}
   FirstChoice: {fileID: 11400000, guid: 3738a2da9f139964ea6624f962e6b69d, type: 2}
   SecondChoice: {fileID: 11400000, guid: 2d3abe6d817dd5a49b77e19add206390, type: 2}

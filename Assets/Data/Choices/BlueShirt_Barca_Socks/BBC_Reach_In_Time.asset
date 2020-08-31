@@ -14,14 +14,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsEnding: 0
   Name: Run and reach just in time to get on the bus
-  Plot: 'You get to work hot and sweaty. Drops of sweat roll down your back, sticking
-    your t-shirt to your bare back.
+  Plot: 'You get to work hot and sweaty.
+
+    Drops of sweat roll down your back,
+    sticking your t-shirt to your bare back.
 
 
+    You walk by the stage manager,
+    pulling on your shirt to detach it from your wet body.
 
-    You walk by the stage manager, pulling
-    on your shirt to detach it from your wet body. He gives you a weird look. What''s
-    his deal?'
+    He gives you a weird
+    look. What''s his deal?'
   Art: {fileID: 21300000, guid: da04523dd5d86c24d9398eb49c7e743c, type: 3}
   FirstChoice: {fileID: 11400000, guid: 9e01fd507b80b5f48b1f2854c0a06e52, type: 2}
   SecondChoice: {fileID: 11400000, guid: a5e96d09f75ab784fa0cfc4beaf72ed3, type: 2}

@@ -15,11 +15,17 @@ MonoBehaviour:
   IsEnding: 1
   Name: "You say that true Barcelona stay true to the one they love. Unlike Lu\xEDs
     Figo. That pig."
-  Plot: Charlotte is smiling at you and takes a bite of the Nut-Free Chocolate mousse.
-    She didn't understand your reference. It's okay, she's been hurt as well. You
-    will forgive. Charlotte took just a couple of bites but you finished the whole
-    mousse. She asks if you can walk her home. You nod and smile, a few specks of
-    chocolate still on the corners of your mouth.
+  Plot: 'Charlotte is smiling at you and takes a bite of the Nut-Free Chocolate mousse.
+
+    She
+    didn''t understand your reference. It''s okay, she''s been hurt as well. You
+    will forgive.
+
+    Charlotte took just a couple of bites but you finished the
+    whole mousse. She asks if you can walk her home.
+
+    You nod and smile, a few
+    specks of chocolate still on the corners of your mouth.'
   Art: {fileID: 21300000, guid: ba61eae16b3bd1440866e9464d27cd77, type: 3}
   FirstChoice: {fileID: 0}
   SecondChoice: {fileID: 0}

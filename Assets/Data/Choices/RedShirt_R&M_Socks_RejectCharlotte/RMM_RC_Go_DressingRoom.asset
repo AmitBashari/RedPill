@@ -16,15 +16,24 @@ MonoBehaviour:
   Name: Go straight to the dressing room to get changed
   Plot: 'You take off your clothes and fold them neatly on the chair next to you.
     You wonder if you have time to catch a quick shower before the show. Suddenly,
-    the stage manager knocks on the door. You open it timidly, trying to hide yourself
-    behind a bath towel. A gust of wind tries to undress you but ends up just blowing
-    one of your socks to the floor.
+    the stage manager knocks on the door.
+
+    You open it timidly, trying to hide
+    yourself behind a bath towel.
+
+    A gust of wind tries to undress you but ends
+    up just blowing one of your socks to the floor.
 
 
-    The stage manager looks at the fallen sock.
-    He says cartoons are for children your socks are infantile. If you''d grow up
-    already and stop messing around, you could become better at you work, and then
-    maybe, just maybe, beautiful women elevators would give you the time of day.'
+    The stage manager looks
+    at the fallen sock.
+
+    He says cartoons are for children your socks are infantile.
+
+    If
+    you''d grow up already and stop messing around, you could become better at you
+    work, and then maybe, just maybe, beautiful women elevators would give you the
+    time of day.'
   Art: {fileID: 21300000, guid: 8c33f781cc42f5742ba922d6e2b42457, type: 3}
   FirstChoice: {fileID: 11400000, guid: 075dd64230b28134094299dc19c5a9d0, type: 2}
   SecondChoice: {fileID: 11400000, guid: 82e5430210aefcf4fb656115c846ef3a, type: 2}
