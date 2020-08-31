@@ -18,6 +18,7 @@ public class ChoiceScreen : MonoBehaviour
     public Text SecondChoiceText;
     public AudioSource TypingSound;
     public AudioSource VoiceSound;
+    public AudioSource TimerSound;
     public Button NextButton;
     public Choice CurrentChoice;
     public Animator SlideAnimator;

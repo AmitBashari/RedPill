@@ -13,10 +13,8 @@ public class TimerCountDown : MonoBehaviour
     public Image SecondsImage;
     public AudioSource TimerSound;
 
-
-
-
     private float _elapsedTime = 0;
+
     private void FixedUpdate()
     {
         _elapsedTime += Time.deltaTime;
@@ -42,14 +40,16 @@ public class TimerCountDown : MonoBehaviour
 
     public void Pause()
     {
-
         enabled = false;
+        TimerSound.Stop();
     }
 
     public void Continue()
     {
 
-        enabled = true;  
+        enabled = true;
+
+        TimerSound.Play();
     }
 
     public void Restart()
@@ -58,6 +58,8 @@ public class TimerCountDown : MonoBehaviour
         enabled = false;
         Text.SetText("30");
 
+        TimerSound.Stop();
+
     }
 
     public void ElapsedTimeZero()
@@ -65,6 +67,8 @@ public class TimerCountDown : MonoBehaviour
 
         _elapsedTime = 0;
         Text.SetText("30");
+
+        TimerSound.Stop();
     }
 
 }
