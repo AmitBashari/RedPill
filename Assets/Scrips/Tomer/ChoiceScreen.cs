@@ -93,6 +93,8 @@ public class ChoiceScreen : MonoBehaviour
         {
             engine.LoadChoice(_nextChoice);
             _nextChoice = null;
+            NextButton.gameObject.SetActive(false);
+            NextButton.GetComponentInChildren<TMP_Text>().text = ". . .";
 
         }
         else
@@ -189,11 +191,12 @@ public class ChoiceScreen : MonoBehaviour
     {
         FirstChoiceButton.gameObject.SetActive(false);
         SecondChoiceButton.gameObject.SetActive(false);
-        NextButton.gameObject.SetActive(true);
+        NextButton.gameObject.SetActive(false);
         _nextChoice = nextChoice;
         StopAllCoroutines();
         VoiceSound.clip = null;
         StartCoroutine(TypeSentenceEachLetter(hint));
+        NextButton.GetComponentInChildren<TMP_Text>().text = "Wake Up!";
         art.sprite = hintBackground;
     }
 

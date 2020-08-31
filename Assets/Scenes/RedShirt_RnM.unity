@@ -2349,7 +2349,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Wake up!
+  m_text: . . .
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d44ba435a2a6d68488dc99379f6b0d55, type: 2}
   m_sharedMaterial: {fileID: 1873159161021611594, guid: d44ba435a2a6d68488dc99379f6b0d55,
