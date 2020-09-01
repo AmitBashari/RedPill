@@ -25,14 +25,13 @@ public class ChoiceScreen : MonoBehaviour
     public Animator BehindTextAnimator;
     public UnityEvent OnTimePause;
     public UnityEvent OnTimeContinue;
-    
-  
+
     
     private float letterPause = 0.05f;
     private Animation slideAnim;
     private Choice _nextChoice;
     private bool _isEnd = false;
-
+   
     
 
 
@@ -197,6 +196,7 @@ public class ChoiceScreen : MonoBehaviour
         VoiceSound.clip = null;
         StartCoroutine(TypeSentenceEachLetter(hint));
         NextButton.GetComponentInChildren<TMP_Text>().text = "Wake Up!";
+        //Timer SecondsImage.fillAmount = 0f;
         art.sprite = hintBackground;
     }
 

@@ -57,7 +57,7 @@ public class TimerCountDown : MonoBehaviour
         _elapsedTime = 0;
         enabled = false;
         Text.SetText("30");
-
+        
         TimerSound.Stop();
 
     }
