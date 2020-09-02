@@ -13,15 +13,14 @@ public class TimerCountDown : MonoBehaviour
     public Image SecondsImage;
     public AudioSource TimerSound;
     public AudioSource IntenseTimerSound;
-    public float LastSeconds = 25f;
+    public float LastSeconds = 6f;
 
     private float _elapsedTime = 0f;
-    private bool _IsLastSeconds = false;
 
     private void Start()
     {
-        _IsLastSeconds = false;
         ResetUI();
+        IntenseTimerSound.volume = 0f;
     }
 
     private void FixedUpdate()
@@ -42,16 +41,21 @@ public class TimerCountDown : MonoBehaviour
         {
             enabled = false;
             OnTimerFinished?.Invoke();
-
         }
 
-        Debug.Log((Duration - _elapsedTime));
-
-        if ((Duration - _elapsedTime) == LastSeconds)
+        if ((Duration - _elapsedTime <= LastSeconds))
         {
-            //_IsLastSeconds = true;
-            IntenseTimerSound.Play();
+            Debug.Log("I play Intense");
+            IntenseTimerSound.volume = 0.6f;
         }
+        else
+        {
+            IntenseTimerSound.volume = 0f;
+        }
+
+
+
+
     }
 
     public void Pause()
@@ -64,24 +68,20 @@ public class TimerCountDown : MonoBehaviour
     {
 
         enabled = true;
-
-        PlayTImerSounds();
+        TimerSound.Play();    
     }
 
     public void Restart()
     {
-
         ResetUI();
         StopTimeSounds();
         enabled = false;
-
     }
 
     public void ElapsedTimeZero()
     {
 
         ResetUI();
-
         StopTimeSounds();
     }
 
@@ -92,21 +92,10 @@ public class TimerCountDown : MonoBehaviour
         SecondsImage.fillAmount = 0f;
     }
 
-    public void PlayTImerSounds()
-    {
-        TimerSound.Play();
-        
-        if (_IsLastSeconds == true)
-        {
-            Debug.Log("I play Intense");
-            //IntenseTimerSound.Play();
-        }
-    }
-
     public void StopTimeSounds()
     {
+        IntenseTimerSound.volume = 0f;
         TimerSound.Stop();
-        IntenseTimerSound.Stop();
     }
 
 }
