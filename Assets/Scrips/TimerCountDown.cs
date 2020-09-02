@@ -18,7 +18,6 @@ public class TimerCountDown : MonoBehaviour
     private void Start()
     {
         ResetUI();
-
     }
 
     private void FixedUpdate()
