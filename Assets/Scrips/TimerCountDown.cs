@@ -12,11 +12,15 @@ public class TimerCountDown : MonoBehaviour
     public UnityEvent OnTimerFinished;
     public Image SecondsImage;
     public AudioSource TimerSound;
+    public AudioSource IntenseTimerSound;
+    public float LastSeconds = 25f;
 
-    private float _elapsedTime = 0;
+    private float _elapsedTime = 0f;
+    private bool _IsLastSeconds = false;
 
     private void Start()
     {
+        _IsLastSeconds = false;
         ResetUI();
     }
 
@@ -40,12 +44,20 @@ public class TimerCountDown : MonoBehaviour
             OnTimerFinished?.Invoke();
 
         }
+
+        Debug.Log((Duration - _elapsedTime));
+
+        if ((Duration - _elapsedTime) == LastSeconds)
+        {
+            //_IsLastSeconds = true;
+            IntenseTimerSound.Play();
+        }
     }
 
     public void Pause()
     {
         enabled = false;
-        TimerSound.Stop();
+        StopTimeSounds();
     }
 
     public void Continue()
@@ -53,14 +65,14 @@ public class TimerCountDown : MonoBehaviour
 
         enabled = true;
 
-        TimerSound.Play();
+        PlayTImerSounds();
     }
 
     public void Restart()
     {
 
         ResetUI();
-        TimerSound.Stop();
+        StopTimeSounds();
         enabled = false;
 
     }
@@ -70,7 +82,7 @@ public class TimerCountDown : MonoBehaviour
 
         ResetUI();
 
-        TimerSound.Stop();
+        StopTimeSounds();
     }
 
     public void ResetUI()
@@ -78,6 +90,23 @@ public class TimerCountDown : MonoBehaviour
         _elapsedTime = 0;
         GetComponent<TextMeshProUGUI>().text = Duration.ToString();
         SecondsImage.fillAmount = 0f;
+    }
+
+    public void PlayTImerSounds()
+    {
+        TimerSound.Play();
+        
+        if (_IsLastSeconds == true)
+        {
+            Debug.Log("I play Intense");
+            //IntenseTimerSound.Play();
+        }
+    }
+
+    public void StopTimeSounds()
+    {
+        TimerSound.Stop();
+        IntenseTimerSound.Stop();
     }
 
 }
