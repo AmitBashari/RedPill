@@ -8,12 +8,18 @@ using UnityEngine.UI;
 public class TimerCountDown : MonoBehaviour
 {
     public TextMeshProUGUI Text;
-    public float Duration = 30;
+    public float Duration = 30f;
     public UnityEvent OnTimerFinished;
     public Image SecondsImage;
     public AudioSource TimerSound;
 
     private float _elapsedTime = 0;
+
+    private void Start()
+    {
+        ResetUI();
+
+    }
 
     private void FixedUpdate()
     {
@@ -33,8 +39,7 @@ public class TimerCountDown : MonoBehaviour
         {
             enabled = false;
             OnTimerFinished?.Invoke();
-            //Debug.Log("TIme Up");
-            Text.SetText("0");
+
         }
     }
 
@@ -54,21 +59,26 @@ public class TimerCountDown : MonoBehaviour
 
     public void Restart()
     {
-        _elapsedTime = 0;
-        enabled = false;
-        Text.SetText("30");
-        
+
+        ResetUI();
         TimerSound.Stop();
+        enabled = false;
 
     }
 
     public void ElapsedTimeZero()
     {
 
-        _elapsedTime = 0;
-        Text.SetText("30");
+        ResetUI();
 
         TimerSound.Stop();
+    }
+
+    public void ResetUI()
+    {
+        _elapsedTime = 0;
+        GetComponent<TextMeshProUGUI>().text = Duration.ToString();
+        SecondsImage.fillAmount = 0f;
     }
 
 }

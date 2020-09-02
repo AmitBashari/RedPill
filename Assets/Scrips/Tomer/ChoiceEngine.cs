@@ -66,7 +66,7 @@ public class ChoiceEngine : MonoBehaviour
         {
             LoadChoice(InitalChoice);
             OnTimeRestart?.Invoke();
-
+            
 
             Debug.Log("Time Up");
         }
