@@ -11,4 +11,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/RedShirt_RnM.unity
     guid: c6f0b80a5acb243419d04074d70045ae
+  - enabled: 1
+    path: Assets/Scenes/Achievements.unity
+    guid: cccd1b56ae5ee894590e5ece54b04156
+  - enabled: 1
+    path: Assets/Scenes/CreditsUI.unity
+    guid: 81d56cecf1727a04d8b6c73bbb312f29
   m_configObjects: {}
