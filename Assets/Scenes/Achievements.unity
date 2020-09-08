@@ -1093,8 +1093,9 @@ GameObject:
   m_Component:
   - component: {fileID: 714085730}
   - component: {fileID: 714085731}
+  - component: {fileID: 714085732}
   m_Layer: 0
-  m_Name: AchievementManager
+  m_Name: AchievementSceneManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1126,6 +1127,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51a7762eaff7f304f8a02b83483ddbac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &714085732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 714085729}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd0a73ae926744e4ab8d182e0e452d6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AchievmentsToImages:
+  - Icon: {fileID: 861837137}
+    Ending: 1
 --- !u!1 &743977273
 GameObject:
   m_ObjectHideFlags: 0
@@ -2087,7 +2103,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1256070520
 GameObject:
@@ -2588,7 +2604,7 @@ RectTransform:
   - {fileID: 425539459}
   - {fileID: 1844141522}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -3200,7 +3216,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 714085731}
-        m_MethodName: goMainMenu
+        m_MethodName: GoMainMenu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: E_Watch_RnM
   m_EditorClassIdentifier: 
   IsEnding: 1
+  Achievement: 1
   Name: Ask her if she wants to watch the latest episode together, it just came out
     and you didn't get a chance to watch it yet. You don't want to be one episode
     behind.

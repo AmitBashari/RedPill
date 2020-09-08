@@ -31,6 +31,9 @@ public class ChoiceScreen : MonoBehaviour
     private Animation slideAnim;
     private Choice _nextChoice;
     private bool _isEnd = false;
+    private bool _gotEndingAchievement;
+    private int _endingID;
+    //private bool _gotEndingAchievement = false;
    
     
 
@@ -44,7 +47,6 @@ public class ChoiceScreen : MonoBehaviour
         StopAllCoroutines();
         StartCoroutine(TypeSentenceEachLetter(choice.Plot));
 
-
         art.sprite = choice.Art;
 
         if (choice.IsEnding)
@@ -53,6 +55,7 @@ public class ChoiceScreen : MonoBehaviour
             SecondChoiceButton.gameObject.SetActive(false);
             //NextButton.gameObject.SetActive(true);
             _isEnd = true;
+            AchievementManager.Instance.AddEnding(choice.Achievement);
 
         }
         else
@@ -181,6 +184,13 @@ public class ChoiceScreen : MonoBehaviour
         if (_isEnd == true)
         {
             NextButton.gameObject.SetActive(true);
+
+            if (_gotEndingAchievement == false)
+            {
+                Debug.Log("I play Achievemnt Animation"); // Insert Achievment Anim Here 
+            }
+            _gotEndingAchievement = true;
+
         }
 
 

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: RRM_Go_Bedroom
   m_EditorClassIdentifier: 
   IsEnding: 0
+  EndID: 1
   Name: Offer Charlotte to move to her bedroom
   Plot: "Charlotte starts taking off your clothes piece by piece leaving you in your
     socks and underwear.\nYou thank mom for always reminding you to wear clean ones

@@ -5,6 +5,8 @@ using UnityEngine;
 public class Choice : ScriptableObject
 {
     public bool IsEnding;
+    //public bool GotEndingAchievement;
+    public AchievementSavedData.Ending Achievement;
     public string Name;
     [TextArea (5,15)]
     public string Plot;
