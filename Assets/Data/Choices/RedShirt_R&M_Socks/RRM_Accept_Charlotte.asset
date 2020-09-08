@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: RRM_Accept_Charlotte
   m_EditorClassIdentifier: 
   IsEnding: 0
+  Achievement: 2
   Name: You say yes. Obviously. You love food.
   Plot: "Charlotte leads the way to the restaurant.\nIt's a Japanese-Greek fusion
     themed restaurant with a giant neon sign on the side of the building that reads

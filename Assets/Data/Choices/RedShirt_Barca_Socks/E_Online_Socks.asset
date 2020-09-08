@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: E_Online_Socks
   m_EditorClassIdentifier: 
   IsEnding: 1
+  Achievement: 4
   Name: You only wear these socks so you can crush their dignity beneath your feet
   Plot: Charlotte is amused by the notion of stomping on her ex's beating heart.
     She asks you to stick around and help her pick out sports socks online, then

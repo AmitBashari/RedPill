@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: E_PackYourBag
   m_EditorClassIdentifier: 
   IsEnding: 1
+  Achievement: 27
   Name: You already apologized, and third strike is Baseball. Not Soccer.
   Plot: "The stage manager is somehow getting more irritated.\nHe yells at you that
     you are not the hot shot you think you are, and he can replace you at any time.

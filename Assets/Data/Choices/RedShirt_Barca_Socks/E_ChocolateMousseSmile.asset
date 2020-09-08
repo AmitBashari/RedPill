@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: E_ChocolateMousseSmile
   m_EditorClassIdentifier: 
   IsEnding: 1
+  Achievement: 12
   Name: "You say that true Barcelona stay true to the one they love. Unlike Lu\xEDs
     Figo. That pig."
   Plot: 'Charlotte is smiling at you and takes a bite of the Nut-Free Chocolate mousse.

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: E_Pizza&Beer
   m_EditorClassIdentifier: 
   IsEnding: 1
+  Achievement: 23
   Name: Pizza and beer? You are definitely in!
   Plot: 'The stage manager asks you to call him Yugi and gives you a pat on the back.
 

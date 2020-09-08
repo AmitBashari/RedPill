@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: E_Stagelight_Death
   m_EditorClassIdentifier: 
   IsEnding: 1
+  Achievement: 29
   Name: No one can fire you! Especially not him! You are the greatest!
   Plot: 'Your argument heats up, crew everywhere is watching and taking sides. You
     think you see a couple of bills changing hands, are they betting against you?

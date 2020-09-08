@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: E_Favorite_Socks
   m_EditorClassIdentifier: 
   IsEnding: 1
+  Achievement: 5
   Name: These are your favorite socks! You just hope they're not ruined
   Plot: 'Charlotte points to a near by Laundromat.
 

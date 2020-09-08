@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: E_Rixty_NChill
   m_EditorClassIdentifier: 
   IsEnding: 1
+  Achievement: 9
   Name: Ask about Rixty Minutes and Chill?
   Plot: 'Charlotte agrees and says she''s been waiting for so long to watch this
     episode again with someone special she takes your hand and you walk together

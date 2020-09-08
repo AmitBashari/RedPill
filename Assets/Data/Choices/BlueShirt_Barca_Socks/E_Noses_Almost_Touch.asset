@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: E_Noses_Almost_Touch
   m_EditorClassIdentifier: 
   IsEnding: 1
+  Achievement: 31
   Name: A YELLOW CARD?! Who does he think he is. His piercing blue eyes don't intimidate
     you now!
   Plot: "The stage manager starts yelling at you, his eyes get smoldering in a mere

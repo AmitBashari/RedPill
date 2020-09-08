@@ -25,7 +25,7 @@ public class ChoiceScreen : MonoBehaviour
     public Animator BehindTextAnimator;
     public UnityEvent OnTimePause;
     public UnityEvent OnTimeContinue;
-
+    public Button LoadUIButton;
     
     private float letterPause = 0.05f;
     private Animation slideAnim;
@@ -53,19 +53,22 @@ public class ChoiceScreen : MonoBehaviour
         {
             FirstChoiceButton.gameObject.SetActive(false);
             SecondChoiceButton.gameObject.SetActive(false);
-            //NextButton.gameObject.SetActive(true);
             _isEnd = true;
             AchievementManager.Instance.AddEnding(choice.Achievement);
+
+            //Delete bellow button
+            LoadUIButton.gameObject.SetActive(true);
 
         }
         else
         {
             FirstChoiceText.text = choice.FirstChoice.Name;
             SecondChoiceText.text = choice.SecondChoice.Name;
-            //FirstChoiceButton.gameObject.SetActive(true);
-            //SecondChoiceButton.gameObject.SetActive(true);
             NextButton.gameObject.SetActive(false);
             _isEnd = false;
+
+            //Delete bellow button
+            LoadUIButton.gameObject.SetActive(false);
 
         }
 

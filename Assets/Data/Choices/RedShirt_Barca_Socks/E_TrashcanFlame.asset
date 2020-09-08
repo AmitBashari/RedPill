@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: E_TrashcanFlame
   m_EditorClassIdentifier: 
   IsEnding: 1
+  Achievement: 8
   Name: It's a good thing these socks are ruined! This just adds another level of
     disrespect to that team.
   Plot: 'With a flamboyant gesture you throw the socks in the nearest bin. Charlotte

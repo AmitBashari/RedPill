@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: E_Scoff_AtCharlotte
   m_EditorClassIdentifier: 
   IsEnding: 1
+  Achievement: 10
   Name: You scoff and asks her to describe what happens in the end of the episode
   Plot: "Charlotte is hurt you question her love for Rick and Morty, she places her
     fork on the table, folds the napkin neatly and walks towards the coffee shop

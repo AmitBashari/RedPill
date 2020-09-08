@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: E_TellTruth_Nut
   m_EditorClassIdentifier: 
   IsEnding: 1
+  Achievement: 13
   Name: You give Charlotte the medication, and start as guilt takes over you tell
     her you knew the pie has nuts in it.
   Plot: 'Charlotte''s face turns red with anger.

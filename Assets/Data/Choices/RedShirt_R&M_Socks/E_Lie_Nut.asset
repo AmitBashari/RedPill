@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: E_Lie_Nut
   m_EditorClassIdentifier: 
   IsEnding: 1
+  Achievement: 14
   Name: You give Charlotte the medication, and start as guilt takes over you tell
     her you didn't know the pie has nuts in it.
   Plot: 'Charlotte looks at you with a puzzled look on her face.

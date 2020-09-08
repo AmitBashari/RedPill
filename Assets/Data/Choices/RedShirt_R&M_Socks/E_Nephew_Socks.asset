@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: E_Nephew_Socks
   m_EditorClassIdentifier: 
   IsEnding: 1
+  Achievement: 2
   Name: Tell her these are not really your socks. You borrowed your nephew's. He's
     13. And besides, you always thought Jerry seems like a pretty cool guy.
   Plot: "Charlotte looks at you with hurtful eyes.\nShe yells at you to get out and

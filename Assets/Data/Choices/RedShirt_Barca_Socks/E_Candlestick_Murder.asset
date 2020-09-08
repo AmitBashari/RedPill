@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: E_Candlestick_Murder
   m_EditorClassIdentifier: 
   IsEnding: 1
+  Achievement: 3
   Name: You never a question the decisions of a Barcelona fan. She must have done
     something wrong.
   Plot: 'Charlotte is letting out a disgusted roar and reaches for the candlestick,

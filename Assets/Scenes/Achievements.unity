@@ -1142,6 +1142,68 @@ MonoBehaviour:
   AchievmentsToImages:
   - Icon: {fileID: 861837137}
     Ending: 1
+  - Icon: {fileID: 191411976}
+    Ending: 2
+  - Icon: {fileID: 1569978410}
+    Ending: 3
+  - Icon: {fileID: 687741986}
+    Ending: 4
+  - Icon: {fileID: 1681413029}
+    Ending: 5
+  - Icon: {fileID: 1043089455}
+    Ending: 6
+  - Icon: {fileID: 536797989}
+    Ending: 7
+  - Icon: {fileID: 827724357}
+    Ending: 8
+  - Icon: {fileID: 743977273}
+    Ending: 9
+  - Icon: {fileID: 912680089}
+    Ending: 10
+  - Icon: {fileID: 1710286196}
+    Ending: 11
+  - Icon: {fileID: 1774687096}
+    Ending: 12
+  - Icon: {fileID: 877122529}
+    Ending: 13
+  - Icon: {fileID: 1820681226}
+    Ending: 14
+  - Icon: {fileID: 1629361028}
+    Ending: 15
+  - Icon: {fileID: 61868805}
+    Ending: 16
+  - Icon: {fileID: 1049746322}
+    Ending: 17
+  - Icon: {fileID: 1683938295}
+    Ending: 18
+  - Icon: {fileID: 2023467216}
+    Ending: 19
+  - Icon: {fileID: 1224684538}
+    Ending: 20
+  - Icon: {fileID: 1455740476}
+    Ending: 21
+  - Icon: {fileID: 1779081787}
+    Ending: 22
+  - Icon: {fileID: 399189313}
+    Ending: 23
+  - Icon: {fileID: 1236150850}
+    Ending: 24
+  - Icon: {fileID: 82281977}
+    Ending: 25
+  - Icon: {fileID: 387851115}
+    Ending: 26
+  - Icon: {fileID: 378627732}
+    Ending: 27
+  - Icon: {fileID: 109986236}
+    Ending: 28
+  - Icon: {fileID: 1139597788}
+    Ending: 29
+  - Icon: {fileID: 1464379159}
+    Ending: 30
+  - Icon: {fileID: 1176570517}
+    Ending: 31
+  - Icon: {fileID: 1256070520}
+    Ending: 32
 --- !u!1 &743977273
 GameObject:
   m_ObjectHideFlags: 0

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: E_Yell_AtCharlotte
   m_EditorClassIdentifier: 
   IsEnding: 1
+  Achievement: 6
   Name: Yell at her that who cares?! Your socks are fucking wet now!
   Plot: 'Charlotte gives you a disappointed look.
 

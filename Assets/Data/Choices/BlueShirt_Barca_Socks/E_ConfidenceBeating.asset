@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: E_ConfidenceBeating
   m_EditorClassIdentifier: 
   IsEnding: 1
+  Achievement: 32
   Name: You compare yourself to the Messi of the magic world. The only thing challenges
     your skills is your good-looks. You wink.
   Plot: 'The stage manager scoffs at you.

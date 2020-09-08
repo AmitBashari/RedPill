@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: E_WalkInTheirFootsteps
   m_EditorClassIdentifier: 
   IsEnding: 1
+  Achievement: 22
   Name: You call him an imbecile for calling Rick and Morty a childish show. This
     show is definitely not for children. But he shouldn't watch it anyway, he wouldn't
     get the jokes.

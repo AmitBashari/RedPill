@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: E_SemiTrailer
   m_EditorClassIdentifier: 
   IsEnding: 1
+  Achievement: 7
   Name: Well, everyone may accidentally Puddle Dips now and then
   Plot: 'Charlotte starts yelling profanities about you and members of your family.
 

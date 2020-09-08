@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: E_CharlotteRipsPhoto
   m_EditorClassIdentifier: 
   IsEnding: 1
+  Achievement: 16
   Name: You give Charlotte the medication and curiousness takes over your better
     judgement. While she regains her strength you ask about the torn up photo.  You
     just really want to know.

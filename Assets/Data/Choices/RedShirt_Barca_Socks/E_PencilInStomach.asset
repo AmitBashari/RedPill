@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: E_PencilInStomach
   m_EditorClassIdentifier: 
   IsEnding: 1
+  Achievement: 15
   Name: You give Charlotte the medication and your face starts heating up with rage.
     While she regains her strength you say that you knew the dessert has nuts in
     it, and call her a Barcelona hater.

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: E_StageManagerStalker
   m_EditorClassIdentifier: 
   IsEnding: 1
+  Achievement: 17
   Name: How does he know about the girl in the elevator? That creep.
   Plot: 'The stage manager stutters.
 

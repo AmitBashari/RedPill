@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: E_RickSocks
   m_EditorClassIdentifier: 
   IsEnding: 1
+  Achievement: 26
   Name: You do take it seriously, magic and entertainment are very important to you.
   Plot: 'The stage manager points at your feet and says that whoever wears such childish
     socks, can''t possible take things seriously.
