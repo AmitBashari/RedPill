@@ -1204,6 +1204,12 @@ MonoBehaviour:
     Ending: 31
   - Icon: {fileID: 1256070520}
     Ending: 32
+  - Icon: {fileID: 218040550}
+    Ending: 33
+  - Icon: {fileID: 186633973}
+    Ending: 34
+  - Icon: {fileID: 660900086}
+    Ending: 35
 --- !u!1 &743977273
 GameObject:
   m_ObjectHideFlags: 0

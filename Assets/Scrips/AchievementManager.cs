@@ -9,8 +9,7 @@ public class AchievementManager : MonoBehaviour
 {
     private static AchievementManager instance = null; 
     public static AchievementManager Instance { get { return instance; } }
-
-
+    
     private AchievementSavedData _savedData;
 
     private void Awake()
@@ -29,9 +28,8 @@ public class AchievementManager : MonoBehaviour
         }
         DontDestroyOnLoad(this);
 
-        //_savedData = new AchievementSavedData(); // Read from file , save to file
         _savedData = LoadAchievmentData();
-
+       
     }
 
     public List<AchievementSavedData.Ending> Endings => _savedData.Endings; 
@@ -45,6 +43,15 @@ public class AchievementManager : MonoBehaviour
 
         Endings.Add(ending);
 
+        //check if we got speical ending. If yes -> add it
+
+        if (Endings.Contains(AchievementSavedData.Ending.Cuddle_With_Charllote1)
+            && Endings.Contains(AchievementSavedData.Ending.Charllote_Hurtful_Eyes2))
+        {
+            Endings.Add(AchievementSavedData.Ending.AllRedShirt33);
+        }
+      
+      
         BinaryFormatter formatter = new BinaryFormatter();
         string path = Application.persistentDataPath + "achievments.json";
         FileStream stream = new FileStream(path, FileMode.Create);
@@ -54,7 +61,6 @@ public class AchievementManager : MonoBehaviour
         formatter.Serialize(stream, _savedData);
         stream.Close();
   
-        //Application.persistentDataPath. //save
         return true;
 
     }
@@ -91,8 +97,6 @@ public class AchievementManager : MonoBehaviour
 
         formatter.Serialize(stream, _savedData);
         stream.Close();
-
-
     }
     
 }

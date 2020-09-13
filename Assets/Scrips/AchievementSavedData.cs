@@ -38,9 +38,11 @@ public class AchievementSavedData
         YourArgumentHeatUp29,
         YouFeelBetrayed30,
         Manager_StartsYelling31,
-        Manager_Scoffs32
+        Manager_Scoffs32,
+        AllRedShirt33,
+        AllBlueShirt34,
+        TrueEnding35
     }
 
     public List<Ending> Endings = new List<Ending>();
-
 }
