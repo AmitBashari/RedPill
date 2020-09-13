@@ -46,9 +46,44 @@ public class AchievementManager : MonoBehaviour
         //check if we got speical ending. If yes -> add it
 
         if (Endings.Contains(AchievementSavedData.Ending.Cuddle_With_Charllote1)
-            && Endings.Contains(AchievementSavedData.Ending.Charllote_Hurtful_Eyes2))
+            && Endings.Contains(AchievementSavedData.Ending.Charllote_Hurtful_Eyes2)
+            && Endings.Contains(AchievementSavedData.Ending.Charllote_Candlestick3)
+            && Endings.Contains(AchievementSavedData.Ending.Charlotte_Amused4)
+            && Endings.Contains(AchievementSavedData.Ending.Charlotte_Laundromat5)
+            && Endings.Contains(AchievementSavedData.Ending.Charlotte_Disappointed6)
+            && Endings.Contains(AchievementSavedData.Ending.Charlotte_Yelling7)
+            && Endings.Contains(AchievementSavedData.Ending.Flamboyant_Gesture8)
+            && Endings.Contains(AchievementSavedData.Ending.Charlotte_Agrees9)
+            && Endings.Contains(AchievementSavedData.Ending.Charlotte_IsHurt10)
+            && Endings.Contains(AchievementSavedData.Ending.Charlotte_Pounds11)
+            && Endings.Contains(AchievementSavedData.Ending.Charlotte_Smiling12)
+            && Endings.Contains(AchievementSavedData.Ending.Charlotte_FaceRed13)
+            && Endings.Contains(AchievementSavedData.Ending.Charlotte_Puzzled14)
+            && Endings.Contains(AchievementSavedData.Ending.Charlotte_Furious15)
+            && Endings.Contains(AchievementSavedData.Ending.Charlotte_Stares16))
         {
             Endings.Add(AchievementSavedData.Ending.AllRedShirt33);
+        }
+
+                if (Endings.Contains(AchievementSavedData.Ending.Manager_Stutters17)
+            && Endings.Contains(AchievementSavedData.Ending.Manager_puzzled18)
+            && Endings.Contains(AchievementSavedData.Ending.Manager_Wipes19)
+            && Endings.Contains(AchievementSavedData.Ending.Manager_Walks20)
+            && Endings.Contains(AchievementSavedData.Ending.Manager_Accepts21)
+            && Endings.Contains(AchievementSavedData.Ending.Manager_Appologizes22)
+            && Endings.Contains(AchievementSavedData.Ending.Manager_AskToCall23)
+            && Endings.Contains(AchievementSavedData.Ending.Manager_LowersHisEyes24)
+            && Endings.Contains(AchievementSavedData.Ending.Manager_Fuming25)
+            && Endings.Contains(AchievementSavedData.Ending.Manager_PointsAtFeet26)
+            && Endings.Contains(AchievementSavedData.Ending.Manager_SomehowIrritated27)
+            && Endings.Contains(AchievementSavedData.Ending.Manager_Stifling28)
+            && Endings.Contains(AchievementSavedData.Ending.YourArgumentHeatUp29)
+            && Endings.Contains(AchievementSavedData.Ending.YouFeelBetrayed30)
+            && Endings.Contains(AchievementSavedData.Ending.Manager_StartsYelling31)
+            && Endings.Contains(AchievementSavedData.Ending.Manager_Scoffs32))
+
+        {
+            Endings.Add(AchievementSavedData.Ending.AllBlueShirt34);
         }
       
       

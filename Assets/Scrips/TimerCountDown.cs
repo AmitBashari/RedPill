@@ -43,7 +43,7 @@ public class TimerCountDown : MonoBehaviour
             OnTimerFinished?.Invoke();
         }
 
-        if ((Duration - _elapsedTime <= LastSeconds))
+        if ((Duration - _elapsedTime <= LastSeconds) && (Duration - _elapsedTime > 0))
         {
             Debug.Log("I play Intense");
             IntenseTimerSound.volume = 0.6f;
