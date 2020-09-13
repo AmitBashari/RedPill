@@ -1,13 +1,15 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.IO;
+using System.Runtime.Serialization.Formatters.Binary;
+
 
 public class AchievementManager : MonoBehaviour
 {
     private static AchievementManager instance = null; 
     public static AchievementManager Instance { get { return instance; } }
 
-    //public List<GameObject> AchievementsToEarn = new List<GameObject>();
 
     private AchievementSavedData _savedData;
 
@@ -27,7 +29,9 @@ public class AchievementManager : MonoBehaviour
         }
         DontDestroyOnLoad(this);
 
-        _savedData = new AchievementSavedData(); // Read from file , save to file
+        //_savedData = new AchievementSavedData(); // Read from file , save to file
+        _savedData = LoadAchievmentData();
+
     }
 
     public List<AchievementSavedData.Ending> Endings => _savedData.Endings; 
@@ -40,11 +44,60 @@ public class AchievementManager : MonoBehaviour
         }
 
         Endings.Add(ending);
-        //Save Data here
+
+        BinaryFormatter formatter = new BinaryFormatter();
+        string path = Application.persistentDataPath + "achievments.json";
+        FileStream stream = new FileStream(path, FileMode.Create);
+
+        AchievementSavedData achievmentData = _savedData;
+
+        formatter.Serialize(stream, _savedData);
+        stream.Close();
+  
+        //Application.persistentDataPath. //save
         return true;
 
     }
 
+    public static AchievementSavedData LoadAchievmentData()
+    {
+        string path = Application.persistentDataPath + "achievments.json";
+        if (File.Exists(path))
+        {
+            BinaryFormatter formatter = new BinaryFormatter();
+            FileStream stream = new FileStream(path, FileMode.Open);
+
+            AchievementSavedData data = formatter.Deserialize(stream) as AchievementSavedData;
+            stream.Close();
+            return data;
+
+        }
+        else
+        {
+            Debug.LogError("Save file not found in " + path);
+            return null;
+        }
+    }
+
+    public void ClearAchievments()
+    {
+        _savedData.Endings.Clear();
+
+        BinaryFormatter formatter = new BinaryFormatter();
+        string path = Application.persistentDataPath + "achievments.json";
+        FileStream stream = new FileStream(path, FileMode.Create);
+
+        AchievementSavedData achievmentData = _savedData;
+
+        formatter.Serialize(stream, _savedData);
+        stream.Close();
+
+
+    }
+    
 }
+
+
+
 
    
