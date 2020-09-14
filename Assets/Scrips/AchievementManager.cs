@@ -9,7 +9,9 @@ public class AchievementManager : MonoBehaviour
 {
     private static AchievementManager instance = null; 
     public static AchievementManager Instance { get { return instance; } }
-    
+
+    public static bool AlreadyGotAchievment;
+
     private AchievementSavedData _savedData;
 
     private void Awake()
@@ -38,12 +40,20 @@ public class AchievementManager : MonoBehaviour
     {
         if (Endings.Contains(ending))
         {
+            AlreadyGotAchievment = true;
             return false;
+        }
+        else
+        {
+            AlreadyGotAchievment = false;
         }
 
         Endings.Add(ending);
+        //AlreadyGotAchievment = false;
+        //Set that bool on choice screen to true
+        
 
-        //check if we got speical ending. If yes -> add it
+        //check if we got speical ending. If yes -> add it // Check: Hash Set - like a list but not in oreder, got indexes. 
 
         if (Endings.Contains(AchievementSavedData.Ending.Cuddle_With_Charllote1)
             && Endings.Contains(AchievementSavedData.Ending.Charllote_Hurtful_Eyes2)

@@ -23,6 +23,7 @@ public class ChoiceScreen : MonoBehaviour
     public Animator SlideAnimator;
     public Animator PlotAnimator;
     public Animator BehindTextAnimator;
+    public Animator AchievmentPopUp;
     public UnityEvent OnTimePause;
     public UnityEvent OnTimeContinue;
     public Button LoadUIButton;
@@ -31,9 +32,9 @@ public class ChoiceScreen : MonoBehaviour
     private Animation slideAnim;
     private Choice _nextChoice;
     private bool _isEnd = false;
-    private bool _gotEndingAchievement;
+    //public bool AlreadyGotAchievment;
     private int _endingID;
-    //private bool _gotEndingAchievement = false;
+
    
     
 
@@ -55,6 +56,7 @@ public class ChoiceScreen : MonoBehaviour
             SecondChoiceButton.gameObject.SetActive(false);
             _isEnd = true;
             AchievementManager.Instance.AddEnding(choice.Achievement);
+            //_gotEndingAchievement = AchievementManager.Instance.AddEnding
 
             //Delete bellow button
             LoadUIButton.gameObject.SetActive(true);
@@ -188,11 +190,11 @@ public class ChoiceScreen : MonoBehaviour
         {
             NextButton.gameObject.SetActive(true);
 
-            if (_gotEndingAchievement == false)
+            if (AchievementManager.AlreadyGotAchievment == false)
             {
                 Debug.Log("I play Achievemnt Animation"); // Insert Achievment Anim Here 
             }
-            _gotEndingAchievement = true;
+            AchievementManager.AlreadyGotAchievment = true;
 
         }
 
