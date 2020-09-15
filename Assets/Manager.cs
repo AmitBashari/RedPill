@@ -7,6 +7,7 @@ public class Manager : MonoBehaviour
 {
     public GameObject achievementButton;
     public GameObject creditsButton;
+    public GameObject quitButton;
 
     public GameObject IntroImages;
     public AudioClip IntroVoice;
@@ -20,8 +21,8 @@ public class Manager : MonoBehaviour
 
     public void Update()
     {
-        if (Input.GetKeyDown("escape"))
-            Application.Quit();
+        /*if (Input.GetKeyDown("escape"))
+            Application.Quit();*/
 
     }
 
@@ -29,6 +30,7 @@ public class Manager : MonoBehaviour
     {
         achievementButton.SetActive(false);
         creditsButton.SetActive(false);
+        quitButton.SetActive(false);
 
         IntroImages.SetActive(true);
         _audioSource.Play();
@@ -49,6 +51,11 @@ public class Manager : MonoBehaviour
     public void goCredits()
     {
         SceneManager.LoadScene("CreditsUI");
+    }
+
+    public void QuitGame()
+    {
+        Application.Quit();
     }
 
 }
