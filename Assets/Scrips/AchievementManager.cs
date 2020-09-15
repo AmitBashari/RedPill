@@ -10,7 +10,7 @@ public class AchievementManager : MonoBehaviour
     private static AchievementManager instance = null; 
     public static AchievementManager Instance { get { return instance; } }
 
-    public static bool AlreadyGotAchievment;
+    public static bool AlreadyGotAchievment = true;
 
     private AchievementSavedData _savedData;
 
