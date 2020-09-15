@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: RBC_Nut_Free_Barca
   m_EditorClassIdentifier: 
   IsEnding: 0
+  Achievement: 0
   Name: Order a Nut-Free Chocolate mousse, you heard chocolate is an aphrodisiac.
   Plot: "Charlotte comes back and looks at the dessert, she licks her lips and asks
     flirtatiously \"is there anything sweeter than chocolate?\".\r\n\rYou say that
@@ -22,4 +23,4 @@ MonoBehaviour:
   Art: {fileID: 21300000, guid: 8c33f781cc42f5742ba922d6e2b42457, type: 3}
   FirstChoice: {fileID: 11400000, guid: b1c22e022948bd04a98e262932c5852f, type: 2}
   SecondChoice: {fileID: 11400000, guid: 26ba8a072492f8c449ae10de612e02fa, type: 2}
-  VoiceActing: {fileID: 8300000, guid: f61e2057baf159346a0959661c3c7046, type: 3}
+  VoiceActing: {fileID: 8300000, guid: 51574a7245ab93d41be4da6903eef2bf, type: 3}

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: RBC_AcceptCharlotte
   m_EditorClassIdentifier: 
   IsEnding: 0
+  Achievement: 0
   Name: You say yes. Obviously. You love food.
   Plot: 'Charlotte leads the way to the restaurant.
 
@@ -28,4 +29,4 @@ MonoBehaviour:
   Art: {fileID: 21300000, guid: 8c33f781cc42f5742ba922d6e2b42457, type: 3}
   FirstChoice: {fileID: 11400000, guid: 967b612dcf180f54b89d9fa85b62ec10, type: 2}
   SecondChoice: {fileID: 11400000, guid: 0583298d6615f884c848af8796d8c897, type: 2}
-  VoiceActing: {fileID: 8300000, guid: 8b4994072e2d507418d63c6b8313683c, type: 3}
+  VoiceActing: {fileID: 8300000, guid: 6b38d3421950cc14ea5fba86cf2b0213, type: 3}

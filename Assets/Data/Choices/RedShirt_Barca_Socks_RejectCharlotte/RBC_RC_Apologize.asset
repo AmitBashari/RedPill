@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: RBC_RC_Apologize
   m_EditorClassIdentifier: 
   IsEnding: 0
+  Achievement: 0
   Name: apologize to the stage manager profusely for your tardiness. You promise
     to make it up to him.
   Plot: 'In your dressing room, you begin the routine of putting your "Game Face"
@@ -39,4 +40,4 @@ MonoBehaviour:
   Art: {fileID: 21300000, guid: 8c33f781cc42f5742ba922d6e2b42457, type: 3}
   FirstChoice: {fileID: 11400000, guid: a22b0b0861d643c498158780fd92955c, type: 2}
   SecondChoice: {fileID: 11400000, guid: ea7695074069c3048a3e1cdd532a0ffb, type: 2}
-  VoiceActing: {fileID: 8300000, guid: 305535c60bbe44876bdcd4d29645b694, type: 3}
+  VoiceActing: {fileID: 8300000, guid: b558802898990b54f8416e87124b9e6d, type: 3}

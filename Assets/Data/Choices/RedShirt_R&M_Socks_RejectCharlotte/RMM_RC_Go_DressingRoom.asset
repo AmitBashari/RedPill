@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: RMM_RC_Go_DressingRoom
   m_EditorClassIdentifier: 
   IsEnding: 0
+  Achievement: 0
   Name: Go straight to the dressing room to get changed
   Plot: 'You take off your clothes and fold them neatly on the chair next to you.
     You wonder if you have time to catch a quick shower before the show. Suddenly,
@@ -37,4 +38,4 @@ MonoBehaviour:
   Art: {fileID: 21300000, guid: 8c33f781cc42f5742ba922d6e2b42457, type: 3}
   FirstChoice: {fileID: 11400000, guid: 075dd64230b28134094299dc19c5a9d0, type: 2}
   SecondChoice: {fileID: 11400000, guid: 82e5430210aefcf4fb656115c846ef3a, type: 2}
-  VoiceActing: {fileID: 8300000, guid: 35090dcd2a6454451bf7dab197a53b68, type: 3}
+  VoiceActing: {fileID: 8300000, guid: b1a61f6bbd1c0c9468af25466cd2c09a, type: 3}

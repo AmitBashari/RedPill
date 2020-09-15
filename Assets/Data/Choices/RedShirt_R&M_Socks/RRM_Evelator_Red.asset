@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: RRM_Evelator_Red
   m_EditorClassIdentifier: 
   IsEnding: 0
+  Achievement: 0
   Name: Rick and Morty Socks
   Plot: 'There is a beautiful woman in the elevator as you walk in.
 
@@ -28,4 +29,4 @@ MonoBehaviour:
   Art: {fileID: 21300000, guid: 8c33f781cc42f5742ba922d6e2b42457, type: 3}
   FirstChoice: {fileID: 11400000, guid: c592d562f3d15cc4b8dfe0b8e060a21a, type: 2}
   SecondChoice: {fileID: 11400000, guid: b900b77b6b5800e45bb44ce9245cadd9, type: 2}
-  VoiceActing: {fileID: 8300000, guid: 5ceee0b079f7d8f48b654b8f484d1093, type: 3}
+  VoiceActing: {fileID: 8300000, guid: 533b9dc635fd481419150005e2d2a397, type: 3}

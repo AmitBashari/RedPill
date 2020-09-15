@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: RBC_Elevator_Red
   m_EditorClassIdentifier: 
   IsEnding: 0
+  Achievement: 0
   Name: Barcelona Socks
   Plot: "There is a beautiful woman in the elevator as you walk in. \nShe notices
     you and lowers her phone. \nShe compliments your shirt. Your face becomes that
@@ -22,4 +23,4 @@ MonoBehaviour:
   Art: {fileID: 21300000, guid: 8c33f781cc42f5742ba922d6e2b42457, type: 3}
   FirstChoice: {fileID: 11400000, guid: ce04380d8ededcc48b08dc020b268e02, type: 2}
   SecondChoice: {fileID: 11400000, guid: 5857e0cb02684b140b81e4e71af7adab, type: 2}
-  VoiceActing: {fileID: 8300000, guid: 5ceee0b079f7d8f48b654b8f484d1093, type: 3}
+  VoiceActing: {fileID: 8300000, guid: 533b9dc635fd481419150005e2d2a397, type: 3}

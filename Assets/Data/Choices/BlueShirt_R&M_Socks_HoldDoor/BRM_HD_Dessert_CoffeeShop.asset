@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BRM_HD_Dessert_CoffeeShop
   m_EditorClassIdentifier: 
   IsEnding: 0
+  Achievement: 0
   Name: Go to the local coffee shop
   Plot: 'Charlotte asks you to order dessert while she goes to freshen up, she doesn''t
     really care which one, but she is allergic to nuts.
@@ -22,4 +23,4 @@ MonoBehaviour:
   Art: {fileID: 21300000, guid: da04523dd5d86c24d9398eb49c7e743c, type: 3}
   FirstChoice: {fileID: 11400000, guid: 7ca05dca845520348bb3e2cec93f3131, type: 2}
   SecondChoice: {fileID: 11400000, guid: 8bdaace35fd502d479349126e21ba65a, type: 2}
-  VoiceActing: {fileID: 8300000, guid: ced5ebb1fa41aca4db7006bdb097d94d, type: 3}
+  VoiceActing: {fileID: 8300000, guid: c3cc60f0b6992854a8a2698a663645a9, type: 3}

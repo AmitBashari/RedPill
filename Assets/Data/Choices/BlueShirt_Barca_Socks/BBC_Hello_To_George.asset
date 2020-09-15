@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BBC_Hello_To_George
   m_EditorClassIdentifier: 
   IsEnding: 0
+  Achievement: 0
   Name: Say hello to George the doorman, he starts telling you a story about his
     grandchildren but you are in a rush
   Plot: 'You go out to the street and start walking toward the bus station.
@@ -29,4 +30,4 @@ MonoBehaviour:
   Art: {fileID: 21300000, guid: da04523dd5d86c24d9398eb49c7e743c, type: 3}
   FirstChoice: {fileID: 11400000, guid: 79016fd75e34f8e40ae88af688c7caeb, type: 2}
   SecondChoice: {fileID: 11400000, guid: 1615e692f51bc0e4581e2ada8bb928c9, type: 2}
-  VoiceActing: {fileID: 8300000, guid: cb785dd5c308f4f168195a575cf813b2, type: 3}
+  VoiceActing: {fileID: 8300000, guid: 85e05ae16b7afb146ab88d652827191f, type: 3}

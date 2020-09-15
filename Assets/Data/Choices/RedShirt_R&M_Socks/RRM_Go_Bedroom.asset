@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: RRM_Go_Bedroom
   m_EditorClassIdentifier: 
   IsEnding: 0
-  EndID: 1
+  Achievement: 0
   Name: Offer Charlotte to move to her bedroom
   Plot: "Charlotte starts taking off your clothes piece by piece leaving you in your
     socks and underwear.\nYou thank mom for always reminding you to wear clean ones
@@ -24,4 +24,4 @@ MonoBehaviour:
   Art: {fileID: 21300000, guid: 8c33f781cc42f5742ba922d6e2b42457, type: 3}
   FirstChoice: {fileID: 11400000, guid: bbd5e4f995142784cab38082f15c4fe5, type: 2}
   SecondChoice: {fileID: 11400000, guid: 85f463aaf4f4b184da6cceb7712cb09e, type: 2}
-  VoiceActing: {fileID: 8300000, guid: d755c51e418d0ee4587d67a74e5f8e2e, type: 3}
+  VoiceActing: {fileID: 8300000, guid: c9900b643209d554685edb616077e7bd, type: 3}

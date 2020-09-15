@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: RBC_RC_RejectCharlotte
   m_EditorClassIdentifier: 
   IsEnding: 0
+  Achievement: 0
   Name: You avert your eyes and mumble 'No thank you' under your breath
   Plot: 'You go out to the street and start walking toward the bus station.
 
@@ -28,4 +29,4 @@ MonoBehaviour:
   Art: {fileID: 21300000, guid: 8c33f781cc42f5742ba922d6e2b42457, type: 3}
   FirstChoice: {fileID: 11400000, guid: 9c479fcf90c02ae46ae7681e593ab1f8, type: 2}
   SecondChoice: {fileID: 11400000, guid: 6ad16e6090fa90a4a873f049f811a8bf, type: 2}
-  VoiceActing: {fileID: 8300000, guid: cb785dd5c308f4f168195a575cf813b2, type: 3}
+  VoiceActing: {fileID: 8300000, guid: 85e05ae16b7afb146ab88d652827191f, type: 3}

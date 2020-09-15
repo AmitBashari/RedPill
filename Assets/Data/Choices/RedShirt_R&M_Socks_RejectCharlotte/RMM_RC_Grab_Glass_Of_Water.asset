@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: RMM_RC_Grab_Glass_Of_Water
   m_EditorClassIdentifier: 
   IsEnding: 0
+  Achievement: 0
   Name: Grab a glass of cold water to cool yourself down
   Plot: 'You walk to the water cooler, thanking every being out there that the chatty
     contortionist isn''t there.
@@ -36,4 +37,4 @@ MonoBehaviour:
   Art: {fileID: 21300000, guid: 8c33f781cc42f5742ba922d6e2b42457, type: 3}
   FirstChoice: {fileID: 11400000, guid: af5e406570d328948a02e6118be930b0, type: 2}
   SecondChoice: {fileID: 11400000, guid: c02dc9a9bfa398f43a4ece7ef39758ca, type: 2}
-  VoiceActing: {fileID: 8300000, guid: 6d2c28953aaab4064b163e3ad9477555, type: 3}
+  VoiceActing: {fileID: 8300000, guid: 9952891e9523dc749859e41e26fe6814, type: 3}

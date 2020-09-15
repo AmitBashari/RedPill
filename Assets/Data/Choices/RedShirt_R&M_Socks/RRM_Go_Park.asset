@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: RRM_Go_Park
   m_EditorClassIdentifier: 
   IsEnding: 0
+  Achievement: 0
   Name: Offer Charlotte to take a post-meal stroll in the park
   Plot: 'You step in a muddy disgusting puddle and wobble to the nearest bench to
     take off your shoes.
@@ -27,4 +28,4 @@ MonoBehaviour:
   Art: {fileID: 21300000, guid: 8c33f781cc42f5742ba922d6e2b42457, type: 3}
   FirstChoice: {fileID: 11400000, guid: ef776b88c28adea4a86b5ca55fee3fac, type: 2}
   SecondChoice: {fileID: 11400000, guid: b5749fdb121027b4383e82b3efb189e0, type: 2}
-  VoiceActing: {fileID: 8300000, guid: 0ea7f75e660b446449cba65ecc1cb20d, type: 3}
+  VoiceActing: {fileID: 8300000, guid: f83d192a0e7c5f647b599306dcbed6b3, type: 3}

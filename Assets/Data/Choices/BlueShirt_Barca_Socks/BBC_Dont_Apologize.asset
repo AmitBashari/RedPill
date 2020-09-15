@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BBC_Dont_Apologize
   m_EditorClassIdentifier: 
   IsEnding: 0
+  Achievement: 0
   Name: You shouldn't apologize for anything. The crowd is there to see you, so they
     can wait if necessary.
   Plot: 'You do your famous stretching routine.
@@ -36,4 +37,4 @@ MonoBehaviour:
   Art: {fileID: 21300000, guid: da04523dd5d86c24d9398eb49c7e743c, type: 3}
   FirstChoice: {fileID: 11400000, guid: 910bdf927cebbcb46bd6db5ce22d10ec, type: 2}
   SecondChoice: {fileID: 11400000, guid: e7773b5e93aba2a41953e00a6f30559e, type: 2}
-  VoiceActing: {fileID: 8300000, guid: e12e698edbf464e28b0e206606568375, type: 3}
+  VoiceActing: {fileID: 8300000, guid: 68b56d7df893d91428392eed8a4054f7, type: 3}

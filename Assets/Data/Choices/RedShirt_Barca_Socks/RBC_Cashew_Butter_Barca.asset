@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: RBC_Cashew_Butter_Barca
   m_EditorClassIdentifier: 
   IsEnding: 0
+  Achievement: 0
   Name: Order Cashew Butter Pie, it just looked so good in the display.
   Plot: 'Charlotte doesn''t notice the cake has nuts in it and takes a bite before
     you can stop her.
@@ -31,4 +32,4 @@ MonoBehaviour:
   Art: {fileID: 21300000, guid: 8c33f781cc42f5742ba922d6e2b42457, type: 3}
   FirstChoice: {fileID: 11400000, guid: 1e24084d45b74cd4eaedfb348b5127cf, type: 2}
   SecondChoice: {fileID: 11400000, guid: 5d4fb98fdcc86874da7cfe8535a1ab48, type: 2}
-  VoiceActing: {fileID: 8300000, guid: ea7f611906c693849ab31d22f0c9aaf4, type: 3}
+  VoiceActing: {fileID: 8300000, guid: 0f96107df84dd6342a9789994bebd567, type: 3}
