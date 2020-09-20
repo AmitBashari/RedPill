@@ -3,6 +3,7 @@ using System.Collections;
 using UnityEngine.UI;
 using TMPro;
 using UnityEngine.Events;
+using UnityEngine.SceneManagement;
 
 public class ChoiceScreen : MonoBehaviour
 {
@@ -26,7 +27,7 @@ public class ChoiceScreen : MonoBehaviour
     public Animator AchievmentPopUp;
     public UnityEvent OnTimePause;
     public UnityEvent OnTimeContinue;
-    public Button LoadUIButton;
+    //public Button LoadUIButton;
     
     private float letterPause = 0.05f;
     private Animation slideAnim;
@@ -59,7 +60,7 @@ public class ChoiceScreen : MonoBehaviour
             //_gotEndingAchievement = AchievementManager.Instance.AddEnding
 
             //Delete bellow button
-            LoadUIButton.gameObject.SetActive(true);
+            //LoadUIButton.gameObject.SetActive(true);
 
         }
         else
@@ -70,7 +71,7 @@ public class ChoiceScreen : MonoBehaviour
             _isEnd = false;
 
             //Delete bellow button
-            LoadUIButton.gameObject.SetActive(false);
+            //LoadUIButton.gameObject.SetActive(false);
 
         }
 
@@ -104,6 +105,15 @@ public class ChoiceScreen : MonoBehaviour
             NextButton.GetComponentInChildren<TMP_Text>().text = ". . .";
 
         }
+        
+        if (CurrentChoice == engine.Victory) // Add here True end logic 
+        {
+            Debug.Log("I load crecit screen");
+
+            SceneManager.LoadScene("CreditsUI");
+        }
+        
+         
         else
         {
             engine.LoadEnd(CurrentChoice);
