@@ -10,9 +10,9 @@ public class ChoiceScreen : MonoBehaviour
     public ChoiceEngine engine;
 
     public TextMeshProUGUI plot;
-    //public TextMeshProUGUI question;
     public Image art;
     public Image PreviousArt;
+    public Image AchievmentPopImage;
     public Button FirstChoiceButton;
     public Text FirstChoiceText;
     public Button SecondChoiceButton;
@@ -24,10 +24,10 @@ public class ChoiceScreen : MonoBehaviour
     public Animator SlideAnimator;
     public Animator PlotAnimator;
     public Animator BehindTextAnimator;
-    public Animator AchievmentPopUp;
+    public Animator AchievmentPopUpAnimator;
     public UnityEvent OnTimePause;
     public UnityEvent OnTimeContinue;
-    //public Button LoadUIButton;
+
     
     private float letterPause = 0.05f;
     private Animation slideAnim;
@@ -50,6 +50,7 @@ public class ChoiceScreen : MonoBehaviour
         StartCoroutine(TypeSentenceEachLetter(choice.Plot));
 
         art.sprite = choice.Art;
+        AchievmentPopImage.sprite = choice.AchievmentPopArt;
 
         if (choice.IsEnding)
         {
@@ -57,10 +58,7 @@ public class ChoiceScreen : MonoBehaviour
             SecondChoiceButton.gameObject.SetActive(false);
             _isEnd = true;
             AchievementManager.Instance.AddEnding(choice.Achievement);
-            //_gotEndingAchievement = AchievementManager.Instance.AddEnding
-
-            //Delete bellow button
-            //LoadUIButton.gameObject.SetActive(true);
+            AchievmentPopUpAnimator.SetBool("IsActive", false);
 
         }
         else
@@ -69,9 +67,6 @@ public class ChoiceScreen : MonoBehaviour
             SecondChoiceText.text = choice.SecondChoice.Name;
             NextButton.gameObject.SetActive(false);
             _isEnd = false;
-
-            //Delete bellow button
-            //LoadUIButton.gameObject.SetActive(false);
 
         }
 
@@ -97,6 +92,14 @@ public class ChoiceScreen : MonoBehaviour
 
     public void NextClicked()
     {
+
+        if (CurrentChoice == engine.Victory) // Add here True end logic 
+        {
+            Debug.Log("I load crecit screen");
+
+            SceneManager.LoadScene("CreditsUI");
+        }
+
         if (_nextChoice != null)
         {
             engine.LoadChoice(_nextChoice);
@@ -105,15 +108,7 @@ public class ChoiceScreen : MonoBehaviour
             NextButton.GetComponentInChildren<TMP_Text>().text = ". . .";
 
         }
-        
-        if (CurrentChoice == engine.Victory) // Add here True end logic 
-        {
-            Debug.Log("I load crecit screen");
-
-            SceneManager.LoadScene("CreditsUI");
-        }
-        
-         
+           
         else
         {
             engine.LoadEnd(CurrentChoice);
@@ -202,10 +197,12 @@ public class ChoiceScreen : MonoBehaviour
 
             if (AchievementManager.AlreadyGotAchievment == false)
             {
+                AchievmentPopUpAnimator.SetBool("IsActive", true);
                 Debug.Log("I play Achievemnt Animation"); // Insert Achievment Anim Here 
+                //AchievmentPopUpAnimator.SetBool("IsActive", false);
             }
             AchievementManager.AlreadyGotAchievment = true;
-
+            
         }
 
 

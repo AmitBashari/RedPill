@@ -11,6 +11,7 @@ public class Choice : ScriptableObject
     [TextArea (5,15)]
     public string Plot;
     public Sprite Art;
+    public Sprite AchievmentPopArt;
     public Choice FirstChoice;
     public Choice SecondChoice;
     public AudioClip VoiceActing;

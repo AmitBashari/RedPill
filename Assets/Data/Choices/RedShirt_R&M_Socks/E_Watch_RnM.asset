@@ -26,6 +26,7 @@ MonoBehaviour:
     Before you know it, you start making sweet love before
     the episode even ended.'
   Art: {fileID: 21300000, guid: f17c4b542585a3f4aa4f46f9a566b425, type: 3}
+  AchievmentPopArt: {fileID: 21300000, guid: b3110fa3aecc98145bed23fab6491105, type: 3}
   FirstChoice: {fileID: 0}
   SecondChoice: {fileID: 0}
   VoiceActing: {fileID: 8300000, guid: 9f8fa6b3a71eea34f9b108529532fe57, type: 3}

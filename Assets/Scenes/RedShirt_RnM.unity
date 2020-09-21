@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1784,7 +1784,6 @@ RectTransform:
   - {fileID: 1602075016}
   - {fileID: 1619510632}
   - {fileID: 14620584}
-  - {fileID: 1959262131}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2915,6 +2914,7 @@ MonoBehaviour:
   plot: {fileID: 1569030594}
   art: {fileID: 1016145938}
   PreviousArt: {fileID: 1024216224}
+  AchievmentPopImage: {fileID: 1959262133}
   FirstChoiceButton: {fileID: 695356304}
   FirstChoiceText: {fileID: 458598441}
   SecondChoiceButton: {fileID: 1315612512}
@@ -2926,7 +2926,7 @@ MonoBehaviour:
   SlideAnimator: {fileID: 1016145939}
   PlotAnimator: {fileID: 1569030595}
   BehindTextAnimator: {fileID: 1310465152}
-  AchievmentPopUp: {fileID: 0}
+  AchievmentPopUpAnimator: {fileID: 1959262132}
   OnTimePause:
     m_PersistentCalls:
       m_Calls:
@@ -2978,6 +2978,7 @@ RectTransform:
   - {fileID: 1353833614}
   - {fileID: 893654717}
   - {fileID: 1199024347}
+  - {fileID: 1959262131}
   m_Father: {fileID: 990541288}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3382,7 +3383,7 @@ GameObject:
   - component: {fileID: 1959262133}
   - component: {fileID: 1959262132}
   m_Layer: 5
-  m_Name: Image
+  m_Name: AchievmentPopImage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3395,12 +3396,12 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1959262130}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 990541288}
-  m_RootOrder: 3
+  m_Father: {fileID: 1602075016}
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -3445,7 +3446,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: b3110fa3aecc98145bed23fab6491105, type: 3}
+  m_Sprite: {fileID: 0}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
