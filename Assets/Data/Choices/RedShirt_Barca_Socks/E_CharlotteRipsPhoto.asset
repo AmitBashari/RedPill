@@ -37,6 +37,7 @@ MonoBehaviour:
 
     Guess curiosity did kill the cat.'
   Art: {fileID: 21300000, guid: 02aedc9ca358c5444bd17755f854f746, type: 3}
+  AchievmentPopArt: {fileID: 21300000, guid: a94c5eddb26aa9345949508df2977859, type: 3}
   FirstChoice: {fileID: 0}
   SecondChoice: {fileID: 0}
   VoiceActing: {fileID: 8300000, guid: 1d2ad5d9721caf34f90313fbb800208c, type: 3}

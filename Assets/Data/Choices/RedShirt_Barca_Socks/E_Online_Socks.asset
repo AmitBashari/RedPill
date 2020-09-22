@@ -19,6 +19,7 @@ MonoBehaviour:
     She asks you to stick around and help her pick out sports socks online, then
     she pours you another glass of wine.
   Art: {fileID: 21300000, guid: 9405531f43aed4f4e9063a7f88c7f4fa, type: 3}
+  AchievmentPopArt: {fileID: 21300000, guid: 407d8e9c2e432994aa9973a93d60e169, type: 3}
   FirstChoice: {fileID: 0}
   SecondChoice: {fileID: 0}
   VoiceActing: {fileID: 8300000, guid: 7946dc8186946634e84ca18c32b628c1, type: 3}

@@ -25,6 +25,7 @@ MonoBehaviour:
     there''s a watch-over party at his place tonight, it''s definitely the time he
     followed Rick and Morty''s footsteps. Little does he know....'
   Art: {fileID: 21300000, guid: 5972be7d6ee180e49b6726300195faa8, type: 3}
+  AchievmentPopArt: {fileID: 21300000, guid: e2e6b354b834b7340918f6a7d5e28b4d, type: 3}
   FirstChoice: {fileID: 0}
   SecondChoice: {fileID: 0}
   VoiceActing: {fileID: 8300000, guid: 7633d2494b6161c4d923c7b73560d976, type: 3}

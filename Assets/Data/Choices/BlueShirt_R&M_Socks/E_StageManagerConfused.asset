@@ -29,6 +29,7 @@ MonoBehaviour:
     go back to getting ready for stage, hoping things will go much smoothly from
     here on out.'
   Art: {fileID: 21300000, guid: 82d80f0e99d8c5e47a290ea68035b85c, type: 3}
+  AchievmentPopArt: {fileID: 21300000, guid: b4f638a237e24664bba2707dcaaf3204, type: 3}
   FirstChoice: {fileID: 0}
   SecondChoice: {fileID: 0}
   VoiceActing: {fileID: 8300000, guid: d03968ef2199b464793e72fdc3e792a6, type: 3}

@@ -28,6 +28,7 @@ MonoBehaviour:
 
     Dave the light guy won the bet.'
   Art: {fileID: 21300000, guid: 458ce5a1933a0f54a95ec66cee7666c7, type: 3}
+  AchievmentPopArt: {fileID: 21300000, guid: 6acabbb5be073a640b4379097fd7aac5, type: 3}
   FirstChoice: {fileID: 0}
   SecondChoice: {fileID: 0}
   VoiceActing: {fileID: 8300000, guid: 6015138d823dc434d9122e06ea07e48a, type: 3}

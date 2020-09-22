@@ -23,6 +23,7 @@ MonoBehaviour:
     there, looking into each other's eyes.\nAfter what seems like forever, he pulls
     away and gestures you to the stage.\nYou're flustered, but the show must go on."
   Art: {fileID: 21300000, guid: bb0af3ccf293bda47a8c87ab04bd1ed9, type: 3}
+  AchievmentPopArt: {fileID: 21300000, guid: 9898c15e9354ba541b10e5cabf420c7e, type: 3}
   FirstChoice: {fileID: 0}
   SecondChoice: {fileID: 0}
   VoiceActing: {fileID: 8300000, guid: b5994e15f15ba764981e0ad4cac51982, type: 3}

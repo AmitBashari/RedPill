@@ -25,6 +25,7 @@ MonoBehaviour:
     Charlotte
     moves closer and puts your arm around her, as you bask in the warm light.'
   Art: {fileID: 21300000, guid: 104ebfbf215aff64aac356f1bfe47e51, type: 3}
+  AchievmentPopArt: {fileID: 21300000, guid: 4fa4e320f79566c488efeb8321548f2f, type: 3}
   FirstChoice: {fileID: 0}
   SecondChoice: {fileID: 0}
   VoiceActing: {fileID: 8300000, guid: b3252295c4c99914a9bcd2e6ef61d609, type: 3}

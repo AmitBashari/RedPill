@@ -37,6 +37,7 @@ MonoBehaviour:
     fuzzes up, and you slip slowly into darkness, the last thing you hear is the
     stage manager whispering in your ear.'
   Art: {fileID: 21300000, guid: 64a37fc2be6ec234f97001690d160359, type: 3}
+  AchievmentPopArt: {fileID: 21300000, guid: 667b2a1df347f3d418f03adfae057ac8, type: 3}
   FirstChoice: {fileID: 0}
   SecondChoice: {fileID: 0}
   VoiceActing: {fileID: 8300000, guid: 0851e4d0ee11ecb4aa1cdbfc089eaa9e, type: 3}

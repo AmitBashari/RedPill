@@ -23,6 +23,7 @@ MonoBehaviour:
 
     She doesn''t want to share one.'
   Art: {fileID: 21300000, guid: 000eb8ffa26125145bbdcecfe09c56a1, type: 3}
+  AchievmentPopArt: {fileID: 21300000, guid: ffd04710c87ae02499034ce393a72745, type: 3}
   FirstChoice: {fileID: 0}
   SecondChoice: {fileID: 0}
   VoiceActing: {fileID: 8300000, guid: 609543357ef22584583b0b1908b4d433, type: 3}

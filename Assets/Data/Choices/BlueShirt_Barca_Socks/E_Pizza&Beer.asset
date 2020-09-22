@@ -23,6 +23,7 @@ MonoBehaviour:
 
     This is the beginning of a beautiful friendship.'
   Art: {fileID: 21300000, guid: f6bdd2ac26c09ab42b5d082d97460b61, type: 3}
+  AchievmentPopArt: {fileID: 21300000, guid: c5e7c01bf83fb7c41b9c12e513dc44ab, type: 3}
   FirstChoice: {fileID: 0}
   SecondChoice: {fileID: 0}
   VoiceActing: {fileID: 8300000, guid: 63a14f9026dca344a9a0f5b713bd67a1, type: 3}

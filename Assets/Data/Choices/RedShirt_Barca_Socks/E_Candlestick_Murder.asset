@@ -25,6 +25,7 @@ MonoBehaviour:
     Charlotte moves closer and  with a hateful sneer she bashes your
     head in, your body dropping to the hardwood floor of her apartment.'
   Art: {fileID: 21300000, guid: 59ee5a9455ce06a479d0a21a1d0e67d2, type: 3}
+  AchievmentPopArt: {fileID: 21300000, guid: 61987fe5efb8b1f4b831eec7587182d5, type: 3}
   FirstChoice: {fileID: 0}
   SecondChoice: {fileID: 0}
   VoiceActing: {fileID: 8300000, guid: f3d1d570100963548b32cefad00e2ce4, type: 3}
