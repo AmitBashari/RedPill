@@ -13,23 +13,25 @@ MonoBehaviour:
   m_Name: BRM_HD_Hold_Lobby_Door
   m_EditorClassIdentifier: 
   IsEnding: 0
+  Achievement: 0
   Name: Hold the lobby door for the beautiful woman.
-  Plot: 'The woman says chivalry is not to be ignored and invites you to join her
-    for lunch.
+  Plot: 'The woman says chivalry is not to be ignored and wants you to join her for
+    lunch.
 
-    She introduces herself as Charlotte and then proceeds to lead
-    the way to the restaurant.
+    She introduces herself as Charlotte and then proceeds to lead the
+    way to the restaurant.
 
-    It''s a Japanese-Greek fusion themed restaurant
-    with a giant neon sign on the side that reads "FOOD".
+    It''s a Japanese-Greek fusion themed restaurant with
+    a giant neon sign on the side of the building that reads "FOOD".
 
-    You try to not judge
-    books by their cover.
+    You try
+    to not judge books by their cover.
 
 
-    After finishing the surprisingly edible meal you
-    ponder on plans for dessert.'
+    After finishing the surprisingly edible
+    meal you ponder on plans for dessert.'
   Art: {fileID: 21300000, guid: da04523dd5d86c24d9398eb49c7e743c, type: 3}
+  AchievmentPopArt: {fileID: 0}
   FirstChoice: {fileID: 11400000, guid: be0eef19bc27ac342ac4c015b3d25fc0, type: 2}
   SecondChoice: {fileID: 11400000, guid: 06c9827ef0018c24981c0bede7dc05c7, type: 2}
-  VoiceActing: {fileID: 0}
+  VoiceActing: {fileID: 8300000, guid: 2f31edec762348e4ab8199a7bdcc5fc9, type: 3}
