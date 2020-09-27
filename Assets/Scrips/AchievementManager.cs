@@ -31,6 +31,10 @@ public class AchievementManager : MonoBehaviour
         DontDestroyOnLoad(this);
 
         _savedData = LoadAchievmentData();
+        if (_savedData == null)
+        {
+            _savedData = new AchievementSavedData();
+        }
        
     }
 
@@ -98,7 +102,7 @@ public class AchievementManager : MonoBehaviour
       
       
         BinaryFormatter formatter = new BinaryFormatter();
-        string path = Application.persistentDataPath + "achievments.json";
+        string path = Application.persistentDataPath + "/achievments.json";
         FileStream stream = new FileStream(path, FileMode.Create);
 
         AchievementSavedData achievmentData = _savedData;
@@ -110,24 +114,42 @@ public class AchievementManager : MonoBehaviour
 
     }
 
-    public static AchievementSavedData LoadAchievmentData()
+    public static AchievementSavedData LoadAchievmentData() // This is _savedData =
     {
-        string path = Application.persistentDataPath + "achievments.json";
+        string path = Application.persistentDataPath + "/achievments.json";
         if (File.Exists(path))
         {
-            BinaryFormatter formatter = new BinaryFormatter();
             FileStream stream = new FileStream(path, FileMode.Open);
+            if (stream.Length == 0)
+            {
+                stream.Close();
+                return null;
+            }
+
+            BinaryFormatter formatter = new BinaryFormatter();
 
             AchievementSavedData data = formatter.Deserialize(stream) as AchievementSavedData;
             stream.Close();
             return data;
 
+            
+
         }
         else
         {
-            Debug.LogError("Save file not found in " + path);
+            //I added these lines just now, but I still can't make it work
+            
+            /*BinaryFormatter formatter = new BinaryFormatter();
+            FileStream stream = new FileStream(path, FileMode.Create);
+
+            AchievementSavedData data = formatter.Deserialize(stream) as AchievementSavedData;
+            stream.Close();
+            */
+
+            Debug.Log("Save file not found in " + path);
             return null;
         }
+
     }
 
     public void ClearAchievments()
@@ -135,7 +157,7 @@ public class AchievementManager : MonoBehaviour
         _savedData.Endings.Clear();
 
         BinaryFormatter formatter = new BinaryFormatter();
-        string path = Application.persistentDataPath + "achievments.json";
+        string path = Application.persistentDataPath + "/achievments.json";
         FileStream stream = new FileStream(path, FileMode.Create);
 
         AchievementSavedData achievmentData = _savedData;
