@@ -339,49 +339,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 397242637}
   m_CullTransparentMesh: 0
---- !u!1 &599578511
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 599578512}
-  - component: {fileID: 599578513}
-  m_Layer: 0
-  m_Name: CreditsEngine
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &599578512
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 599578511}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &599578513
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 599578511}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aba10e30cd9ea1a4285e5758bd9f929b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &710308264
 GameObject:
   m_ObjectHideFlags: 0
@@ -472,7 +429,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &874757522
 Transform:
   m_ObjectHideFlags: 0
@@ -499,14 +456,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a845b45af158f641969565041b1a27a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CEngine: {fileID: 599578513}
+  CEngine: {fileID: 0}
   CreditsHeadline: {fileID: 1147827651}
   CreditsNames:
   - {fileID: 1394137636}
   - {fileID: 1394137636}
   CreditsFunnyQuote: {fileID: 1761733104}
-  CreditObjects:
-  - {fileID: 11400000, guid: 9e221548d3adee5499fb042bfe17075e, type: 2}
+  CreditObjects: []
   Animator: {fileID: 0}
 --- !u!1 &1029052786
 GameObject:
@@ -955,6 +911,39 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 263bed871d54a95459dd5c7909c7d658, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Headline: {fileID: 1147827651}
+  FunnyQuote: {fileID: 1761733104}
+  Names: {fileID: 1394137636}
+  CreditArray:
+  - Headline: Creators
+    FunnyQuote: We have made many mistakes, and may jmay many many many many many
+      mistakes before that
+    Names: 'Nitzan Hershkovitz
+
+
+      Amit Bashari'
+  - Headline: Mentors
+    FunnyQuote: They did  little, and we wish they have done much less.
+    Names: 'Vered Pnueli
+
+
+      Renard Gluzman
+
+
+      Asi Burak'
+  - Headline: Narration
+    FunnyQuote: Yeah yeah, we know, 30 seconds, for everything
+    Names: Neta Chen Tov
+  - Headline: Special Thanks
+    FunnyQuote: They battled the Unity gods. And won.
+    Names: 'Nadav Sheffer
+
+
+      Tomer Blaushinsky'
+  - Headline: Music Theme
+    FunnyQuote: These guys rock (Sorry, sorry)
+    Names: Cool vibes - by Kevin
+  BackButton: {fileID: 1983893896}
 --- !u!4 &1536032861
 Transform:
   m_ObjectHideFlags: 0
@@ -1341,7 +1330,7 @@ Transform:
   - {fileID: 262767845}
   - {fileID: 1140753945}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1983893896
 GameObject:

@@ -74,6 +74,7 @@ public class ChoiceEngine : MonoBehaviour
         {
             Debug.Log("YOU WIN");
             LoadChoice(Victory);
+            CreditsManager.EnteredFromMainMenu = false;
         }
    
     }

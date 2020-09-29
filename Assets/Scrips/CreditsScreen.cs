@@ -17,11 +17,11 @@ public class CreditsScreen : MonoBehaviour
 
     private float letterPause = 0.05f;
 
-    private void Start()
+    /*private void Start()
     {
         CreditsHeadline.text = CreditObjects[0].Headline;
-        CreditsNames[0].text = CreditObjects[0].Names[0];
-        
+        CreditsNames[0].text = CreditObjects[0].Names[0]; 
         CreditsNames[1].text = CreditObjects[0].Names[1];
     }
+    */
 }

@@ -51,6 +51,7 @@ public class Manager : MonoBehaviour
     public void goCredits()
     {
         SceneManager.LoadScene("CreditsUI");
+        CreditsManager.EnteredFromMainMenu = true;
     }
 
     public void QuitGame()
