@@ -689,7 +689,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: dd6334f93174d8540b58456a2be58e16, type: 3}
     m_FontSize: 45
     m_FontStyle: 0
     m_BestFit: 0
@@ -861,7 +861,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: dd6334f93174d8540b58456a2be58e16, type: 3}
     m_FontSize: 34
     m_FontStyle: 0
     m_BestFit: 0
@@ -916,7 +916,7 @@ MonoBehaviour:
   Names: {fileID: 1394137636}
   CreditArray:
   - Headline: Creators
-    FunnyQuote: We have made many mistakes, and may jmay many many many many many
+    FunnyQuote: We have made many mistakes, and many many many many many many many
       mistakes before that
     Names: 'Nitzan Hershkovitz
 
@@ -1276,7 +1276,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: dd6334f93174d8540b58456a2be58e16, type: 3}
     m_FontSize: 25
     m_FontStyle: 0
     m_BestFit: 0
