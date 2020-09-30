@@ -159,12 +159,10 @@ public class AchievementManager : MonoBehaviour
         BinaryFormatter formatter = new BinaryFormatter();
         string path = Application.persistentDataPath + "/achievments.json";
         FileStream stream = new FileStream(path, FileMode.Create);
-
         AchievementSavedData achievmentData = _savedData;
-
         formatter.Serialize(stream, _savedData);
         stream.Close();
-        LoadAchievmentData();
+
     }
     
 }

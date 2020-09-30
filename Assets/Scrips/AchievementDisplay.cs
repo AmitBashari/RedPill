@@ -15,6 +15,7 @@ public class AchievementDisplay : MonoBehaviour
 
     private void Start()
     {
+
         foreach (var a2i in AchievmentsToImages)
         {
             if (AchievementManager.Instance.Endings.Contains(a2i.Ending))
@@ -22,6 +23,7 @@ public class AchievementDisplay : MonoBehaviour
                 a2i.Icon.SetActive(true);
             }
         }
+
     }
 
 }
