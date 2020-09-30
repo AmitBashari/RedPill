@@ -18,7 +18,7 @@ public class CreditsManager : MonoBehaviour
 
     private float _slidesDelay = 4f;
     private float _letterPause = 0.1f;
-    private float _contentPause = 0.8f;
+    
 
     private void Start()
     {
