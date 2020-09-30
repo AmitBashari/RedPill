@@ -38,14 +38,21 @@ public class AudioManager : MonoBehaviour
     public void Start()
     {
         Play("MainMenuMusic");
+        
     }
 
     public void Update()
     {
       if (SceneManager.GetActiveScene().name.Equals(stoppingSceneName))
-        {
-            Stop("MainMenuMusic");
+        {   
+            Stop("MainMenuMusic"); 
+            // set volume to 0
         }
+        else
+        {
+            RaiseVolume("MainMenuMusic");
+        }
+   
     }
     public void Play (string name)
     {
@@ -55,6 +62,7 @@ public class AudioManager : MonoBehaviour
             return;
         }
         s.source.Play();
+        
     }
 
     public void Stop (string name)
@@ -64,6 +72,15 @@ public class AudioManager : MonoBehaviour
         {
             return;
         }
-        s.source.Stop();
+        //s.source.Stop();
+       s.source.volume = 0f;
     }
+
+    public void RaiseVolume (string name)
+    {
+        Sound s = Array.Find(sounds, sound => sound.name == name);
+        s.source.volume = 0.7f;
+    }
+
+
 }
