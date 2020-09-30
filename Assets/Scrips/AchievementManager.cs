@@ -164,6 +164,7 @@ public class AchievementManager : MonoBehaviour
 
         formatter.Serialize(stream, _savedData);
         stream.Close();
+        LoadAchievmentData();
     }
     
 }

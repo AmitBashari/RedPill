@@ -9,12 +9,10 @@ public class CreditsManager : MonoBehaviour
     public Text Headline;
     public Text FunnyQuote;
     public Text Names;
-
     public Credit[] CreditArray;
-
     public GameObject BackButton;
-
     public static bool EnteredFromMainMenu = true;
+    public AudioSource TypingSound;
 
     private float _slidesDelay = 4f;
     private float _letterPause = 0.1f;
@@ -33,9 +31,11 @@ public class CreditsManager : MonoBehaviour
 
     public IEnumerator LoadCredits()
     {
+
         foreach (Credit credit in CreditArray)
         {
 
+            TypingSound.Play();
             Headline.text = " ";
             Names.text = " ";
             FunnyQuote.text = " ";
@@ -58,10 +58,11 @@ public class CreditsManager : MonoBehaviour
                 yield return new WaitForSeconds(_letterPause);
             }
 
+            TypingSound.Stop();
             yield return new WaitForSeconds(_slidesDelay);
 
         }
-            BackButton.SetActive(true);
+        BackButton.SetActive(true);
 
     }
 
