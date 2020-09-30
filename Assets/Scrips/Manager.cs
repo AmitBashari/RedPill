@@ -35,7 +35,7 @@ public class Manager : MonoBehaviour
         IntroImages.SetActive(true);
         _audioSource.Play();
 
-        Invoke("StartGame", _audioSource.clip.length*0.3f);
+        Invoke("StartGame", _audioSource.clip.length);
     }
 
     public void StartGame()
