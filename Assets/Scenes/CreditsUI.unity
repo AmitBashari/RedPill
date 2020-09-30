@@ -456,14 +456,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a845b45af158f641969565041b1a27a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CEngine: {fileID: 0}
-  CreditsHeadline: {fileID: 1147827651}
-  CreditsNames:
-  - {fileID: 1394137636}
-  - {fileID: 1394137636}
-  CreditsFunnyQuote: {fileID: 1761733104}
-  CreditObjects: []
-  Animator: {fileID: 0}
 --- !u!1 &1029052786
 GameObject:
   m_ObjectHideFlags: 0
@@ -666,7 +658,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.0024625, y: 169}
+  m_AnchoredPosition: {x: -9, y: 169}
   m_SizeDelta: {x: 633.85815, y: 144.71115}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1147827651
@@ -690,11 +682,11 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: dd6334f93174d8540b58456a2be58e16, type: 3}
-    m_FontSize: 45
+    m_FontSize: 41
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 4
-    m_MaxSize: 45
+    m_MaxSize: 58
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -838,7 +830,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 4.7, y: -149.6}
+  m_AnchoredPosition: {x: -7.0024586, y: -108}
   m_SizeDelta: {x: 632.6551, y: 329.26703}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1394137636
@@ -862,11 +854,11 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: dd6334f93174d8540b58456a2be58e16, type: 3}
-    m_FontSize: 34
+    m_FontSize: 63
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 3
-    m_MaxSize: 40
+    m_MaxSize: 72
     m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -916,14 +908,14 @@ MonoBehaviour:
   Names: {fileID: 1394137636}
   CreditArray:
   - Headline: Creators
-    FunnyQuote: We have made many mistakes, and many many many many many many many
-      mistakes before that
+    FunnyQuote: '"We have made many mistakes, and many many many many many many many
+      mistakes before that"'
     Names: 'Nitzan Hershkovitz
 
 
       Amit Bashari'
   - Headline: Mentors
-    FunnyQuote: They did  little, and we wish they have done much less.
+    FunnyQuote: '"They definitly helped us make good choices"'
     Names: 'Vered Pnueli
 
 
@@ -932,17 +924,30 @@ MonoBehaviour:
 
       Asi Burak'
   - Headline: Narration
-    FunnyQuote: Yeah yeah, we know, 30 seconds, for everything
-    Names: Neta Chen Tov
+    FunnyQuote: '"Never get tired of hearing her, even when I wake up to the raspy
+      voice... for the 30th time"'
+    Names: 'Neta Chen Tov
+
+
+
+
+'
   - Headline: Special Thanks
-    FunnyQuote: They battled the Unity gods. And won.
+    FunnyQuote: '"They battled the Unity gods. And won."'
     Names: 'Nadav Sheffer
 
 
       Tomer Blaushinsky'
   - Headline: Music Theme
-    FunnyQuote: These guys rock (Sorry, sorry)
-    Names: Cool vibes - by Kevin
+    FunnyQuote: '"This guy should''ve been a Geologist, ''cause he ROCKS!"'
+    Names: 'Cool Vibes - Kevin MacLeod
+
+      (incompetech.com)
+
+      Licensed
+      under Creative Commons: By Attribution 3.0 License
+
+      http://creativecommons.org/licenses/by/3.0/'
   BackButton: {fileID: 1983893896}
 --- !u!4 &1536032861
 Transform:
@@ -1253,7 +1258,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 7.8, y: 85.9}
+  m_AnchoredPosition: {x: -1.2024584, y: 108}
   m_SizeDelta: {x: 636.1239, y: 119.273254}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &1761733104
