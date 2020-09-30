@@ -912,15 +912,12 @@ MonoBehaviour:
       mistakes before that"'
     Names: 'Nitzan Hershkovitz
 
-
       Amit Bashari'
   - Headline: Mentors
     FunnyQuote: '"They definitly helped us make good choices"'
     Names: 'Vered Pnueli
 
-
       Renard Gluzman
-
 
       Asi Burak'
   - Headline: Narration
@@ -944,8 +941,8 @@ MonoBehaviour:
 
       (incompetech.com)
 
-      Licensed
-      under Creative Commons: By Attribution 3.0 License
+      Licensed under
+      Creative Commons: By Attribution 3.0 License
 
       http://creativecommons.org/licenses/by/3.0/'
   BackButton: {fileID: 1983893896}
@@ -1019,7 +1016,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: d9bb1f03d7d7eb148903ce0b5ad47b9a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 12935dfb8ef894445b0dabcc2f4eeea0, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
