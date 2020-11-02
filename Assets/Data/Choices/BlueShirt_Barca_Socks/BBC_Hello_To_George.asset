@@ -28,6 +28,7 @@ MonoBehaviour:
     You are still rooted in thoughts as you almost
     reach the station and notice that your bus is pulling away.'
   Art: {fileID: 21300000, guid: da04523dd5d86c24d9398eb49c7e743c, type: 3}
+  AchievmentPopArt: {fileID: 0}
   FirstChoice: {fileID: 11400000, guid: 79016fd75e34f8e40ae88af688c7caeb, type: 2}
   SecondChoice: {fileID: 11400000, guid: 1615e692f51bc0e4581e2ada8bb928c9, type: 2}
-  VoiceActing: {fileID: 8300000, guid: 85e05ae16b7afb146ab88d652827191f, type: 3}
+  VoiceActing: {fileID: 8300000, guid: cf74fb846c477084e84d850da9301889, type: 3}

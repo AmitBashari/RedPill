@@ -23,6 +23,7 @@ MonoBehaviour:
     time? Turn on Netflix or Spotify?\r\n\r\nAnd the cherry on top of yet another
     meaningless decision - what should you wear?"
   Art: {fileID: 21300000, guid: 65dfea7b3f0201644b0c1d538993ea68, type: 3}
+  AchievmentPopArt: {fileID: 0}
   FirstChoice: {fileID: 11400000, guid: b7e1bac6fd449614b91baed47b1ff66e, type: 2}
   SecondChoice: {fileID: 11400000, guid: 1d2b20a71ec8fa94d9768d7b233a3a9a, type: 2}
-  VoiceActing: {fileID: 8300000, guid: 75e3af3877e0f5940b743efe60787464, type: 3}
+  VoiceActing: {fileID: 8300000, guid: 4bd70f0c0f410134388fec546543f8a5, type: 3}

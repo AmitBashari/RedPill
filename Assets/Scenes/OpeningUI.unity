@@ -1384,7 +1384,7 @@ MonoBehaviour:
   creditsButton: {fileID: 2092328157}
   quitButton: {fileID: 1115307303}
   IntroImages: {fileID: 1430019850}
-  IntroVoice: {fileID: 8300000, guid: 9f5d55c2dc4ec5a42a74e08ec3cc5487, type: 3}
+  IntroVoice: {fileID: 8300000, guid: 3286d04fc45e29a499b748ac702f653a, type: 3}
 --- !u!4 &1536032861
 Transform:
   m_ObjectHideFlags: 0
@@ -1409,7 +1409,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 9f5d55c2dc4ec5a42a74e08ec3cc5487, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 3286d04fc45e29a499b748ac702f653a, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.8
   m_Pitch: 1
@@ -1866,7 +1866,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sounds:
   - name: MainMenuMusic
-    clip: {fileID: 8300000, guid: ee6890c7504a4a94a991940bccf7593b, type: 3}
+    clip: {fileID: 8300000, guid: d9714da73635d7040805919809b806a4, type: 3}
     volume: 0.7
     loop: 1
     source: {fileID: 0}

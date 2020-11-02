@@ -22,6 +22,7 @@ MonoBehaviour:
     notices your socks.\nA huge grin starts forming on her face. She confesses to
     be a Jerry-Hater herself."
   Art: {fileID: 21300000, guid: 8c33f781cc42f5742ba922d6e2b42457, type: 3}
+  AchievmentPopArt: {fileID: 0}
   FirstChoice: {fileID: 11400000, guid: bbd5e4f995142784cab38082f15c4fe5, type: 2}
   SecondChoice: {fileID: 11400000, guid: 85f463aaf4f4b184da6cceb7712cb09e, type: 2}
-  VoiceActing: {fileID: 8300000, guid: c9900b643209d554685edb616077e7bd, type: 3}
+  VoiceActing: {fileID: 8300000, guid: 9e4b88265c058fe488c02f36199e9efb, type: 3}

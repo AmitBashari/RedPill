@@ -21,6 +21,7 @@ MonoBehaviour:
     asks you if you would like to join her for breakfast at the new restaurant in
     town."
   Art: {fileID: 21300000, guid: 8c33f781cc42f5742ba922d6e2b42457, type: 3}
+  AchievmentPopArt: {fileID: 0}
   FirstChoice: {fileID: 11400000, guid: ce04380d8ededcc48b08dc020b268e02, type: 2}
   SecondChoice: {fileID: 11400000, guid: 5857e0cb02684b140b81e4e71af7adab, type: 2}
-  VoiceActing: {fileID: 8300000, guid: 533b9dc635fd481419150005e2d2a397, type: 3}
+  VoiceActing: {fileID: 8300000, guid: 08e4aba1f97ce3d42adfd373b5750d6a, type: 3}

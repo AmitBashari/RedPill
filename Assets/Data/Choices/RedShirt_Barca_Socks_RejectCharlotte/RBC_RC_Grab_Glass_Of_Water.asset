@@ -33,6 +33,7 @@ MonoBehaviour:
     the game tonight with, hes got a cold six pack waiting in the fridge and a coupon
     to a pizza place.'
   Art: {fileID: 21300000, guid: 8c33f781cc42f5742ba922d6e2b42457, type: 3}
+  AchievmentPopArt: {fileID: 0}
   FirstChoice: {fileID: 11400000, guid: de121a763af0c324291b1820b16fa681, type: 2}
   SecondChoice: {fileID: 11400000, guid: 2d2b619676f8bd64dbdff4c49e26df5f, type: 2}
-  VoiceActing: {fileID: 8300000, guid: 713dcc99a18134248b736931812c5617, type: 3}
+  VoiceActing: {fileID: 8300000, guid: 34849011c0f6368469a2983db9dcf46d, type: 3}

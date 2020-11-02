@@ -33,9 +33,10 @@ public class Manager : MonoBehaviour
         quitButton.SetActive(false);
 
         IntroImages.SetActive(true);
-        _audioSource.Play();
+        //_audioSource.Play();
 
-        Invoke("StartGame", _audioSource.clip.length);
+        //Invoke("StartGame", _audioSource.clip.length);
+        StartGame();
     }
 
     public void StartGame()

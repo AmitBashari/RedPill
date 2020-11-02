@@ -38,6 +38,7 @@ MonoBehaviour:
     You can feel his disappointment. It feels like Suarez
     free-kicked a ball right into your chest.'
   Art: {fileID: 21300000, guid: 8c33f781cc42f5742ba922d6e2b42457, type: 3}
+  AchievmentPopArt: {fileID: 0}
   FirstChoice: {fileID: 11400000, guid: a22b0b0861d643c498158780fd92955c, type: 2}
   SecondChoice: {fileID: 11400000, guid: ea7695074069c3048a3e1cdd532a0ffb, type: 2}
-  VoiceActing: {fileID: 8300000, guid: b558802898990b54f8416e87124b9e6d, type: 3}
+  VoiceActing: {fileID: 8300000, guid: 5efd7982554acf54e8a48bb5bbad7791, type: 3}

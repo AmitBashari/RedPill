@@ -27,6 +27,7 @@ MonoBehaviour:
     He gives you a weird
     look. What''s his deal?'
   Art: {fileID: 21300000, guid: da04523dd5d86c24d9398eb49c7e743c, type: 3}
+  AchievmentPopArt: {fileID: 0}
   FirstChoice: {fileID: 11400000, guid: 9e01fd507b80b5f48b1f2854c0a06e52, type: 2}
   SecondChoice: {fileID: 11400000, guid: a5e96d09f75ab784fa0cfc4beaf72ed3, type: 2}
-  VoiceActing: {fileID: 8300000, guid: 9866453fdc6809c41b6930b0ea93c9b2, type: 3}
+  VoiceActing: {fileID: 8300000, guid: ab9c6aec760945643acd103544e4d2b6, type: 3}

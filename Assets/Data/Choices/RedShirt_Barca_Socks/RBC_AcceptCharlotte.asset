@@ -27,6 +27,7 @@ MonoBehaviour:
     After finishing
     the surprisingly edible meal you ponder on plans for dessert.'
   Art: {fileID: 21300000, guid: 8c33f781cc42f5742ba922d6e2b42457, type: 3}
+  AchievmentPopArt: {fileID: 0}
   FirstChoice: {fileID: 11400000, guid: 967b612dcf180f54b89d9fa85b62ec10, type: 2}
   SecondChoice: {fileID: 11400000, guid: 0583298d6615f884c848af8796d8c897, type: 2}
-  VoiceActing: {fileID: 8300000, guid: 6b38d3421950cc14ea5fba86cf2b0213, type: 3}
+  VoiceActing: {fileID: 8300000, guid: 7e33201500a25584fb584e419304b432, type: 3}

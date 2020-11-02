@@ -41,4 +41,4 @@ MonoBehaviour:
   AchievmentPopArt: {fileID: 21300000, guid: 39b652acb15a4584893233da3f04f7d6, type: 3}
   FirstChoice: {fileID: 0}
   SecondChoice: {fileID: 0}
-  VoiceActing: {fileID: 8300000, guid: c1e17b5c87fd74e4c836f4a611d594bc, type: 3}
+  VoiceActing: {fileID: 8300000, guid: a0197a62f2e808c48bf36896e00ff09d, type: 3}

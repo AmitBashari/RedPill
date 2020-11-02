@@ -23,6 +23,7 @@ MonoBehaviour:
     He''s
     probably talking about you.'
   Art: {fileID: 21300000, guid: da04523dd5d86c24d9398eb49c7e743c, type: 3}
+  AchievmentPopArt: {fileID: 0}
   FirstChoice: {fileID: 11400000, guid: 91bd0d7b872cf8e4b9b840dd776c93c6, type: 2}
   SecondChoice: {fileID: 11400000, guid: 362e796440b062449ac65322a57c1a3e, type: 2}
-  VoiceActing: {fileID: 8300000, guid: d4b86381e41bf8f4d8452a71ec8eb40a, type: 3}
+  VoiceActing: {fileID: 8300000, guid: d5eabcf5956f3b2459c7a915ff19dc78, type: 3}

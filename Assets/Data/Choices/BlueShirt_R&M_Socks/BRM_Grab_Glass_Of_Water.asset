@@ -35,6 +35,7 @@ MonoBehaviour:
     childish TV shows, you wouldn''t have been so sweaty from such a short walk from
     the bus stop.'
   Art: {fileID: 21300000, guid: da04523dd5d86c24d9398eb49c7e743c, type: 3}
+  AchievmentPopArt: {fileID: 0}
   FirstChoice: {fileID: 11400000, guid: af5e406570d328948a02e6118be930b0, type: 2}
   SecondChoice: {fileID: 11400000, guid: c02dc9a9bfa398f43a4ece7ef39758ca, type: 2}
-  VoiceActing: {fileID: 8300000, guid: 9952891e9523dc749859e41e26fe6814, type: 3}
+  VoiceActing: {fileID: 8300000, guid: 75e05288cd594544383a6a458e6b61ff, type: 3}
